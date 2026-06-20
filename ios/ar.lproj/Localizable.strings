@@ -1,0 +1,468 @@
+/* الأساسيات */
+"ok" = "حسناً";
+"cancel" = "إلغاء";
+"close" = "إغلاق";
+"done" = "تم";
+"save" = "حفظ";
+"edit" = "تعديل";
+"delete" = "حذف";
+"yes" = "نعم";
+"no" = "لا";
+"settings" = "الإعدادات";
+"back" = "رجوع";
+"error" = "خطأ";
+"retry" = "إعادة المحاولة";
+
+/* البحث */
+"search" = "بحث";
+"search_meals" = "البحث عن الوجبات";
+
+/* الوجبات */
+"meals_title" = "الوجبات";
+"no_meals" = "لا توجد وجبات";
+"add_meal" = "إضافة وجبة";
+
+"no_meals_yet" = "لا توجد وجبات بعد";
+"add_first_meal_message" = "أضف وجبتك الأولى لبدء التتبع.";
+
+/* وحدات الطاقة */
+"kcal_suffix" = "سعرة";
+"kj_suffix" = "كيلوجول";
+"energy_kcal_suffix" = "سعرة";
+"energy_kj_suffix" = "كيلوجول";
+
+/* العناصر الغذائية - العناوين */
+"carbs.title" = "الكربوهيدرات";
+"protein.title" = "البروتين";
+"fat.title" = "الدهون";
+"sodium.title" = "الصوديوم";
+"starch.title" = "النشا";
+"sugars.title" = "السكريات";
+"fibre.title" = "الألياف";
+
+/* الدهون - اختصارات */
+"fat.mono.short" = "أحادية";
+"fat.poly.short" = "متعددة";
+"fat.sat.short" = "مشبعة";
+"fat.trans.short" = "متحولة";
+
+/* العناصر الغذائية - اختصارات */
+"carbs.short" = "كربوهيدرات";
+"protein.short" = "بروتين";
+"fat.short" = "دهون";
+
+/* العناصر الغذائية - التفاصيل */
+"calories" = "السعرات الحرارية";
+"kilojoules" = "الكيلوجول";
+"carbohydrates" = "الكربوهيدرات";
+"sugars" = "السكريات";
+"starch" = "النشا";
+"fibre" = "الألياف";
+"protein" = "البروتين";
+"animal_protein" = "بروتين حيواني";
+"plant_protein" = "بروتين نباتي";
+"protein_supplements" = "مكملات البروتين";
+"fat" = "الدهون";
+"monounsaturated_fat" = "دهون أحادية غير مشبعة";
+"polyunsaturated_fat" = "دهون متعددة غير مشبعة";
+"saturated_fat" = "دهون مشبعة";
+"trans_fat" = "دهون متحولة";
+"sodium" = "الصوديوم";
+"alcohol" = "الكحول";
+
+/* الدقة */
+"accurate" = "دقيق";
+"guess" = "تقدير";
+"accuracy" = "الدقة";
+
+/* الإعدادات */
+"settings_title" = "الإعدادات";
+"language" = "اللغة";
+"choose_language" = "اختر اللغة";
+"measurement_system" = "نظام القياس";
+"metric" = "متري";
+"imperial" = "إمبراطوري";
+"energy_unit" = "وحدة الطاقة";
+"energy_unit.calories" = "السعرات الحرارية";
+"energy_unit.kilojoules" = "الكيلوجول";
+
+"handedness" = "اليد المفضلة";
+"left_handed" = "أعسر";
+"right_handed" = "أيمن";
+
+/* الفيتامينات والمعادن */
+"show_vitamins_entry" = "إظهار إدخال الفيتامينات";
+"vitamin_unit" = "وحدة الفيتامينات";
+"vitamins_unit.mg" = "ملغ";
+"vitamins_unit.ug" = "ميكروغرام";
+"show_minerals_entry" = "إظهار إدخال المعادن";
+"show_stimulants_entry" = "إظهار إدخال المنبهات";
+
+"vitamin_a" = "فيتامين أ";
+"vitamin_b" = "فيتامين ب";
+"vitamin_c" = "فيتامين ج";
+"vitamin_d" = "فيتامين د";
+"vitamin_e" = "فيتامين هـ";
+"vitamin_k" = "فيتامين ك";
+
+"calcium" = "الكالسيوم";
+"iron" = "الحديد";
+"potassium" = "البوتاسيوم";
+"zinc" = "الزنك";
+"magnesium" = "المغنيسيوم";
+
+/* إظهار/إخفاء التفاصيل */
+"show_details" = "إظهار التفاصيل";
+"hide_details" = "إخفاء التفاصيل";
+"show_vitamins" = "إظهار الفيتامينات";
+"show_minerals" = "إظهار المعادن";
+"hide_minerals" = "إخفاء المعادن";
+"hide_vitamins" = "إخفاء الفيتامينات";
+"show_stimulants" = "إظهار المنبهات";
+"hide_stimulants" = "إخفاء المنبهات";
+
+/* تفاصيل الوجبة */
+"edit_meal" = "تعديل الوجبة";
+"meal_details" = "تفاصيل الوجبة";
+"meal_description" = "وصف الوجبة";
+"meal_date" = "تاريخ الوجبة";
+"nutrition" = "التغذية";
+"salt" = "الملح";
+
+/* تأكيد الحذف */
+"confirm_delete_title" = "حذف الوجبة";
+"confirm_delete_message" = "لا يمكن التراجع عن هذا الإجراء";
+"confirm_delete_confirm" = "حذف";
+"confirm_delete_cancel" = "إلغاء";
+
+/* الحساب والخطة */
+"account_plan_section_title" = "الحساب والخطة";
+"access_tier" = "مستوى الوصول";
+"access_tier.free" = "مجاني";
+"access_tier.paid" = "احترافي (السحابة)";
+"meals_left_today" = "الوجبات المتبقية اليوم";
+"photos_per_meal_limit" = "الصور لكل وجبة (الحد الأقصى)";
+"unlimited" = "غير محدود";
+"logged_in_cloud_stub" = "تم تسجيل الدخول إلى السحابة";
+"synced_date" = "تاريخ المزامنة";
+"sync_now" = "مزامنة الآن";
+"synced_date_not_set" = "غير محدد";
+
+/* الحساب: الحالة والإجراءات */
+"account_status" = "الحساب";
+"logged_in" = "تم تسجيل الدخول";
+"logged_out" = "تم تسجيل الخروج";
+"log_in" = "تسجيل الدخول";
+"log_out" = "تسجيل الخروج";
+
+/* تسجيل الدخول */
+"login.title" = "تسجيل الدخول";
+"login.email.placeholder" = "البريد الإلكتروني";
+"login.password.placeholder" = "كلمة المرور";
+"login.submit" = "تسجيل الدخول";
+"login.cancel" = "إلغاء";
+
+"login.email" = "البريد الإلكتروني";
+"login.password" = "كلمة المرور";
+"login.sign_in" = "تسجيل الدخول";
+
+/* التحقق */
+"invalid_email_error" = "أدخل عنوان بريد إلكتروني صحيح.";
+"invalid_password_error" = "يجب أن تتكون كلمة المرور من 8 أحرف على الأقل.";
+
+"must_be_logged_in_to_sync" = "يجب تسجيل الدخول للمزامنة.";
+
+/* مشاركة البيانات */
+"data_sharing_section_title" = "مشاركة البيانات";
+"data_sharing_picker_title" = "المشاركة";
+"data_sharing.public" = "عامة";
+"data_sharing.private" = "خاصة";
+"data_sharing.public_explanation" = "توافق على مشاركة معلومات الوجبات مع منشئ التطبيق لتحسين مقاييس الطعام وتدريب نماذج الذكاء الاصطناعي.";
+"data_sharing.private_explanation" = "جميع البيانات محفوظة على هذا الجهاز فقط.";
+
+/* أخطاء الكاميرا والصور */
+"camera_unavailable_error" = "الكاميرا غير متوفرة على هذا الجهاز.";
+"camera_permission_denied_error" = "تم رفض إذن الكاميرا.";
+"camera_export_failed_error" = "فشل التقاط الصورة.";
+"photo_export_failed_error" = "فشل تحميل الصورة المحددة.";
+
+"invalid_image_error" = "بيانات صورة غير صالحة.";
+"write_failed_error" = "فشلت كتابة الصورة على القرص.";
+"coredata_save_failed_error_prefix" = "فشل حفظ الصورة:";
+"free_tier_photo_limit_reached" = "المستوى المجاني يسمح بما يصل إلى %d صورة لكل وجبة.";
+
+/* أخطاء قاعدة البيانات */
+"duckdb_connection_open_failed" = "فشل فتح قاعدة البيانات المحلية.";
+"duckdb_unavailable_target_error" = "DuckDB غير متوفر في هدف البناء هذا.";
+
+/* المنبهات */
+"nicotine" = "النيكوتين";
+"theobromine" = "الثيوبرومين";
+"caffeine" = "الكافيين";
+"taurine" = "التورين";
+
+/* الاختصارات */
+"setting_open_to_new_meal" = "الاختصارات";
+"setting_open_to_new_meal_toggle" = "تفعيل اختصار \"وجبة جديدة\"";
+"setting_open_to_new_meal_desc" = "عند التفعيل، يمكنك إضافة اختصار لفتح التطبيق مباشرة إلى وجبة جديدة.";
+
+/* نوايا التطبيق */
+"intent_new_meal_title" = "وجبة جديدة";
+"intent_new_meal_description" = "فتح التطبيق مباشرة إلى وجبة جديدة.";
+"intent_new_meal_disabled_error" = "اختصار \"وجبة جديدة\" معطل في الإعدادات.";
+
+/* ملاحظات الذكاء الاصطناعي */
+"ai_feedback_severity_section_title" = "شدة ملاحظات الذكاء الاصطناعي";
+"ai_feedback_severity_picker_title" = "شدة ملاحظات الذكاء الاصطناعي";
+"ai_feedback_severity.kind" = "لطيف";
+"ai_feedback_severity.balanced" = "متوازن";
+"ai_feedback_severity.boot_camp" = "صارم";
+
+/* أخطاء Keychain */
+"keychain.item_not_found" = "عنصر Keychain غير موجود.";
+"keychain.duplicate_item" = "عنصر Keychain موجود بالفعل.";
+"keychain.unexpected_data" = "تنسيق بيانات Keychain غير متوقع.";
+"keychain.unexpected_status_fmt" = "خطأ Keychain: %d";
+
+/* الأشخاص */
+"people_section_title" = "الأشخاص";
+"default_person_picker_title" = "الشخص الافتراضي";
+"pro_people_notice" = "إدارة عدة أشخاص ميزة احترافية. قم بالترقية لإضافة أو تحديد أو إزالة الأشخاص.";
+"default_person_accessibility_label" = "افتراضي";
+"add_person_button_title" = "إضافة شخص";
+"add_person_name_header" = "الاسم";
+"add_person_name_placeholder" = "الاسم";
+"add_person_nav_title" = "إضافة شخص";
+"add_person_error_empty" = "الرجاء إدخال اسم.";
+"add_person_error_duplicate" = "هذا الاسم موجود بالفعل.";
+"default_person_name_me" = "أنا";
+
+"person_name_error_empty" = "الرجاء إدخال اسم.";
+
+/* الوحدات */
+"unit_kcal_suffix" = "سعرة";
+"unit_kj_suffix" = "كيلوجول";
+"unit_g_suffix" = "غ";
+"unit_mg_suffix" = "ملغ";
+"unit_ug_suffix" = "ميكروغرام";
+"unit_milligrams_long" = "ميليغرام";
+
+/* المعالج والكاميرا والتنبيهات */
+"keyboard_done" = "تم";
+"alert_limit_reached_title" = "تم الوصول إلى الحد";
+"alert_limit_reached_message" = "لقد وصلت إلى الحد الحالي.";
+"camera_access_needed_title" = "يلزم الوصول إلى الكاميرا";
+"camera_access_needed_message" = "اسمح بالوصول إلى الكاميرا لالتقاط صورة.";
+"camera_access_disabled_message" = "تم تعطيل الوصول إلى الكاميرا. قم بتفعيله في الإعدادات.";
+"open_settings" = "فتح الإعدادات";
+
+/* حالة المعالج */
+"wizard_analyzing" = "جارٍ التحليل";
+"wizard_analyzing_ellipsis" = "جارٍ التحليل…";
+"wizard_add_photo_first" = "أضف صورة أولاً.";
+"wizard_could_not_read_image" = "تعذر قراءة بيانات الصورة.";
+"wizard_detecting_barcode" = "جارٍ الكشف عن الباركود…";
+"wizard_looking_up_product" = "جارٍ البحث عن المنتج…";
+"wizard_no_barcode_reading_label" = "لم يتم الكشف عن باركود؛ جارٍ قراءة الملصق…";
+"wizard_no_label_recognized" = "لم يتم التعرف على ملصق التغذية.";
+"wizard_label_rejected_insane" = "تم رفض الملصق: قيم غير منطقية في %@";
+"wizard_barcode_format" = "الباركود: %@";
+"wizard_applied_format" = "تم التطبيق: %@";
+"wizard_applied" = "تم التطبيق";
+
+/* تسميات إمكانية الوصول */
+"a11y_meal_photo" = "صورة الوجبة";
+"a11y_no_photo" = "لا توجد صورة";
+"a11y_analyze_photo" = "تحليل الصورة";
+"a11y_analyzing_photo" = "جارٍ تحليل الصورة";
+"a11y_undo_ai_changes" = "التراجع عن تغييرات الذكاء الاصطناعي";
+"a11y_capture_photo" = "التقاط صورة";
+"a11y_choose_from_photos" = "اختر من الصور";
+
+/* التشخيصات */
+"diagnostics_section_title" = "التشخيصات";
+"barcode_verbose_log" = "سجل الباركود";
+"label_diagnostics" = "تشخيصات الملصق";
+
+/* تشخيصات الملصق */
+"label_diag.empty" = "لا توجد تشخيصات بعد.";
+"label_diag.group.message" = "الرسالة";
+"label_diag.group.fields_filled" = "الحقول المملوءة";
+"label_diag.title" = "تشخيصات الملصق";
+"label_diag.copy" = "نسخ";
+"label_diag.clear" = "مسح";
+"label_diag.stage.start" = "بداية";
+"label_diag.stage.image" = "صورة";
+"label_diag.stage.rotate" = "تدوير";
+"label_diag.stage.barcode" = "باركود";
+"label_diag.stage.unreadable" = "غير قابل للقراءة";
+"label_diag.stage.no_barcode" = "لا يوجد باركود";
+"label_diag.stage.ocr_fast" = "OCR سريع";
+"label_diag.stage.ocr_accurate" = "OCR دقيق";
+"label_diag.stage.ocr_done" = "OCR اكتمل";
+"label_diag.stage.parsed" = "تم التحليل";
+"label_diag.stage.applied" = "تم التطبيق";
+"label_diag.stage.upsert" = "إدراج/تحديث";
+"label_diag.stage.saved" = "تم الحفظ";
+"label_diag.stage.save_error" = "خطأ في الحفظ";
+"label_diag.stage.complete" = "اكتمل";
+"label_diag.stage.error" = "خطأ";
+"label_diag.export.fields_filled" = "الحقول المملوءة:";
+"label_diag.export.message" = "الرسالة:";
+
+/* سجل الباركود */
+"barcode_log.empty" = "لا توجد إدخالات سجل بعد.";
+"barcode_log.group.source" = "المصدر";
+"barcode_log.group.conversions" = "التحويلات";
+"barcode_log.group.entry" = "الإدخال";
+"barcode_log.group.error" = "خطأ";
+"barcode_log.title" = "سجل الباركود";
+"barcode_log.copy" = "نسخ";
+"barcode_log.clear" = "مسح";
+"barcode_log.no_code" = "لا يوجد رمز";
+"barcode_log.stage.scan" = "مسح";
+"barcode_log.stage.normalize" = "تطبيع";
+"barcode_log.stage.local_hit" = "نجاح محلي";
+"barcode_log.stage.local_miss" = "فشل محلي";
+"barcode_log.stage.off_v2" = "OFF v2";
+"barcode_log.stage.off_v1" = "OFF v1";
+"barcode_log.stage.off_error" = "خطأ OFF";
+"barcode_log.stage.map_start" = "بداية التعيين";
+"barcode_log.stage.convert" = "تحويل";
+"barcode_log.stage.map_result" = "نتيجة التعيين";
+"barcode_log.stage.upsert" = "إدراج/تحديث";
+"barcode_log.stage.saved" = "تم الحفظ";
+"barcode_log.stage.save_error" = "خطأ في الحفظ";
+"barcode_log.export.source" = "المصدر:";
+"barcode_log.export.conversions" = "التحويلات:";
+"barcode_log.export.entry" = "الإدخال:";
+"barcode_log.export.error_prefix" = "خطأ: ";
+
+/* عناصر غذائية إضافية */
+"creatine" = "الكرياتين";
+"stimulants_section_title" = "المنبهات";
+"creatine_section_title" = "الكرياتين";
+"vitamins_section_title" = "الفيتامينات";
+"minerals_section_title" = "المعادن";
+"iodine" = "اليود";
+"phosphorus" = "الفوسفور";
+"omega3" = "أوميغا-3";
+"omega6" = "أوميغا-6";
+"a2_beta_casein" = "بيتا كازين A2";
+"a1_beta_casein" = "بيتا كازين A1";
+
+/* التقرير الأسبوعي */
+"weekly_report" = "التقرير الأسبوعي";
+"weekly_report_title" = "التقرير الأسبوعي";
+"a11y_previous_week" = "الأسبوع السابق";
+"a11y_next_week" = "الأسبوع التالي";
+"this_week" = "هذا الأسبوع";
+"week" = "أسبوع";
+"total_suffix" = "الإجمالي";
+"a11y_weekly_calories_chart" = "مخطط السعرات الأسبوعية";
+"minerals_weekly_total" = "المعادن (الإجمالي الأسبوعي)";
+"vitamins_weekly_total" = "الفيتامينات (الإجمالي الأسبوعي)";
+"stimulants_weekly_total" = "المنبهات (الإجمالي الأسبوعي)";
+"per_day_header" = "لكل يوم";
+"macro_c_short" = "ك";
+"macro_p_short" = "ب";
+"macro_f_short" = "د";
+"chart_axis_day" = "اليوم";
+"chart_axis_kcal" = "سعرة";
+"chart_series_macro" = "المغذيات الكبرى";
+"macro_carb" = "كربوهيدرات";
+"macro_protein" = "بروتين";
+"macro_fat" = "دهون";
+"creatine_total_title" = "إجمالي الكرياتين";
+
+/* توليد العنوان التلقائي */
+"daypart_early_morning" = "الفجر";
+"daypart_morning" = "الصباح";
+"daypart_midday" = "الظهيرة";
+"daypart_afternoon" = "بعد الظهر";
+"daypart_evening" = "المساء";
+"daypart_late_night" = "آخر الليل";
+"daypart_overnight" = "منتصف الليل";
+"meal_breakfast" = "الإفطار";
+"meal_lunch" = "الغداء";
+"meal_dinner" = "العشاء";
+"auto_title_meal_pattern" = "%@ في %@ (%@)";
+"auto_title_snack_pattern" = "%@ في %@";
+
+/* خيارات الإعدادات */
+"nutrition_options_section_title" = "خيارات التغذية";
+"vitamin_units" = "وحدات الفيتامينات";
+"show_creatine" = "إظهار الكرياتين";
+"handedness_section_title" = "اليد المفضلة";
+"about_title" = "حول";
+
+/* حالة التنزيل */
+"off_not_downloaded" = "غير منزّل";
+"seeder_idle" = "خامل";
+"seeder_queued" = "في قائمة الانتظار";
+"seeder_waiting" = "جارٍ الانتظار…";
+"seeder_running" = "قيد التشغيل";
+"seeder_completed" = "اكتمل";
+"seeder_done" = "تم";
+"seeder_failed" = "فشل";
+"seeder_cancelled" = "ملغى";
+
+/* تنسيقات التصحيح */
+"debug_guesser_format" = "المقدّر: %@";
+
+/* أخطاء إضافية */
+"failed_to_add_photo_format" = "فشلت إضافة الصورة: %@";
+
+/* منتقي الأشخاص */
+"select_person_title" = "اختر شخص";
+
+/* شاشة حول */
+"about.app_name_fallback" = "هذا التطبيق";
+"about.version_format" = "الإصدار %@ (%@)";
+"about.disclaimer_title" = "إخلاء المسؤولية";
+"about.disclaimer_body" = "المعلومات في هذا التطبيق لأغراض إعلامية فقط وليست بديلاً عن المشورة الطبية المهنية أو التشخيص أو العلاج. يتم تخزين بياناتك محلياً على جهازك ولا تتم مشاركتها مع المطور أو أطراف ثالثة ما لم تختر تصديرها أو مشاركتها.";
+"about.privacy_policy" = "سياسة الخصوصية";
+"about.terms_of_use" = "شروط الاستخدام";
+"about.support" = "الدعم";
+
+/* أخطاء التحقق من اسم الشخص */
+"person_name_error_too_long" = "الاسم طويل جداً.";
+"person_name_error_invalid_chars" = "الرجاء استخدام الحروف أو الأرقام.";
+"person_name_error_duplicate" = "يوجد شخص بهذا الاسم بالفعل.";
+
+/* مراحل التنزيل والإشعارات */
+"seeder_phase_discovering_ids" = "جارٍ اكتشاف المعرفات…";
+"seeder_phase_connecting" = "جارٍ الاتصال بالمصادر…";
+"meals_download_complete_title" = "اكتمل تنزيل الوجبات";
+"meals_download_complete_body_format" = "تم تنزيل %d عنصر.";
+"seeder_error_bg_expired" = "انتهى وقت الخلفية";
+
+/* سلاسل معالج OFF/قاعدة البيانات المحلية */
+"wizard_local_db_hit_format" = "نجاح في قاعدة البيانات المحلية للباركود لـ %@";
+"wizard_local_db_miss_format" = "فشل في قاعدة البيانات المحلية للباركود لـ %@";
+"wizard_local_db_rejected_format" = "نجاح في قاعدة البيانات المحلية للباركود مرفوض: قيم غير منطقية (%@)";
+"wizard_off_fetching_format" = "OFF: جارٍ جلب المنتج %@…";
+"wizard_off_found_format" = "OFF: تم العثور على منتج لـ %@";
+"wizard_off_not_found_format" = "OFF: لم يتم العثور على %@";
+"wizard_off_product_not_found_error_format" = "المنتج %@ غير موجود";
+"wizard_off_v2_status_format" = "OFF v2: الحالة %d %@ للرمز %@";
+"wizard_off_v2_decode_error_format" = "OFF v2: خطأ فك تشفير لـ %@: %@";
+"wizard_off_v1_status_format" = "OFF v1: الحالة %d %@ للرمز %@";
+"wizard_off_v1_decode_error_format" = "OFF v1: خطأ فك تشفير لـ %@: %@";
+"wizard_off_rejected_insane_format" = "OFF: قيم غير منطقية مرفوضة (%@)؛ لن يتم الإدراج/التطبيق.";
+"wizard_off_sanitized_dropped_format" = "OFF: إدخال معقم (تم الحذف: %@)";
+"wizard_off_sanitized_no_red" = "OFF: إدخال معقم (لا حقول حمراء)";
+"wizard_off_no_usable_nutriments" = "OFF: التعيين لم يعيد عناصر غذائية قابلة للاستخدام";
+"wizard_off_error_format" = "OFF: خطأ لـ %@: %@";
+
+/* عناوين الفيتامينات للتقرير الأسبوعي */
+"vitamin_a_title" = "فيتامين أ";
+"vitamin_b_title" = "فيتامين ب";
+"vitamin_c_title" = "فيتامين ج";
+"vitamin_d_title" = "فيتامين د";
+"vitamin_e_title" = "فيتامين هـ";
+"vitamin_k_title" = "فيتامين ك";
+
+/* تنسيق المساعد لتلميح المجموع */
+"helper_sum_parens_format" = "(%@)";
+

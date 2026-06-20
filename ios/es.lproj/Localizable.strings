@@ -1,0 +1,455 @@
+"ok" = "OK";
+"cancel" = "Cancelar";
+"close" = "Cerrar";
+"done" = "Listo";
+"save" = "Guardar";
+"edit" = "Editar";
+"delete" = "Eliminar";
+"yes" = "Sí";
+"no" = "No";
+"settings" = "Ajustes";
+"back" = "Atrás";
+"error" = "Error";
+"retry" = "Reintentar";
+
+"search" = "Buscar";
+"search_meals" = "Buscar comidas";
+
+"meals_title" = "Comidas";
+"no_meals" = "Sin comidas";
+"add_meal" = "Añadir comida";
+
+"no_meals_yet" = "Aún no hay comidas";
+"add_first_meal_message" = "Añade tu primera comida para comenzar el seguimiento.";
+
+"kcal_suffix" = "kcal";
+"kj_suffix" = "kJ";
+"energy_kcal_suffix" = "kcal";
+"energy_kj_suffix" = "kJ";
+
+"carbs.title" = "Carbohidratos";
+"protein.title" = "Proteína";
+"fat.title" = "Grasa";
+"sodium.title" = "Sodio";
+"starch.title" = "Almidón";
+"sugars.title" = "Azúcares";
+"fibre.title" = "Fibra";
+
+"fat.mono.short" = "Mono";
+"fat.poly.short" = "Poli";
+"fat.sat.short" = "Sat";
+"fat.trans.short" = "Trans";
+
+"carbs.short" = "Carb";
+"protein.short" = "Prot";
+"fat.short" = "Grasa";
+
+"calories" = "Calorías";
+"kilojoules" = "Kilojulios";
+"carbohydrates" = "Carbohidratos";
+"sugars" = "Azúcares";
+"starch" = "Almidón";
+"fibre" = "Fibra";
+"protein" = "Proteína";
+"animal_protein" = "Proteína animal";
+"plant_protein" = "Proteína vegetal";
+"protein_supplements" = "Suplementos de proteína";
+"fat" = "Grasa";
+"monounsaturated_fat" = "Grasa monoinsaturada";
+"polyunsaturated_fat" = "Grasa poliinsaturada";
+"saturated_fat" = "Grasa saturada";
+"trans_fat" = "Grasa trans";
+"sodium" = "Sodio";
+"alcohol" = "Alcohol";
+
+"accurate" = "Preciso";
+"guess" = "Estimación";
+"accuracy" = "Precisión";
+
+"settings_title" = "Ajustes";
+"language" = "Idioma";
+"choose_language" = "Elegir idioma";
+"measurement_system" = "Sistema de medición";
+"metric" = "Métrico";
+"imperial" = "Imperial";
+"energy_unit" = "Unidad de energía";
+"energy_unit.calories" = "Calorías";
+"energy_unit.kilojoules" = "Kilojulios";
+
+"handedness" = "Mano dominante";
+"left_handed" = "Zurdo";
+"right_handed" = "Diestro";
+
+"show_vitamins_entry" = "Mostrar entrada de vitaminas";
+"vitamin_unit" = "Unidad de vitaminas";
+"vitamins_unit.mg" = "mg";
+"vitamins_unit.ug" = "µg";
+"show_minerals_entry" = "Mostrar entrada de minerales";
+"show_stimulants_entry" = "Mostrar entrada de estimulantes";
+
+"vitamin_a" = "Vitamina A";
+"vitamin_b" = "Vitamina B";
+"vitamin_c" = "Vitamina C";
+"vitamin_d" = "Vitamina D";
+"vitamin_e" = "Vitamina E";
+"vitamin_k" = "Vitamina K";
+
+"calcium" = "Calcio";
+"iron" = "Hierro";
+"potassium" = "Potasio";
+"zinc" = "Zinc";
+"magnesium" = "Magnesio";
+
+"show_details" = "Mostrar detalles";
+"hide_details" = "Ocultar detalles";
+"show_vitamins" = "Mostrar vitaminas";
+"show_minerals" = "Mostrar minerales";
+"hide_minerals" = "Ocultar minerales";
+"hide_vitamins" = "Ocultar vitaminas";
+"show_stimulants" = "Mostrar estimulantes";
+"hide_stimulants" = "Ocultar estimulantes";
+
+"edit_meal" = "Editar comida";
+"meal_details" = "Detalles de la comida";
+"meal_description" = "Descripción de la comida";
+"meal_date" = "Fecha de la comida";
+"nutrition" = "Nutrición";
+"salt" = "Sal";
+
+"confirm_delete_title" = "Eliminar comida";
+"confirm_delete_message" = "Esta acción no se puede deshacer";
+"confirm_delete_confirm" = "Eliminar";
+"confirm_delete_cancel" = "Cancelar";
+
+"account_plan_section_title" = "Cuenta y plan";
+"access_tier" = "Nivel de acceso";
+"access_tier.free" = "Gratuito";
+"access_tier.paid" = "Pro (Nube)";
+"meals_left_today" = "Comidas restantes hoy";
+"photos_per_meal_limit" = "Fotos por comida (límite)";
+"unlimited" = "Ilimitado";
+"logged_in_cloud_stub" = "Conectado a la nube (provisional)";
+"synced_date" = "Fecha de sincronización";
+"sync_now" = "Sincronizar ahora";
+"synced_date_not_set" = "No establecida";
+
+/* Credentials: account status and actions */
+"account_status" = "Cuenta";
+"logged_in" = "Conectado";
+"logged_out" = "Desconectado";
+"log_in" = "Iniciar sesión";
+"log_out" = "Cerrar sesión";
+
+/* Credentials: Login view */
+"login.title" = "Iniciar sesión";
+"login.email.placeholder" = "Correo electrónico";
+"login.password.placeholder" = "Contraseña";
+"login.submit" = "Iniciar sesión";
+"login.cancel" = "Cancelar";
+
+/* Additions to match LoginView.swift */
+"login.email" = "Correo electrónico";
+"login.password" = "Contraseña";
+"login.sign_in" = "Iniciar sesión";
+
+/* Credentials: validation (used in SessionManager) */
+"invalid_email_error" = "Introduce una dirección de correo válida.";
+"invalid_password_error" = "La contraseña debe tener al menos 8 caracteres.";
+
+/* Optional: must be logged in to sync message */
+"must_be_logged_in_to_sync" = "Debes iniciar sesión para sincronizar.";
+
+"data_sharing_section_title" = "Compartir datos";
+"data_sharing_picker_title" = "Compartir";
+"data_sharing.public" = "Público";
+"data_sharing.private" = "Privado";
+"data_sharing.public_explanation" = "Aceptas compartir información de comidas con el creador de la app para mejorar las métricas de alimentos y entrenar modelos de IA.";
+"data_sharing.private_explanation" = "Todos los datos se guardan solo en este dispositivo.";
+
+"camera_unavailable_error" = "La cámara no está disponible en este dispositivo.";
+"camera_permission_denied_error" = "Permiso de cámara denegado.";
+"camera_export_failed_error" = "Error al capturar la foto.";
+"photo_export_failed_error" = "Error al cargar la foto seleccionada.";
+
+"invalid_image_error" = "Datos de imagen no válidos.";
+"write_failed_error" = "Error al escribir la foto en el disco.";
+"coredata_save_failed_error_prefix" = "Error al guardar la foto:";
+"free_tier_photo_limit_reached" = "El nivel gratuito permite hasta %d fotos por comida.";
+
+/* MealsDBManager error messages */
+"duckdb_connection_open_failed" = "Error al abrir la base de datos local.";
+"duckdb_unavailable_target_error" = "DuckDB no está disponible en este destino de compilación.";
+
+"sodium" = "Sodio";
+"alcohol" = "Alcohol";
+"nicotine" = "Nicotina";
+"theobromine" = "Teobromina";
+"caffeine" = "Cafeína";
+"taurine" = "Taurina";
+
+/* New: Settings — Open to new meal on launch */
+"setting_open_to_new_meal" = "Atajos";
+"setting_open_to_new_meal_toggle" = "Activar atajo \"Nueva comida\"";
+"setting_open_to_new_meal_desc" = "Cuando esté activado, puedes añadir un atajo para abrir la app directamente en una nueva comida.";
+
+/* New: App Intent strings */
+"intent_new_meal_title" = "Nueva comida";
+"intent_new_meal_description" = "Abrir la app directamente en una nueva comida.";
+"intent_new_meal_disabled_error" = "El atajo \"Nueva comida\" está desactivado en Ajustes.";
+
+"ai_feedback_severity_section_title" = "Severidad de comentarios de IA";
+"ai_feedback_severity_picker_title" = "Severidad de comentarios de IA";
+"ai_feedback_severity.kind" = "Amable";
+"ai_feedback_severity.balanced" = "Equilibrado";
+"ai_feedback_severity.boot_camp" = "Campo de entrenamiento";
+
+/* Optional: Keychain error localization (enable if you changed KeychainService) */
+"keychain.item_not_found" = "Elemento del llavero no encontrado.";
+"keychain.duplicate_item" = "El elemento del llavero ya existe.";
+"keychain.unexpected_data" = "Formato de datos del llavero inesperado.";
+"keychain.unexpected_status_fmt" = "Error del llavero: %d";
+
+"people_section_title" = "Personas";
+"default_person_picker_title" = "Persona predeterminada";
+"pro_people_notice" = "Gestionar varias personas es una función Pro. Actualiza para añadir, seleccionar o eliminar personas.";
+"default_person_accessibility_label" = "Predeterminado";
+"add_person_button_title" = "Añadir persona";
+"add_person_name_header" = "Nombre";
+"add_person_name_placeholder" = "Nombre";
+"add_person_nav_title" = "Añadir persona";
+"add_person_error_empty" = "Por favor, introduce un nombre.";
+"add_person_error_duplicate" = "Ese nombre ya existe.";
+"default_person_name_me" = "Yo";
+
+/* Also used by SettingsView.validationError */
+"person_name_error_empty" = "Por favor, introduce un nombre.";
+
+"unit_kcal_suffix" = "kcal";
+"unit_kj_suffix" = "kJ";
+"unit_g_suffix" = "g";
+"unit_mg_suffix" = "mg";
+"unit_ug_suffix" = "µg";
+"unit_milligrams_long" = "miligramos";
+
+/* ===== Added: Wizard / camera / alerts ===== */
+"keyboard_done" = "Listo";
+"alert_limit_reached_title" = "Límite alcanzado";
+"alert_limit_reached_message" = "Has alcanzado el límite actual.";
+"camera_access_needed_title" = "Se necesita acceso a la cámara";
+"camera_access_needed_message" = "Permite el acceso a la cámara para tomar una foto.";
+"camera_access_disabled_message" = "El acceso a la cámara está desactivado. Actívalo en Ajustes.";
+"open_settings" = "Abrir Ajustes";
+"confirm_delete_title" = "Eliminar comida";
+"confirm_delete_message" = "Esta acción no se puede deshacer";
+
+/* Wizard progress/status */
+"wizard_analyzing" = "Analizando";
+"wizard_analyzing_ellipsis" = "Analizando…";
+"wizard_add_photo_first" = "Añade una foto primero.";
+"wizard_could_not_read_image" = "No se pudieron leer los datos de la imagen.";
+"wizard_detecting_barcode" = "Detectando código de barras…";
+"wizard_looking_up_product" = "Buscando producto…";
+"wizard_no_barcode_reading_label" = "No se detectó código de barras; leyendo etiqueta…";
+"wizard_no_label_recognized" = "No se reconoció ninguna etiqueta nutricional.";
+"wizard_label_rejected_insane" = "Etiqueta rechazada: valores anormales en %@";
+"wizard_barcode_format" = "Código de barras: %@";
+"wizard_applied_format" = "Aplicado: %@";
+"wizard_applied" = "Aplicado";
+
+/* ===== Added: Accessibility labels used in headers/buttons ===== */
+"a11y_meal_photo" = "Foto de la comida";
+"a11y_no_photo" = "Sin foto";
+"a11y_analyze_photo" = "Analizar foto";
+"a11y_analyzing_photo" = "Analizando foto";
+"a11y_undo_ai_changes" = "Deshacer cambios de IA";
+"a11y_capture_photo" = "Capturar foto";
+"a11y_choose_from_photos" = "Elegir de Fotos";
+
+/* ===== Added: SettingsView and diagnostics (DEBUG views) ===== */
+"diagnostics_section_title" = "Diagnósticos";
+"barcode_verbose_log" = "Registro de códigos de barras";
+"label_diagnostics" = "Diagnósticos de etiquetas";
+
+/* Label diagnostics view */
+"label_diag.empty" = "Aún no hay diagnósticos.";
+"label_diag.group.message" = "Mensaje";
+"label_diag.group.fields_filled" = "Campos completados";
+"label_diag.title" = "Diagnósticos de etiquetas";
+"label_diag.copy" = "Copiar";
+"label_diag.clear" = "Limpiar";
+"label_diag.stage.start" = "Inicio";
+"label_diag.stage.image" = "Imagen";
+"label_diag.stage.rotate" = "Rotar";
+"label_diag.stage.barcode" = "Código de barras";
+"label_diag.stage.unreadable" = "Ilegible";
+"label_diag.stage.no_barcode" = "Sin código de barras";
+"label_diag.stage.ocr_fast" = "OCR rápido";
+"label_diag.stage.ocr_accurate" = "OCR preciso";
+"label_diag.stage.ocr_done" = "OCR completado";
+"label_diag.stage.parsed" = "Analizado";
+"label_diag.stage.applied" = "Aplicado";
+"label_diag.stage.upsert" = "Inserción/actualización";
+"label_diag.stage.saved" = "Guardado";
+"label_diag.stage.save_error" = "Error al guardar";
+"label_diag.stage.complete" = "Completo";
+"label_diag.stage.error" = "Error";
+"label_diag.export.fields_filled" = "Campos completados:";
+"label_diag.export.message" = "Mensaje:";
+
+/* Barcode log view */
+"barcode_log.empty" = "Aún no hay entradas de registro.";
+"barcode_log.group.source" = "Origen";
+"barcode_log.group.conversions" = "Conversiones";
+"barcode_log.group.entry" = "Entrada";
+"barcode_log.group.error" = "Error";
+"barcode_log.title" = "Registro de códigos de barras";
+"barcode_log.copy" = "Copiar";
+"barcode_log.clear" = "Limpiar";
+"barcode_log.no_code" = "Sin código";
+"barcode_log.stage.scan" = "Escanear";
+"barcode_log.stage.normalize" = "Normalizar";
+"barcode_log.stage.local_hit" = "Coincidencia local";
+"barcode_log.stage.local_miss" = "Sin coincidencia local";
+"barcode_log.stage.off_v2" = "OFF v2";
+"barcode_log.stage.off_v1" = "OFF v1";
+"barcode_log.stage.off_error" = "Error OFF";
+"barcode_log.stage.map_start" = "Inicio de mapeo";
+"barcode_log.stage.convert" = "Convertir";
+"barcode_log.stage.map_result" = "Resultado de mapeo";
+"barcode_log.stage.upsert" = "Inserción/actualización";
+"barcode_log.stage.saved" = "Guardado";
+"barcode_log.stage.save_error" = "Error al guardar";
+"barcode_log.export.source" = "Origen:";
+"barcode_log.export.conversions" = "Conversiones:";
+"barcode_log.export.entry" = "Entrada:";
+"barcode_log.export.error_prefix" = "Error: ";
+
+/* ===== Added: Additional nutrient/field titles used in forms ===== */
+"creatine" = "Creatina";
+"stimulants_section_title" = "Estimulantes";
+"creatine_section_title" = "Creatina";
+"vitamins_section_title" = "Vitaminas";
+"minerals_section_title" = "Minerales";
+"iodine" = "Yodo";
+"phosphorus" = "Fósforo";
+"omega3" = "Omega-3";
+"omega6" = "Omega-6";
+"a2_beta_casein" = "Beta-caseína A2";
+"a1_beta_casein" = "Beta-caseína A1";
+
+/* ===== Added: Weekly report ===== */
+"weekly_report" = "Informe semanal";
+"weekly_report_title" = "Informe semanal";
+"a11y_previous_week" = "Semana anterior";
+"a11y_next_week" = "Semana siguiente";
+"this_week" = "Esta semana";
+"week" = "Semana";
+"total_suffix" = "total";
+"a11y_weekly_calories_chart" = "Gráfico de calorías semanales";
+"minerals_weekly_total" = "Minerales (total semanal)";
+"vitamins_weekly_total" = "Vitaminas (total semanal)";
+"stimulants_weekly_total" = "Estimulantes (total semanal)";
+"per_day_header" = "Por día";
+"macro_c_short" = "C";
+"macro_p_short" = "P";
+"macro_f_short" = "G";
+"chart_axis_day" = "Día";
+"chart_axis_kcal" = "kcal";
+"chart_series_macro" = "Macro";
+"macro_carb" = "Carbohidrato";
+"macro_protein" = "Proteína";
+"macro_fat" = "Grasa";
+"creatine_total_title" = "Total de creatina";
+
+/* ===== Added: Auto title generation ===== */
+"daypart_early_morning" = "Madrugada";
+"daypart_morning" = "Mañana";
+"daypart_midday" = "Mediodía";
+"daypart_afternoon" = "Tarde";
+"daypart_evening" = "Noche";
+"daypart_late_night" = "Altas horas";
+"daypart_overnight" = "Durante la noche";
+"meal_breakfast" = "Desayuno";
+"meal_lunch" = "Almuerzo";
+"meal_dinner" = "Cena";
+"auto_title_meal_pattern" = "%@ el %@ (%@)";
+"auto_title_snack_pattern" = "%@ el %@";
+
+/* ===== Added: Settings toggles shown in code ===== */
+"nutrition_options_section_title" = "Opciones de nutrición";
+"vitamin_units" = "Unidades de vitaminas";
+"show_minerals" = "Mostrar minerales";
+"show_stimulants" = "Mostrar estimulantes";
+"show_creatine" = "Mostrar creatina";
+"handedness_section_title" = "Mano dominante";
+"about_title" = "Acerca de";
+
+/* ===== Added: Seeder/Downloads status (used in Settings) ===== */
+"off_not_downloaded" = "No descargado";
+"seeder_idle" = "Inactivo";
+"seeder_queued" = "En cola";
+"seeder_waiting" = "Esperando…";
+"seeder_running" = "Ejecutando";
+"seeder_completed" = "Completado";
+"seeder_done" = "Listo";
+"seeder_failed" = "Fallido";
+"seeder_cancelled" = "Cancelado";
+
+/* ===== Added: Debug guesser format in MealsGallery (format string) ===== */
+"debug_guesser_format" = "Estimador: %@";
+
+/* ===== Added: Additional errors used in Media flow ===== */
+"failed_to_add_photo_format" = "Error al añadir la foto: %@";
+
+/* ===== Added: Person picker ===== */
+"select_person_title" = "Seleccionar persona";
+
+/* ===== Added: About screen strings ===== */
+"about.app_name_fallback" = "Esta app";
+"about.version_format" = "Versión %@ (%@)";
+"about.disclaimer_title" = "Aviso legal";
+"about.disclaimer_body" = "La información en esta app es solo para fines informativos y no sustituye el consejo, diagnóstico o tratamiento médico profesional. Tus datos se almacenan localmente en tu dispositivo y no se comparten con el desarrollador ni con terceros a menos que decidas exportarlos o compartirlos.";
+"about.privacy_policy" = "Política de privacidad";
+"about.terms_of_use" = "Términos de uso";
+"about.support" = "Soporte";
+
+/* ===== Added: Person name validation errors used in SettingsView ===== */
+"person_name_error_too_long" = "El nombre es demasiado largo.";
+"person_name_error_invalid_chars" = "Por favor, usa letras o números.";
+"person_name_error_duplicate" = "Ya existe una persona con este nombre.";
+
+/* ===== Added: Meals seeding phases and notifications ===== */
+"seeder_phase_discovering_ids" = "Descubriendo IDs…";
+"seeder_phase_connecting" = "Conectando a fuentes…";
+"meals_download_complete_title" = "Descarga de comidas completa";
+"meals_download_complete_body_format" = "Descargados %d elementos.";
+"seeder_error_bg_expired" = "Tiempo de ejecución en segundo plano expirado";
+
+/* ===== Added: OFF/local DB wizard strings (missing before) ===== */
+"wizard_local_db_hit_format" = "Coincidencia en BD local de códigos de barras para %@";
+"wizard_local_db_miss_format" = "Sin coincidencia en BD local de códigos de barras para %@";
+"wizard_local_db_rejected_format" = "Coincidencia en BD local de códigos de barras rechazada: valores anormales (%@)";
+"wizard_off_fetching_format" = "OFF: obteniendo producto %@…";
+"wizard_off_found_format" = "OFF: producto encontrado para %@";
+"wizard_off_not_found_format" = "OFF: no encontrado %@";
+"wizard_off_product_not_found_error_format" = "Producto %@ no encontrado";
+"wizard_off_v2_status_format" = "OFF v2: estado %d %@ para código %@";
+"wizard_off_v2_decode_error_format" = "OFF v2: error de decodificación para %@: %@";
+"wizard_off_v1_status_format" = "OFF v1: estado %d %@ para código %@";
+"wizard_off_v1_decode_error_format" = "OFF v1: error de decodificación para %@: %@";
+"wizard_off_rejected_insane_format" = "OFF: valores anormales rechazados (%@); no se insertará/aplicará.";
+"wizard_off_sanitized_dropped_format" = "OFF: entrada saneada (descartado: %@)";
+"wizard_off_sanitized_no_red" = "OFF: entrada saneada (sin campos rojos)";
+"wizard_off_no_usable_nutriments" = "OFF: el mapeo no devolvió nutrientes utilizables";
+"wizard_off_error_format" = "OFF: error para %@: %@";
+
+/* ===== Added: Vitamin titles for Weekly Report ===== */
+"vitamin_a_title" = "Vitamina A";
+"vitamin_b_title" = "Vitamina B";
+"vitamin_c_title" = "Vitamina C";
+"vitamin_d_title" = "Vitamina D";
+"vitamin_e_title" = "Vitamina E";
+"vitamin_k_title" = "Vitamina K";
+
+/* ===== Added: Helper format for sum hint ===== */
+"helper_sum_parens_format" = "(%@)";

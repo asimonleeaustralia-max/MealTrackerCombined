@@ -1,0 +1,172 @@
+/* Spanish Localizations for Meal Tracker */
+
+/* MARK: - General */
+"done" = "Listo";
+"save" = "Guardar";
+"cancel" = "Cancelar";
+"ok" = "OK";
+"share" = "Compartir";
+"unlimited" = "ilimitado";
+
+/* MARK: - Language Selection */
+"choose_language" = "Elegir idioma";
+
+/* MARK: - Handedness */
+"handedness_section_title" = "Mano dominante";
+"left_handed" = "Zurdo";
+"right_handed" = "Diestro";
+
+/* MARK: - Nutrition Options */
+"nutrition_options_section_title" = "Opciones de nutrición";
+"vitamin_units" = "Unidades de vitaminas";
+"show_vitamins" = "Mostrar vitaminas";
+"show_minerals" = "Mostrar minerales";
+"show_stimulants" = "Mostrar estimulantes";
+"show_creatine" = "Mostrar creatina";
+
+/* MARK: - Diagnostics (Debug) */
+"diagnostics_section_title" = "Diagnósticos";
+"barcode_verbose_log" = "Registro detallado de códigos de barras";
+"label_diagnostics" = "Diagnósticos de etiquetas";
+
+/* MARK: - About */
+"about_title" = "Acerca de";
+"about.app_name_fallback" = "Rastreador de Comidas";
+"about.version_format" = "Versión %@ (%@)";
+"about.disclaimer_title" = "Aviso médico";
+"about.disclaimer_body" = "Esta aplicación es solo para fines informativos y no sustituye el consejo médico profesional, diagnóstico o tratamiento. Siempre consulte a su médico u otro proveedor de atención médica calificado con cualquier pregunta que pueda tener sobre una condición médica.";
+
+/* MARK: - Export */
+"export_section_title" = "Exportar";
+"export_meals_button" = "Exportar comidas como JSON";
+"export_success_title" = "Exportación exitosa";
+"export_success_message" = "Sus comidas se han exportado con éxito.";
+"export_error_title" = "Error de exportación";
+
+/* MARK: - Person Management */
+"add_person_name_header" = "Nombre";
+"add_person_name_placeholder" = "Nombre";
+"add_person_nav_title" = "Agregar persona";
+"person_name_error_empty" = "Por favor ingrese un nombre.";
+"person_name_error_too_long" = "El nombre es demasiado largo.";
+"person_name_error_invalid_chars" = "Por favor use letras o números.";
+"person_name_error_duplicate" = "Ya existe una persona con este nombre.";
+"select_person_title" = "Seleccionar persona";
+
+/* MARK: - Keyboard */
+"keyboard_done" = "Listo";
+
+/* MARK: - Alerts */
+"alert_limit_reached_title" = "Límite alcanzado";
+"alert_limit_reached_message" = "Ha alcanzado su límite de comidas.";
+"camera_access_needed_title" = "Acceso a la cámara necesario";
+"camera_access_needed_message" = "Por favor permita el acceso a la cámara en Configuración para escanear códigos de barras y tomar fotos.";
+
+/* MARK: - Wizard */
+"wizard_analyzing" = "Analizando...";
+"wizard_barcode_format" = "Código de barras: %@";
+"wizard_applied_format" = "Aplicado: %@";
+"wizard_applied" = "Aplicado";
+
+/* MARK: - Units */
+"unit_kcal_suffix" = "kcal";
+"unit_kj_suffix" = "kJ";
+"unit_g_suffix" = "g";
+"unit_mg_suffix" = "mg";
+"unit_ug_suffix" = "μg";
+"unit_milligrams_long" = "miligramos";
+
+/* MARK: - Macronutrients */
+"calories" = "Calorías";
+"carbohydrates" = "Carbohidratos";
+"protein" = "Proteína";
+"fat" = "Grasa";
+"sodium" = "Sodio";
+"alcohol" = "Alcohol";
+
+/* MARK: - Carbohydrate Breakdown */
+"starch" = "Almidón";
+"sugars" = "Azúcares";
+"fibre" = "Fibra";
+
+/* MARK: - Fat Breakdown */
+"monounsaturated_fat" = "Grasa monoinsaturada";
+"polyunsaturated_fat" = "Grasa poliinsaturada";
+"saturated_fat" = "Grasa saturada";
+"trans_fat" = "Grasa trans";
+"omega3" = "Omega-3";
+"omega6" = "Omega-6";
+
+/* MARK: - Protein Breakdown */
+"animal_protein" = "Proteína animal";
+"plant_protein" = "Proteína vegetal";
+"protein_supplements" = "Suplementos de proteína";
+"a2_beta_casein" = "Caseína beta A2";
+"a1_beta_casein" = "Caseína beta A1";
+
+/* MARK: - Stimulants */
+"stimulants_section_title" = "Estimulantes";
+"nicotine" = "Nicotina";
+"theobromine" = "Teobromina";
+"caffeine" = "Cafeína";
+"taurine" = "Taurina";
+
+/* MARK: - Creatine */
+"creatine_section_title" = "Creatina";
+"creatine" = "Creatina";
+"creatine_total_title" = "Creatina total";
+
+/* MARK: - Vitamins */
+"vitamins_section_title" = "Vitaminas";
+"vitamin_a_title" = "Vitamina A";
+"vitamin_b_title" = "Vitamina B";
+"vitamin_c_title" = "Vitamina C";
+"vitamin_d_title" = "Vitamina D";
+"vitamin_e_title" = "Vitamina E";
+"vitamin_k_title" = "Vitamina K";
+"vitamins_weekly_total" = "Total semanal de vitaminas";
+
+/* MARK: - Minerals */
+"minerals_section_title" = "Minerales";
+"calcium" = "Calcio";
+"iron" = "Hierro";
+"potassium" = "Potasio";
+"zinc" = "Zinc";
+"magnesium" = "Magnesio";
+"iodine" = "Yodo";
+"phosphorus" = "Fósforo";
+"minerals_weekly_total" = "Total semanal de minerales";
+
+/* MARK: - Weekly Report */
+"weekly_report_title" = "Informe semanal";
+"this_week" = "Esta semana";
+"week" = "Semana";
+"total_suffix" = "total";
+"per_day_header" = "Por día";
+"stimulants_weekly_total" = "Total semanal de estimulantes";
+
+/* MARK: - Accessibility */
+"a11y_previous_week" = "Semana anterior";
+"a11y_next_week" = "Semana siguiente";
+"a11y_weekly_calories_chart" = "Gráfico de calorías semanales";
+
+/* MARK: - Chart Labels */
+"chart_axis_day" = "Día";
+"chart_axis_kcal" = "kcal";
+"chart_series_macro" = "Macronutriente";
+"macro_carb" = "Carbohidratos";
+"macro_protein" = "Proteína";
+"macro_fat" = "Grasa";
+"macro_c_short" = "C";
+"macro_p_short" = "P";
+"calories_only_generic" = "Calorías";
+
+/* MARK: - Field Details */
+"show_details" = "Mostrar detalles";
+"hide_details" = "Ocultar detalles";
+"helper_sum_parens_format" = "(suma: %@)";
+
+/* MARK: - Accuracy */
+"accurate" = "Exacto";
+"guess" = "Estimado";
+"accuracy" = "precisión";

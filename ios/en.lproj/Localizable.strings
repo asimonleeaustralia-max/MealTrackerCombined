@@ -1,0 +1,458 @@
+"ok" = "OK";
+"cancel" = "Cancel";
+"close" = "Close";
+"done" = "Done";
+"save" = "Save";
+"edit" = "Edit";
+"delete" = "Delete";
+"yes" = "Yes";
+"no" = "No";
+"settings" = "Settings";
+"back" = "Back";
+"error" = "Error";
+"retry" = "Retry";
+
+"search" = "Search";
+"search_meals" = "Search meals";
+
+"meals_title" = "Meals";
+"no_meals" = "No meals";
+"add_meal" = "Add Meal";
+
+"no_meals_yet" = "No meals yet";
+"add_first_meal_message" = "Add your first meal to start tracking.";
+
+"kcal_suffix" = "kcal";
+"kj_suffix" = "kJ";
+"energy_kcal_suffix" = "kcal";
+"energy_kj_suffix" = "kJ";
+
+"carbs.title" = "Carbs";
+"protein.title" = "Protein";
+"fat.title" = "Fat";
+"sodium.title" = "Sodium";
+"starch.title" = "Starch";
+"sugars.title" = "Sugars";
+"fibre.title" = "Fibre";
+
+"fat.mono.short" = "Mono";
+"fat.poly.short" = "Poly";
+"fat.sat.short" = "Sat";
+"fat.trans.short" = "Trans";
+
+"carbs.short" = "Carb";
+"protein.short" = "Prot";
+"fat.short" = "Fat";
+
+"calories" = "Calories";
+"kilojoules" = "Kilojoules";
+"carbohydrates" = "Carbohydrates";
+"sugars" = "Sugars";
+"starch" = "Starch";
+"fibre" = "Fibre";
+"protein" = "Protein";
+"animal_protein" = "Animal protein";
+"plant_protein" = "Plant protein";
+"protein_supplements" = "Protein supplements";
+"fat" = "Fat";
+"monounsaturated_fat" = "Monounsaturated fat";
+"polyunsaturated_fat" = "Polyunsaturated fat";
+"saturated_fat" = "Saturated fat";
+"trans_fat" = "Trans fat";
+"sodium" = "Sodium";
+"alcohol" = "Alcohol";
+
+"accurate" = "Accurate";
+"guess" = "Guess";
+"accuracy" = "Accuracy";
+
+"settings_title" = "Settings";
+"language" = "Language";
+"choose_language" = "Choose language";
+"measurement_system" = "Measurement system";
+"metric" = "Metric";
+"imperial" = "Imperial";
+"energy_unit" = "Energy unit";
+"energy_unit.calories" = "Calories";
+"energy_unit.kilojoules" = "Kilojoules";
+
+"handedness" = "Handedness";
+"left_handed" = "Left-handed";
+"right_handed" = "Right-handed";
+
+"show_vitamins_entry" = "Show Vitamins Entry";
+"vitamin_unit" = "Vitamins unit";
+"vitamins_unit.mg" = "mg";
+"vitamins_unit.ug" = "µg";
+"show_minerals_entry" = "Show Minerals Entry";
+"show_stimulants_entry" = "Show Stimulants Entry";
+
+"vitamin_a" = "Vitamin A";
+"vitamin_b" = "Vitamin B";
+"vitamin_c" = "Vitamin C";
+"vitamin_d" = "Vitamin D";
+"vitamin_e" = "Vitamin E";
+"vitamin_k" = "Vitamin K";
+
+"calcium" = "Calcium";
+"iron" = "Iron";
+"potassium" = "Potassium";
+"zinc" = "Zinc";
+"magnesium" = "Magnesium";
+
+"show_details" = "Show Details";
+"hide_details" = "Hide Details";
+"show_vitamins" = "Show Vitamins";
+"show_minerals" = "Show Minerals";
+"hide_minerals" = "Hide Minerals";
+"hide_vitamins" = "Hide Vitamins";
+"show_stimulants" = "Show Stimulants";
+"hide_stimulants" = "Hide Stimulants";
+
+"edit_meal" = "Edit Meal";
+"meal_details" = "Meal details";
+"meal_description" = "Meal Description";
+"meal_date" = "Meal Date";
+"nutrition" = "Nutrition";
+"salt" = "Salt";
+
+"confirm_delete_title" = "Delete Meal";
+"confirm_delete_message" = "This Cannot Be Undone";
+"confirm_delete_confirm" = "Delete";
+"confirm_delete_cancel" = "Cancel";
+
+"account_plan_section_title" = "Account & Plan";
+"access_tier" = "Access Tier";
+"access_tier.free" = "Free";
+"access_tier.paid" = "Pro (Cloud)";
+"meals_left_today" = "Meals left today";
+"photos_per_meal_limit" = "Photos per meal (limit)";
+"unlimited" = "Unlimited";
+"logged_in_cloud_stub" = "Logged into Cloud (stub)";
+"synced_date" = "Synced Date";
+"sync_now" = "Sync now";
+"synced_date_not_set" = "Not set";
+
+/* Credentials: account status and actions */
+"account_status" = "Account";
+"logged_in" = "Logged In";
+"logged_out" = "Logged Out";
+"log_in" = "Log In";
+"log_out" = "Log Out";
+
+/* Credentials: Login view */
+"login.title" = "Sign In";
+"login.email.placeholder" = "Email";
+"login.password.placeholder" = "Password";
+"login.submit" = "Sign In";
+"login.cancel" = "Cancel";
+
+/* Additions to match LoginView.swift */
+"login.email" = "Email";
+"login.password" = "Password";
+"login.sign_in" = "Sign In";
+
+/* Credentials: validation (used in SessionManager) */
+"invalid_email_error" = "Enter a valid email address.";
+"invalid_password_error" = "Password must be at least 8 characters.";
+
+/* Optional: must be logged in to sync message */
+"must_be_logged_in_to_sync" = "You must be logged in to sync.";
+
+"data_sharing_section_title" = "Data Sharing";
+"data_sharing_picker_title" = "Sharing";
+"data_sharing.public" = "Public";
+"data_sharing.private" = "Private";
+"data_sharing.public_explanation" = "You agree to share meal information with the app creator to improve food metrics and train AI models.";
+"data_sharing.private_explanation" = "All data is saved on this device only.";
+
+"camera_unavailable_error" = "Camera not available on this device.";
+"camera_permission_denied_error" = "Camera permission denied.";
+"camera_export_failed_error" = "Failed to capture photo.";
+"photo_export_failed_error" = "Failed to load selected photo.";
+
+"invalid_image_error" = "Invalid image data.";
+"write_failed_error" = "Failed to write photo to disk.";
+"coredata_save_failed_error_prefix" = "Failed to save photo:";
+"free_tier_photo_limit_reached" = "Free tier allows up to %d photos per meal.";
+
+/* MealsDBManager error messages */
+"duckdb_connection_open_failed" = "Failed to open the local database.";
+"duckdb_unavailable_target_error" = "DuckDB is not available in this build target.";
+
+"sodium" = "Sodium";
+"alcohol" = "Alcohol";
+"nicotine" = "Nicotine";
+"theobromine" = "Theobromine";
+"caffeine" = "Caffeine";
+"taurine" = "Taurine";
+
+/* New: Settings — Open to new meal on launch */
+"setting_open_to_new_meal" = "Shortcuts";
+"setting_open_to_new_meal_toggle" = "Enable “New Meal” shortcut";
+"setting_open_to_new_meal_desc" = "When enabled, you can add a Shortcut to open the app directly to a new meal.";
+
+/* New: App Intent strings */
+"intent_new_meal_title" = "New Meal";
+"intent_new_meal_description" = "Open the app directly to a new meal.";
+"intent_new_meal_disabled_error" = "The “New Meal” shortcut is disabled in Settings.";
+
+"ai_feedback_severity_section_title" = "AI feedback severity";
+"ai_feedback_severity_picker_title" = "AI feedback severity";
+"ai_feedback_severity.kind" = "Kind";
+"ai_feedback_severity.balanced" = "Balanced";
+"ai_feedback_severity.boot_camp" = "Boot Camp";
+
+/* Optional: Keychain error localization (enable if you changed KeychainService) */
+"keychain.item_not_found" = "Keychain item not found.";
+"keychain.duplicate_item" = "Keychain item already exists.";
+"keychain.unexpected_data" = "Unexpected keychain data format.";
+"keychain.unexpected_status_fmt" = "Keychain error: %d";
+
+"people_section_title" = "People";
+"default_person_picker_title" = "Default person";
+"pro_people_notice" = "Managing multiple people is a Pro feature. Upgrade to add, select, or remove people.";
+"default_person_accessibility_label" = "Default";
+"add_person_button_title" = "Add Person";
+"add_person_name_header" = "Name";
+"add_person_name_placeholder" = "Name";
+"add_person_nav_title" = "Add Person";
+"add_person_error_empty" = "Please enter a name.";
+"add_person_error_duplicate" = "That name already exists.";
+"default_person_name_me" = "Me";
+
+/* Also used by SettingsView.validationError */
+"person_name_error_empty" = "Please enter a name.";
+
+"unit_kcal_suffix" = "kcal";
+"unit_kj_suffix" = "kJ";
+"unit_g_suffix" = "g";
+"unit_mg_suffix" = "mg";
+"unit_ug_suffix" = "µg";
+"unit_milligrams_long" = "milligrams";
+
+/* ===== Added: Wizard / camera / alerts ===== */
+"keyboard_done" = "Done";
+"alert_limit_reached_title" = "Limit reached";
+"alert_limit_reached_message" = "You’ve reached the current limit.";
+"camera_access_needed_title" = "Camera access needed";
+"camera_access_needed_message" = "Allow camera access to take a photo.";
+"camera_access_disabled_message" = "Camera access is disabled. Enable it in Settings.";
+"open_settings" = "Open Settings";
+"confirm_delete_title" = "Delete Meal";
+"confirm_delete_message" = "This Cannot Be Undone";
+
+/* Wizard progress/status */
+"wizard_analyzing" = "Analyzing";
+"wizard_analyzing_ellipsis" = "Analyzing…";
+"wizard_add_photo_first" = "Add a photo first.";
+"wizard_could_not_read_image" = "Could not read image data.";
+"wizard_detecting_barcode" = "Detecting barcode…";
+"wizard_looking_up_product" = "Looking up product…";
+"wizard_no_barcode_reading_label" = "No barcode detected; reading label…";
+"wizard_no_label_recognized" = "No nutrition label recognized.";
+"wizard_label_rejected_insane" = "Label rejected: insane values in %@";
+"wizard_barcode_format" = "Barcode: %@";
+"wizard_applied_format" = "Applied: %@";
+"wizard_applied" = "Applied";
+
+/* ===== Added: Accessibility labels used in headers/buttons ===== */
+"a11y_meal_photo" = "Meal photo";
+"a11y_no_photo" = "No photo";
+"a11y_analyze_photo" = "Analyze photo";
+"a11y_analyzing_photo" = "Analyzing photo";
+"a11y_undo_ai_changes" = "Undo AI changes";
+"a11y_capture_photo" = "Capture photo";
+"a11y_choose_from_photos" = "Choose from Photos";
+
+/* ===== Added: SettingsView and diagnostics (DEBUG views) ===== */
+"diagnostics_section_title" = "Diagnostics";
+"barcode_verbose_log" = "Barcode Log";
+"label_diagnostics" = "Label Diagnostics";
+
+/* Label diagnostics view */
+"label_diag.empty" = "No diagnostics yet.";
+"label_diag.group.message" = "Message";
+"label_diag.group.fields_filled" = "Fields Filled";
+"label_diag.title" = "Label Diagnostics";
+"label_diag.copy" = "Copy";
+"label_diag.clear" = "Clear";
+"label_diag.stage.start" = "Start";
+"label_diag.stage.image" = "Image";
+"label_diag.stage.rotate" = "Rotate";
+"label_diag.stage.barcode" = "Barcode";
+"label_diag.stage.unreadable" = "Unreadable";
+"label_diag.stage.no_barcode" = "No Barcode";
+"label_diag.stage.ocr_fast" = "OCR Fast";
+"label_diag.stage.ocr_accurate" = "OCR Accurate";
+"label_diag.stage.ocr_done" = "OCR Done";
+"label_diag.stage.parsed" = "Parsed";
+"label_diag.stage.applied" = "Applied";
+"label_diag.stage.upsert" = "Upsert";
+"label_diag.stage.saved" = "Saved";
+"label_diag.stage.save_error" = "Save Error";
+"label_diag.stage.complete" = "Complete";
+"label_diag.stage.error" = "Error";
+"label_diag.export.fields_filled" = "Fields Filled:";
+"label_diag.export.message" = "Message:";
+
+/* Barcode log view */
+"barcode_log.empty" = "No log entries yet.";
+"barcode_log.group.source" = "Source";
+"barcode_log.group.conversions" = "Conversions";
+"barcode_log.group.entry" = "Entry";
+"barcode_log.group.error" = "Error";
+"barcode_log.title" = "Barcode Log";
+"barcode_log.copy" = "Copy";
+"barcode_log.clear" = "Clear";
+"barcode_log.no_code" = "No code";
+"barcode_log.stage.scan" = "Scan";
+"barcode_log.stage.normalize" = "Normalize";
+"barcode_log.stage.local_hit" = "Local Hit";
+"barcode_log.stage.local_miss" = "Local Miss";
+"barcode_log.stage.off_v2" = "OFF v2";
+"barcode_log.stage.off_v1" = "OFF v1";
+"barcode_log.stage.off_error" = "OFF Error";
+"barcode_log.stage.map_start" = "Map Start";
+"barcode_log.stage.convert" = "Convert";
+"barcode_log.stage.map_result" = "Map Result";
+"barcode_log.stage.upsert" = "Upsert";
+"barcode_log.stage.saved" = "Saved";
+"barcode_log.stage.save_error" = "Save Error";
+"barcode_log.export.source" = "Source:";
+"barcode_log.export.conversions" = "Conversions:";
+"barcode_log.export.entry" = "Entry:";
+"barcode_log.export.error_prefix" = "Error: ";
+
+/* ===== Added: Additional nutrient/field titles used in forms ===== */
+"creatine" = "Creatine";
+"stimulants_section_title" = "Stimulants";
+"creatine_section_title" = "Creatine";
+"vitamins_section_title" = "Vitamins";
+"minerals_section_title" = "Minerals";
+"iodine" = "Iodine";
+"phosphorus" = "Phosphorus";
+"omega3" = "Omega-3";
+"omega6" = "Omega-6";
+"a2_beta_casein" = "A2 beta-casein";
+"a1_beta_casein" = "A1 beta-casein";
+
+/* ===== Added: Weekly report ===== */
+"weekly_report" = "Weekly Report";
+"weekly_report_title" = "Weekly Report";
+"a11y_previous_week" = "Previous week";
+"a11y_next_week" = "Next week";
+"this_week" = "This Week";
+"week" = "Week";
+"total_suffix" = "total";
+"a11y_weekly_calories_chart" = "Weekly calories chart";
+"minerals_weekly_total" = "Minerals (weekly total)";
+"vitamins_weekly_total" = "Vitamins (weekly total)";
+"stimulants_weekly_total" = "Stimulants (weekly total)";
+"per_day_header" = "Per day";
+"macro_c_short" = "C";
+"macro_p_short" = "P";
+"macro_f_short" = "F";
+"chart_axis_day" = "Day";
+"chart_axis_kcal" = "kcal";
+"chart_series_macro" = "Macro";
+"macro_carb" = "Carb";
+"macro_protein" = "Protein";
+"macro_fat" = "Fat";
+"creatine_total_title" = "Creatine total";
+
+/* ===== Added: Auto title generation ===== */
+"daypart_early_morning" = "Early Morning";
+"daypart_morning" = "Morning";
+"daypart_midday" = "Midday";
+"daypart_afternoon" = "Afternoon";
+"daypart_evening" = "Evening";
+"daypart_late_night" = "Late Night";
+"daypart_overnight" = "Overnight";
+"meal_breakfast" = "Breakfast";
+"meal_lunch" = "Lunch";
+"meal_dinner" = "Dinner";
+"auto_title_meal_pattern" = "%@ on %@ (%@)";
+"auto_title_snack_pattern" = "%@ on %@";
+
+/* ===== Added: Settings toggles shown in code ===== */
+"nutrition_options_section_title" = "Nutrition options";
+"vitamin_units" = "Vitamin units";
+"show_minerals" = "Show minerals";
+"show_stimulants" = "Show stimulants";
+"show_creatine" = "Show creatine";
+"handedness_section_title" = "Handedness";
+"about_title" = "About";
+
+/* ===== Added: Seeder/Downloads status (used in Settings) ===== */
+"off_not_downloaded" = "Not downloaded";
+"seeder_idle" = "Idle";
+"seeder_queued" = "Queued";
+"seeder_waiting" = "Waiting…";
+"seeder_running" = "Running";
+"seeder_completed" = "Completed";
+"seeder_done" = "Done";
+"seeder_failed" = "Failed";
+"seeder_cancelled" = "Cancelled";
+
+/* ===== Added: Debug guesser format in MealsGallery (format string) ===== */
+"debug_guesser_format" = "Guesser: %@";
+
+/* ===== Added: Additional errors used in Media flow ===== */
+"failed_to_add_photo_format" = "Failed to add photo: %@";
+
+/* ===== Added: Person picker ===== */
+"select_person_title" = "Select person";
+
+/* ===== Added: About screen strings ===== */
+"about.app_name_fallback" = "This App";
+"about.version_format" = "Version %@ (%@)";
+"about.disclaimer_title" = "Disclaimer";
+"about.disclaimer_body" = "The information in this app is for informational purposes only and is not a substitute for professional medical advice, diagnosis, or treatment. Your data is stored locally on your device and is not shared with the developer or third parties unless you choose to export or share it.";
+"about.privacy_policy" = "Privacy Policy";
+"about.terms_of_use" = "Terms of Use";
+"about.support" = "Support";
+
+/* ===== Added: Person name validation errors used in SettingsView ===== */
+"person_name_error_too_long" = "Name is too long.";
+"person_name_error_invalid_chars" = "Please use letters or numbers.";
+"person_name_error_duplicate" = "A person with this name already exists.";
+
+/* ===== Added: Meals seeding phases and notifications ===== */
+"seeder_phase_discovering_ids" = "Discovering IDs…";
+"seeder_phase_connecting" = "Connecting to sources…";
+"meals_download_complete_title" = "Meals Download Complete";
+"meals_download_complete_body_format" = "Downloaded %d items.";
+"seeder_error_bg_expired" = "Background time expired";
+
+/* ===== Added: OFF/local DB wizard strings (missing before) ===== */
+"wizard_local_db_hit_format" = "Local barcode DB hit for %@";
+"wizard_local_db_miss_format" = "Local barcode DB miss for %@";
+"wizard_local_db_rejected_format" = "Local barcode DB hit rejected: insane values (%@)";
+"wizard_off_fetching_format" = "OFF: fetching product %@…";
+"wizard_off_found_format" = "OFF: product found for %@";
+"wizard_off_not_found_format" = "OFF: not found %@";
+"wizard_off_product_not_found_error_format" = "Product %@ not found";
+"wizard_off_v2_status_format" = "OFF v2: status %d %@ for code %@";
+"wizard_off_v2_decode_error_format" = "OFF v2: decode error for %@: %@";
+"wizard_off_v1_status_format" = "OFF v1: status %d %@ for code %@";
+"wizard_off_v1_decode_error_format" = "OFF v1: decode error for %@: %@";
+"wizard_off_rejected_insane_format" = "OFF: rejected insane values (%@); not inserting/applying.";
+"wizard_off_sanitized_dropped_format" = "OFF: sanitized entry (dropped: %@)";
+"wizard_off_sanitized_no_red" = "OFF: sanitized entry (no red fields)";
+"wizard_off_no_usable_nutriments" = "OFF: mapping returned no usable nutriments";
+"wizard_off_error_format" = "OFF: error for %@: %@";
+
+/* ===== Added: Vitamin titles for Weekly Report ===== */
+"vitamin_a_title" = "Vitamin A";
+"vitamin_b_title" = "Vitamin B";
+"vitamin_c_title" = "Vitamin C";
+"vitamin_d_title" = "Vitamin D";
+"vitamin_e_title" = "Vitamin E";
+"vitamin_k_title" = "Vitamin K";
+
+/* ===== Added: Helper format for sum hint ===== */
+"helper_sum_parens_format" = "(%@)";
+
+"auto_title_meal - pattern" = "%@ on %@ (%@)";
+"auto_title_snack - pattern" = "%@ on %@";

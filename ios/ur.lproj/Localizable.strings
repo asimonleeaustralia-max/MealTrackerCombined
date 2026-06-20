@@ -1,0 +1,425 @@
+"ok" = "ٹھیک ہے";
+"cancel" = "منسوخ کریں";
+"close" = "بند کریں";
+"done" = "مکمل";
+"save" = "محفوظ کریں";
+"edit" = "ترمیم کریں";
+"delete" = "حذف کریں";
+"yes" = "ہاں";
+"no" = "نہیں";
+"settings" = "ترتیبات";
+"back" = "واپس";
+"error" = "خرابی";
+"retry" = "دوبارہ کوشش کریں";
+
+"search" = "تلاش کریں";
+"search_meals" = "کھانے تلاش کریں";
+
+"meals_title" = "کھانے";
+"no_meals" = "کوئی کھانا نہیں";
+"add_meal" = "کھانا شامل کریں";
+
+"no_meals_yet" = "ابھی تک کوئی کھانا نہیں";
+"add_first_meal_message" = "ٹریکنگ شروع کرنے کے لیے اپنا پہلا کھانا شامل کریں۔";
+
+"kcal_suffix" = "kcal";
+"kj_suffix" = "kJ";
+"energy_kcal_suffix" = "kcal";
+"energy_kj_suffix" = "kJ";
+
+"carbs.title" = "کاربوہائیڈریٹس";
+"protein.title" = "پروٹین";
+"fat.title" = "چکنائی";
+"sodium.title" = "سوڈیم";
+"starch.title" = "نشاستہ";
+"sugars.title" = "شکر";
+"fibre.title" = "فائبر";
+
+"fat.mono.short" = "مونو";
+"fat.poly.short" = "پولی";
+"fat.sat.short" = "سیت";
+"fat.trans.short" = "ٹرانس";
+
+"carbs.short" = "کارب";
+"protein.short" = "پروٹ";
+"fat.short" = "چکنائی";
+
+"calories" = "کیلوریز";
+"kilojoules" = "کلوجولز";
+"carbohydrates" = "کاربوہائیڈریٹس";
+"sugars" = "شکر";
+"starch" = "نشاستہ";
+"fibre" = "فائبر";
+"protein" = "پروٹین";
+"animal_protein" = "حیوانی پروٹین";
+"plant_protein" = "نباتاتی پروٹین";
+"protein_supplements" = "پروٹین سپلیمنٹس";
+"fat" = "چکنائی";
+"monounsaturated_fat" = "مونو ان سیچوریٹڈ چکنائی";
+"polyunsaturated_fat" = "پولی ان سیچوریٹڈ چکنائی";
+"saturated_fat" = "سیچوریٹڈ چکنائی";
+"trans_fat" = "ٹرانس چکنائی";
+"sodium" = "سوڈیم";
+"alcohol" = "الکحل";
+
+"accurate" = "درست";
+"guess" = "اندازہ";
+"accuracy" = "درستگی";
+
+"settings_title" = "ترتیبات";
+"language" = "زبان";
+"choose_language" = "زبان منتخب کریں";
+"measurement_system" = "پیمائش کا نظام";
+"metric" = "میٹرک";
+"imperial" = "امپیریل";
+"energy_unit" = "توانائی کی اکائی";
+"energy_unit.calories" = "کیلوریز";
+"energy_unit.kilojoules" = "کلوجولز";
+
+"handedness" = "ہاتھ کا استعمال";
+"left_handed" = "بائیں ہاتھ";
+"right_handed" = "دائیں ہاتھ";
+
+"show_vitamins_entry" = "وٹامنز کی انٹری دکھائیں";
+"vitamin_unit" = "وٹامنز کی اکائی";
+"vitamins_unit.mg" = "mg";
+"vitamins_unit.ug" = "µg";
+"show_minerals_entry" = "معدنیات کی انٹری دکھائیں";
+"show_stimulants_entry" = "محرکات کی انٹری دکھائیں";
+
+"vitamin_a" = "وٹامن اے";
+"vitamin_b" = "وٹامن بی";
+"vitamin_c" = "وٹامن سی";
+"vitamin_d" = "وٹامن ڈی";
+"vitamin_e" = "وٹامن ای";
+"vitamin_k" = "وٹامن کے";
+
+"calcium" = "کیلشیم";
+"iron" = "آئرن";
+"potassium" = "پوٹاشیم";
+"zinc" = "زنک";
+"magnesium" = "میگنیشیم";
+
+"show_details" = "تفصیلات دکھائیں";
+"hide_details" = "تفصیلات چھپائیں";
+"show_vitamins" = "وٹامنز دکھائیں";
+"show_minerals" = "معدنیات دکھائیں";
+"hide_minerals" = "معدنیات چھپائیں";
+"hide_vitamins" = "وٹامنز چھپائیں";
+"show_stimulants" = "محرکات دکھائیں";
+"hide_stimulants" = "محرکات چھپائیں";
+
+"edit_meal" = "کھانے میں ترمیم کریں";
+"meal_details" = "کھانے کی تفصیلات";
+"meal_description" = "کھانے کی تفصیل";
+"meal_date" = "کھانے کی تاریخ";
+"nutrition" = "غذائیت";
+"salt" = "نمک";
+
+"confirm_delete_title" = "کھانا حذف کریں";
+"confirm_delete_message" = "اسے واپس نہیں کیا جا سکتا";
+"confirm_delete_confirm" = "حذف کریں";
+"confirm_delete_cancel" = "منسوخ کریں";
+
+"account_plan_section_title" = "اکاؤنٹ اور پلان";
+"access_tier" = "رسائی کی سطح";
+"access_tier.free" = "مفت";
+"access_tier.paid" = "پرو (کلاؤڈ)";
+"meals_left_today" = "آج بقیہ کھانے";
+"photos_per_meal_limit" = "فی کھانا تصاویر (حد)";
+"unlimited" = "لامحدود";
+"logged_in_cloud_stub" = "کلاؤڈ میں لاگ ان (stub)";
+"synced_date" = "ہم آہنگی کی تاریخ";
+"sync_now" = "ابھی ہم آہنگ کریں";
+"synced_date_not_set" = "مقرر نہیں";
+
+/* Credentials: account status and actions */
+"account_status" = "اکاؤنٹ";
+"logged_in" = "لاگ ان ہیں";
+"logged_out" = "لاگ آؤٹ ہیں";
+"log_in" = "لاگ ان کریں";
+"log_out" = "لاگ آؤٹ کریں";
+
+/* Credentials: Login view */
+"login.title" = "سائن ان کریں";
+"login.email.placeholder" = "ای میل";
+"login.password.placeholder" = "پاس ورڈ";
+"login.submit" = "سائن ان کریں";
+"login.cancel" = "منسوخ کریں";
+
+/* Additions to match LoginView.swift */
+"login.email" = "ای میل";
+"login.password" = "پاس ورڈ";
+"login.sign_in" = "سائن ان کریں";
+
+/* Credentials: validation (used in SessionManager) */
+"invalid_email_error" = "درست ای میل ایڈریس درج کریں۔";
+"invalid_password_error" = "پاس ورڈ کم از کم 8 حروف کا ہونا چاہیے۔";
+
+/* Optional: must be logged in to sync message */
+"must_be_logged_in_to_sync" = "ہم آہنگ کرنے کے لیے آپ کو لاگ ان ہونا ضروری ہے۔";
+
+"data_sharing_section_title" = "ڈیٹا کا اشتراک";
+"data_sharing_picker_title" = "اشتراک";
+"data_sharing.public" = "عوامی";
+"data_sharing.private" = "نجی";
+"data_sharing.public_explanation" = "آپ کھانے کی معلومات ایپ بنانے والے کے ساتھ شیئر کرنے پر راضی ہیں تاکہ خوراک کے میٹرکس بہتر بنائے جا سکیں اور AI ماڈلز کو تربیت دی جا سکے۔";
+"data_sharing.private_explanation" = "تمام ڈیٹا صرف اس ڈیوائس پر محفوظ ہے۔";
+
+"camera_unavailable_error" = "اس ڈیوائس پر کیمرہ دستیاب نہیں ہے۔";
+"camera_permission_denied_error" = "کیمرے کی اجازت مسترد کر دی گئی۔";
+"camera_export_failed_error" = "تصویر لینے میں ناکام۔";
+"photo_export_failed_error" = "منتخب کردہ تصویر لوڈ کرنے میں ناکام۔";
+
+"invalid_image_error" = "غلط تصویر ڈیٹا۔";
+"write_failed_error" = "تصویر ڈسک میں لکھنے میں ناکام۔";
+"coredata_save_failed_error_prefix" = "تصویر محفوظ کرنے میں ناکام:";
+"free_tier_photo_limit_reached" = "مفت سطح فی کھانا %d تصاویر تک کی اجازت دیتی ہے۔";
+
+/* MealsDBManager error messages */
+"duckdb_connection_open_failed" = "مقامی ڈیٹا بیس کھولنے میں ناکام۔";
+"duckdb_unavailable_target_error" = "اس بلڈ ٹارگٹ میں DuckDB دستیاب نہیں ہے۔";
+
+"sodium" = "سوڈیم";
+"alcohol" = "الکحل";
+"nicotine" = "نیکوٹین";
+"theobromine" = "تھیوبرومین";
+"caffeine" = "کیفین";
+"taurine" = "ٹورین";
+
+/* New: Settings — Open to new meal on launch */
+"setting_open_to_new_meal" = "شارٹ کٹس";
+"setting_open_to_new_meal_toggle" = "\"نیا کھانا\" شارٹ کٹ فعال کریں";
+"setting_open_to_new_meal_desc" = "فعال ہونے پر، آپ ایپ کو براہ راست نئے کھانے میں کھولنے کے لیے شارٹ کٹ شامل کر سکتے ہیں۔";
+
+/* New: App Intent strings */
+"intent_new_meal_title" = "نیا کھانا";
+"intent_new_meal_description" = "ایپ کو براہ راست نئے کھانے میں کھولیں۔";
+"intent_new_meal_disabled_error" = "\"نیا کھانا\" شارٹ کٹ ترتیبات میں غیر فعال ہے۔";
+
+"ai_feedback_severity_section_title" = "AI فیڈبیک کی شدت";
+"ai_feedback_severity_picker_title" = "AI فیڈبیک کی شدت";
+"ai_feedback_severity.kind" = "مہربان";
+"ai_feedback_severity.balanced" = "متوازن";
+"ai_feedback_severity.boot_camp" = "بوٹ کیمپ";
+
+/* Optional: Keychain error localization */
+"keychain.item_not_found" = "کیچین آئٹم نہیں ملا۔";
+"keychain.duplicate_item" = "کیچین آئٹم پہلے سے موجود ہے۔";
+"keychain.unexpected_data" = "غیر متوقع کیچین ڈیٹا فارمیٹ۔";
+"keychain.unexpected_status_fmt" = "کیچین خرابی: %d";
+
+"people_section_title" = "لوگ";
+"default_person_picker_title" = "ڈیفالٹ شخص";
+"pro_people_notice" = "متعدد لوگوں کا انتظام پرو فیچر ہے۔ لوگوں کو شامل کرنے، منتخب کرنے یا ہٹانے کے لیے اپ گریڈ کریں۔";
+"default_person_accessibility_label" = "ڈیفالٹ";
+"add_person_button_title" = "شخص شامل کریں";
+"add_person_name_header" = "نام";
+"add_person_name_placeholder" = "نام";
+"add_person_nav_title" = "شخص شامل کریں";
+"add_person_error_empty" = "براہ کرم نام درج کریں۔";
+"add_person_error_duplicate" = "یہ نام پہلے سے موجود ہے۔";
+"default_person_name_me" = "میں";
+
+/* Also used by SettingsView.validationError */
+"person_name_error_empty" = "براہ کرم نام درج کریں۔";
+
+"unit_kcal_suffix" = "kcal";
+"unit_kj_suffix" = "kJ";
+"unit_g_suffix" = "g";
+"unit_mg_suffix" = "mg";
+"unit_ug_suffix" = "µg";
+"unit_milligrams_long" = "ملی گرام";
+
+/* ===== Added: Wizard / camera / alerts ===== */
+"keyboard_done" = "مکمل";
+"alert_limit_reached_title" = "حد پہنچ گئی";
+"alert_limit_reached_message" = "آپ موجودہ حد تک پہنچ گئے ہیں۔";
+"camera_access_needed_title" = "کیمرے کی رسائی درکار ہے";
+"camera_access_needed_message" = "تصویر لینے کے لیے کیمرے کی رسائی کی اجازت دیں۔";
+"camera_access_disabled_message" = "کیمرے کی رسائی غیر فعال ہے۔ اسے ترتیبات میں فعال کریں۔";
+"open_settings" = "ترتیبات کھولیں";
+"confirm_delete_title" = "کھانا حذف کریں";
+"confirm_delete_message" = "اسے واپس نہیں کیا جا سکتا";
+
+/* Wizard progress/status */
+"wizard_analyzing" = "تجزیہ کر رہے ہیں";
+"wizard_analyzing_ellipsis" = "تجزیہ کر رہے ہیں…";
+"wizard_add_photo_first" = "پہلے تصویر شامل کریں۔";
+"wizard_could_not_read_image" = "تصویر کا ڈیٹا نہیں پڑھا جا سکا۔";
+"wizard_detecting_barcode" = "بارکوڈ کا پتہ لگایا جا رہا ہے…";
+"wizard_looking_up_product" = "پروڈکٹ تلاش کی جا رہی ہے…";
+"wizard_no_barcode_reading_label" = "کوئی بارکوڈ نہیں ملا؛ لیبل پڑھا جا رہا ہے…";
+"wizard_no_label_recognized" = "کوئی غذائیت کا لیبل نہیں پہچانا گیا۔";
+"wizard_label_rejected_insane" = "لیبل مسترد: %@ میں غیر معقول قدریں";
+"wizard_barcode_format" = "بارکوڈ: %@";
+"wizard_applied_format" = "لاگو: %@";
+"wizard_applied" = "لاگو";
+
+/* ===== Added: Accessibility labels ===== */
+"a11y_meal_photo" = "کھانے کی تصویر";
+"a11y_no_photo" = "کوئی تصویر نہیں";
+"a11y_analyze_photo" = "تصویر کا تجزیہ کریں";
+"a11y_analyzing_photo" = "تصویر کا تجزیہ ہو رہا ہے";
+"a11y_undo_ai_changes" = "AI تبدیلیاں کالعدم کریں";
+"a11y_capture_photo" = "تصویر لیں";
+"a11y_choose_from_photos" = "تصاویر سے منتخب کریں";
+
+/* ===== Added: SettingsView and diagnostics ===== */
+"diagnostics_section_title" = "تشخیص";
+"barcode_verbose_log" = "بارکوڈ لاگ";
+"label_diagnostics" = "لیبل تشخیص";
+
+/* Label diagnostics view */
+"label_diag.empty" = "ابھی تک کوئی تشخیص نہیں۔";
+"label_diag.group.message" = "پیغام";
+"label_diag.group.fields_filled" = "بھرے گئے فیلڈز";
+"label_diag.title" = "لیبل تشخیص";
+"label_diag.copy" = "کاپی کریں";
+"label_diag.clear" = "صاف کریں";
+"label_diag.stage.start" = "شروع";
+"label_diag.stage.image" = "تصویر";
+"label_diag.stage.rotate" = "گھمائیں";
+"label_diag.stage.barcode" = "بارکوڈ";
+"label_diag.stage.unreadable" = "ناقابل مطالعہ";
+"label_diag.stage.no_barcode" = "کوئی بارکوڈ نہیں";
+"label_diag.stage.ocr_fast" = "OCR تیز";
+"label_diag.stage.ocr_accurate" = "OCR درست";
+"label_diag.stage.ocr_done" = "OCR مکمل";
+"label_diag.stage.parsed" = "تجزیہ شدہ";
+"label_diag.stage.applied" = "لاگو";
+"label_diag.stage.upsert" = "Upsert";
+"label_diag.stage.saved" = "محفوظ";
+"label_diag.stage.save_error" = "محفوظ کرنے میں خرابی";
+"label_diag.stage.complete" = "مکمل";
+"label_diag.stage.error" = "خرابی";
+"label_diag.export.fields_filled" = "بھرے گئے فیلڈز:";
+"label_diag.export.message" = "پیغام:";
+
+/* Barcode log view */
+"barcode_log.empty" = "ابھی تک کوئی لاگ اندراج نہیں۔";
+"barcode_log.group.source" = "ذریعہ";
+"barcode_log.group.conversions" = "تبدیلیاں";
+"barcode_log.group.entry" = "اندراج";
+"barcode_log.group.error" = "خرابی";
+"barcode_log.title" = "بارکوڈ لاگ";
+"barcode_log.copy" = "کاپی کریں";
+"barcode_log.clear" = "صاف کریں";
+"barcode_log.no_code" = "کوئی کوڈ نہیں";
+"barcode_log.stage.scan" = "اسکین";
+"barcode_log.stage.normalize" = "نارملائز";
+"barcode_log.stage.local_hit" = "مقامی ہٹ";
+"barcode_log.stage.local_miss" = "مقامی مس";
+"barcode_log.stage.off_v2" = "OFF v2";
+"barcode_log.stage.off_v1" = "OFF v1";
+"barcode_log.stage.off_error" = "OFF خرابی";
+"barcode_log.stage.map_start" = "نقشہ شروع";
+"barcode_log.stage.convert" = "تبدیل کریں";
+"barcode_log.stage.map_result" = "نقشہ نتیجہ";
+"barcode_log.stage.upsert" = "Upsert";
+"barcode_log.stage.saved" = "محفوظ";
+"barcode_log.stage.save_error" = "محفوظ کرنے میں خرابی";
+"barcode_log.export.source" = "ذریعہ:";
+"barcode_log.export.conversions" = "تبدیلیاں:";
+"barcode_log.export.entry" = "اندراج:";
+"barcode_log.export.error_prefix" = "خرابی: ";
+
+/* ===== Added: Additional nutrients ===== */
+"creatine" = "کریٹین";
+"stimulants_section_title" = "محرکات";
+"creatine_section_title" = "کریٹین";
+"vitamins_section_title" = "وٹامنز";
+"minerals_section_title" = "معدنیات";
+"iodine" = "آئوڈین";
+"phosphorus" = "فاسفورس";
+"omega3" = "اومیگا-3";
+"omega6" = "اومیگا-6";
+"a2_beta_casein" = "A2 بیٹا-کیسین";
+"a1_beta_casein" = "A1 بیٹا-کیسین";
+
+/* ===== Added: Weekly report ===== */
+"weekly_report" = "ہفتہ وار رپورٹ";
+"weekly_report_title" = "ہفتہ وار رپورٹ";
+"a11y_previous_week" = "پچھلا ہفتہ";
+"a11y_next_week" = "اگلا ہفتہ";
+"this_week" = "اس ہفتے";
+"week" = "ہفتہ";
+"total_suffix" = "کل";
+"a11y_weekly_calories_chart" = "ہفتہ وار کیلوریز چارٹ";
+"minerals_weekly_total" = "معدنیات (ہفتہ وار کل)";
+"vitamins_weekly_total" = "وٹامنز (ہفتہ وار کل)";
+"stimulants_weekly_total" = "محرکات (ہفتہ وار کل)";
+"per_day_header" = "فی دن";
+"macro_c_short" = "C";
+"macro_p_short" = "P";
+"macro_f_short" = "F";
+"chart_axis_day" = "دن";
+"chart_axis_kcal" = "kcal";
+"chart_series_macro" = "میکرو";
+"macro_carb" = "کارب";
+"macro_protein" = "پروٹین";
+"macro_fat" = "چکنائی";
+"creatine_total_title" = "کریٹین کل";
+
+/* ===== Added: Auto title generation ===== */
+"daypart_early_morning" = "صبح سویرے";
+"daypart_morning" = "صبح";
+"daypart_midday" = "دوپہر";
+"daypart_afternoon" = "سہ پہر";
+"daypart_evening" = "شام";
+"daypart_late_night" = "رات گئے";
+"daypart_overnight" = "راتوں رات";
+"meal_breakfast" = "ناشتہ";
+"meal_lunch" = "دوپہر کا کھانا";
+"meal_dinner" = "رات کا کھانا";
+"auto_title_meal_pattern" = "%@ بروز %@ (%@)";
+"auto_title_snack_pattern" = "%@ بروز %@";
+
+/* ===== Added: Settings toggles ===== */
+"nutrition_options_section_title" = "غذائیت کے اختیارات";
+"vitamin_units" = "وٹامن کی اکائیاں";
+"show_minerals" = "معدنیات دکھائیں";
+"show_stimulants" = "محرکات دکھائیں";
+"show_creatine" = "کریٹین دکھائیں";
+"handedness_section_title" = "ہاتھ کا استعمال";
+"about_title" = "کے بارے میں";
+
+/* ===== Added: Seeder/Downloads status ===== */
+"off_not_downloaded" = "ڈاؤن لوڈ نہیں ہوا";
+"seeder_idle" = "بیکار";
+"seeder_queued" = "قطار میں";
+"seeder_waiting" = "انتظار میں…";
+"seeder_running" = "چل رہا ہے";
+"seeder_completed" = "مکمل";
+"seeder_done" = "ہو گیا";
+"seeder_failed" = "ناکام";
+"seeder_cancelled" = "منسوخ";
+
+/* ===== Added: Debug guesser format ===== */
+"debug_guesser_format" = "اندازہ لگانے والا: %@";
+
+/* ===== Added: Additional errors ===== */
+"failed_to_add_photo_format" = "تصویر شامل کرنے میں ناکام: %@";
+
+/* ===== Added: Person picker ===== */
+"select_person_title" = "شخص منتخب کریں";
+
+/* ===== Added: About screen ===== */
+"about.app_name_fallback" = "یہ ایپ";
+"about.version_format" = "ورژن %@ (%@)";
+"about.disclaimer_title" = "دستبرداری";
+"about.disclaimer_body" = "اس ایپ میں معلومات صرف معلوماتی مقاصد کے لیے ہے اور پیشہ ورانہ طبی مشورے، تشخیص یا علاج کا متبادل نہیں ہے۔ آپ کا ڈیٹا آپ کے ڈیوائس پر مقامی طور پر محفوظ ہے اور ڈویلپر یا تیسری پارٹیوں کے ساتھ شیئر نہیں کیا جاتا جب تک کہ آپ اسے ایکسپورٹ یا شیئر کرنے کا انتخاب نہ کریں۔";
+"about.privacy_policy" = "رازداری کی پالیسی";
+"about.terms_of_use" = "استعمال کی شرائط";
+"about.support" = "سپورٹ";
+
+/* ===== Added: Person name validation errors ===== */
+"person_name_error_too_long" = "نام بہت لمبا ہے۔";
+"person_name_error_invalid_chars" = "براہ کرم حروف یا نمبر استعمال کریں۔";
+"person_name_error_duplicate" = "اس نام کا شخص پہلے سے موجود ہے۔";
+
+/* ===== Added: Meals seeding ===== */
+"seeder_phase_discovering_ids" = "IDs دریافت ہو رہی ہیں…";
+"seeder_phase_connecting" = "ذرائع سے منسلک ہو رہے ہیں…";
+"meals_download_complete_title" = "کھانے ڈاؤن لوڈ مکمل";
+"meals_download_complete_body

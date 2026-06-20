@@ -1,0 +1,434 @@
+"ok" = "ตกลง";
+"cancel" = "ยกเลิก";
+"close" = "ปิด";
+"done" = "เสร็จสิ้น";
+"save" = "บันทึก";
+"edit" = "แก้ไข";
+"delete" = "ลบ";
+"yes" = "ใช่";
+"no" = "ไม่";
+"settings" = "การตั้งค่า";
+"back" = "กลับ";
+"error" = "ข้อผิดพลาด";
+"retry" = "ลองอีกครั้ง";
+
+"search" = "ค้นหา";
+"search_meals" = "ค้นหาอาหาร";
+
+"meals_title" = "อาหาร";
+"no_meals" = "ไม่มีอาหาร";
+"add_meal" = "เพิ่มมื้ออาหาร";
+
+"no_meals_yet" = "ยังไม่มีอาหาร";
+"add_first_meal_message" = "เพิ่มมื้ออาหารแรกของคุณเพื่อเริ่มติดตาม";
+
+"kcal_suffix" = "กิโลแคลอรี";
+"kj_suffix" = "กิโลจูล";
+"energy_kcal_suffix" = "กิโลแคลอรี";
+"energy_kj_suffix" = "กิโลจูล";
+
+"carbs.title" = "คาร์บ";
+"protein.title" = "โปรตีน";
+"fat.title" = "ไขมัน";
+"sodium.title" = "โซเดียม";
+"starch.title" = "แป้ง";
+"sugars.title" = "น้ำตาล";
+"fibre.title" = "ใยอาหาร";
+
+"fat.mono.short" = "ไม่อิ่มตัวเดี่ยว";
+"fat.poly.short" = "ไม่อิ่มตัวหลาย";
+"fat.sat.short" = "อิ่มตัว";
+"fat.trans.short" = "ทรานส์";
+
+"carbs.short" = "คาร์บ";
+"protein.short" = "โปรตีน";
+"fat.short" = "ไขมัน";
+
+"calories" = "แคลอรี";
+"kilojoules" = "กิโลจูล";
+"carbohydrates" = "คาร์โบไฮเดรต";
+"sugars" = "น้ำตาล";
+"starch" = "แป้ง";
+"fibre" = "ใยอาหาร";
+"protein" = "โปรตีน";
+"animal_protein" = "โปรตีนจากสัตว์";
+"plant_protein" = "โปรตีนจากพืช";
+"protein_supplements" = "อาหารเสริมโปรตีน";
+"fat" = "ไขมัน";
+"monounsaturated_fat" = "ไขมันไม่อิ่มตัวเชิงเดี่ยว";
+"polyunsaturated_fat" = "ไขมันไม่อิ่มตัวเชิงซ้อน";
+"saturated_fat" = "ไขมันอิ่มตัว";
+"trans_fat" = "ไขมันทรานส์";
+"sodium" = "โซเดียม";
+"alcohol" = "แอลกอฮอล์";
+
+"accurate" = "แม่นยำ";
+"guess" = "คาดเดา";
+"accuracy" = "ความแม่นยำ";
+
+"settings_title" = "การตั้งค่า";
+"language" = "ภาษา";
+"choose_language" = "เลือกภาษา";
+"measurement_system" = "หน่วยวัด";
+"metric" = "เมตริก";
+"imperial" = "อิมพีเรียล";
+"energy_unit" = "หน่วยพลังงาน";
+"energy_unit.calories" = "แคลอรี";
+"energy_unit.kilojoules" = "กิโลจูล";
+
+"handedness" = "มือถนัด";
+"handedness_section_title" = "มือถนัด";
+"left_handed" = "ถนัดซ้าย";
+"right_handed" = "ถนัดขวา";
+
+"show_vitamins_entry" = "แสดงการกรอกวิตามิน";
+"vitamin_unit" = "หน่วยวิตามิน";
+"vitamins_unit.mg" = "มก.";
+"vitamins_unit.ug" = "ไมโครกรัม";
+"show_minerals_entry" = "แสดงการกรอกแร่ธาตุ";
+"show_stimulants_entry" = "แสดงการกรอกสารกระตุ้น";
+
+"vitamin_a" = "วิตามิน A";
+"vitamin_b" = "วิตามิน B";
+"vitamin_c" = "วิตามิน C";
+"vitamin_d" = "วิตามิน D";
+"vitamin_e" = "วิตามิน E";
+"vitamin_k" = "วิตามิน K";
+
+"calcium" = "แคลเซียม";
+"iron" = "ธาตุเหล็ก";
+"potassium" = "โพแทสเซียม";
+"zinc" = "สังกะสี";
+"magnesium" = "แมกนีเซียม";
+
+"show_details" = "แสดงรายละเอียด";
+"hide_details" = "ซ่อนรายละเอียด";
+"show_vitamins" = "แสดงวิตามิน";
+"show_minerals" = "แสดงแร่ธาตุ";
+"hide_minerals" = "ซ่อนแร่ธาตุ";
+"hide_vitamins" = "ซ่อนวิตามิน";
+"show_stimulants" = "แสดงสารกระตุ้น";
+"hide_stimulants" = "ซ่อนสารกระตุ้น";
+
+"edit_meal" = "แก้ไขมื้ออาหาร";
+"meal_details" = "รายละเอียดมื้ออาหาร";
+"meal_description" = "คำอธิบายมื้ออาหาร";
+"meal_date" = "วันที่ของมื้ออาหาร";
+"nutrition" = "โภชนาการ";
+"salt" = "เกลือ";
+
+"confirm_delete_title" = "ลบมื้ออาหาร";
+"confirm_delete_message" = "การดำเนินการนี้ไม่สามารถย้อนกลับได้";
+"confirm_delete_confirm" = "ลบ";
+"confirm_delete_cancel" = "ยกเลิก";
+
+"account_plan_section_title" = "บัญชีและแผน";
+"access_tier" = "ระดับการเข้าถึง";
+"access_tier.free" = "ฟรี";
+"access_tier.paid" = "โปร (คลาวด์)";
+"meals_left_today" = "จำนวนมื้อที่เหลือวันนี้";
+"photos_per_meal_limit" = "จำนวนรูปต่อมื้อ (จำกัด)";
+"unlimited" = "ไม่จำกัด";
+"logged_in_cloud_stub" = "ลงชื่อเข้าใช้คลาวด์ (ตัวอย่าง)";
+"synced_date" = "วันที่ซิงค์";
+"sync_now" = "ซิงค์ตอนนี้";
+"synced_date_not_set" = "ยังไม่ได้ตั้งค่า";
+
+/* Credentials: account status and actions */
+"account_status" = "บัญชี";
+"logged_in" = "เข้าสู่ระบบแล้ว";
+"logged_out" = "ออกจากระบบแล้ว";
+"log_in" = "เข้าสู่ระบบ";
+"log_out" = "ออกจากระบบ";
+
+/* Credentials: Login view */
+"login.title" = "ลงชื่อเข้าใช้";
+"login.email.placeholder" = "อีเมล";
+"login.password.placeholder" = "รหัสผ่าน";
+"login.submit" = "ลงชื่อเข้าใช้";
+"login.cancel" = "ยกเลิก";
+
+/* Additions to match LoginView.swift */
+"login.email" = "อีเมล";
+"login.password" = "รหัสผ่าน";
+"login.sign_in" = "ลงชื่อเข้าใช้";
+
+/* Credentials: validation (used in SessionManager) */
+"invalid_email_error" = "กรุณากรอกที่อยู่อีเมลที่ถูกต้อง";
+"invalid_password_error" = "รหัสผ่านต้องมีอย่างน้อย 8 ตัวอักษร";
+
+/* Optional: must be logged in to sync message */
+"must_be_logged_in_to_sync" = "คุณต้องเข้าสู่ระบบเพื่อซิงค์";
+
+"data_sharing_section_title" = "การแบ่งปันข้อมูล";
+"data_sharing_picker_title" = "การแบ่งปัน";
+"data_sharing.public" = "สาธารณะ";
+"data_sharing.private" = "ส่วนตัว";
+"data_sharing.public_explanation" = "คุณยอมรับที่จะแบ่งปันข้อมูลมื้ออาหารกับผู้พัฒนาเพื่อปรับปรุงการคำนวณอาหารและฝึกโมเดล AI";
+"data_sharing.private_explanation" = "ข้อมูลทั้งหมดถูกบันทึกไว้ในอุปกรณ์นี้เท่านั้น";
+
+"camera_unavailable_error" = "อุปกรณ์นี้ไม่มีกล้อง";
+"camera_permission_denied_error" = "ปฏิเสธสิทธิ์การใช้กล้อง";
+"camera_export_failed_error" = "ถ่ายภาพไม่สำเร็จ";
+"photo_export_failed_error" = "โหลดรูปภาพที่เลือกไม่สำเร็จ";
+
+"invalid_image_error" = "ข้อมูลรูปภาพไม่ถูกต้อง";
+"write_failed_error" = "บันทึกรูปภาพลงดิสก์ไม่สำเร็จ";
+"coredata_save_failed_error_prefix" = "บันทึกรูปภาพไม่สำเร็จ:";
+"free_tier_photo_limit_reached" = "ระดับฟรีอนุญาตรูปได้สูงสุด %d รูปต่อมื้ออาหาร";
+
+"duckdb_connection_open_failed" = "ไม่สามารถเปิดฐานข้อมูลภายในเครื่องได้";
+"duckdb_unavailable_target_error" = "ไม่รองรับ DuckDB ในเป้าหมายการบิลด์นี้";
+
+"sodium" = "โซเดียม";
+"alcohol" = "แอลกอฮอล์";
+"nicotine" = "นิโคติน";
+"theobromine" = "ธีโอโบรมีน";
+"caffeine" = "คาเฟอีน";
+"taurine" = "ทอรีน";
+
+"setting_open_to_new_meal" = "ทางลัด";
+"setting_open_to_new_meal_toggle" = "เปิดใช้งานทางลัด “มื้อใหม่”";
+"setting_open_to_new_meal_desc" = "เมื่อเปิดใช้งาน คุณสามารถเพิ่มทางลัดเพื่อเปิดแอปไปที่มื้อใหม่ได้โดยตรง";
+
+"intent_new_meal_title" = "มื้อใหม่";
+"intent_new_meal_description" = "เปิดแอปไปที่มื้อใหม่โดยตรง";
+"intent_new_meal_disabled_error" = "ปิดใช้งานทางลัด “มื้อใหม่” ในการตั้งค่า";
+
+"ai_feedback_severity_section_title" = "ระดับความเข้มข้นของคำแนะนำ AI";
+"ai_feedback_severity_picker_title" = "ระดับความเข้มข้นของคำแนะนำ AI";
+"ai_feedback_severity.kind" = "สุภาพ";
+"ai_feedback_severity.balanced" = "สมดุล";
+"ai_feedback_severity.boot_camp" = "เข้มข้น";
+
+"keychain.item_not_found" = "ไม่พบรายการในคีย์เชน";
+"keychain.duplicate_item" = "มีรายการในคีย์เชนอยู่แล้ว";
+"keychain.unexpected_data" = "รูปแบบข้อมูลคีย์เชนไม่ถูกต้อง";
+"keychain.unexpected_status_fmt" = "ข้อผิดพลาดคีย์เชน: %d";
+
+"people_section_title" = "บุคคล";
+"default_person_picker_title" = "บุคคลเริ่มต้น";
+"pro_people_notice" = "การจัดการหลายบุคคลเป็นฟีเจอร์ Pro อัปเกรดเพื่อเพิ่ม เลือก หรือเอาบุคคลออก";
+"default_person_accessibility_label" = "ค่าเริ่มต้น";
+"add_person_button_title" = "เพิ่มบุคคล";
+"add_person_name_header" = "ชื่อ";
+"add_person_name_placeholder" = "ชื่อ";
+"add_person_nav_title" = "เพิ่มบุคคล";
+"add_person_error_empty" = "กรุณากรอกชื่อ";
+"add_person_error_duplicate" = "ชื่อนี้มีอยู่แล้ว";
+"default_person_name_me" = "ฉัน";
+
+"person_name_error_empty" = "กรุณากรอกชื่อ";
+
+"unit_kcal_suffix" = "กิโลแคลอรี";
+"unit_kj_suffix" = "กิโลจูล";
+"unit_g_suffix" = "กรัม";
+"unit_mg_suffix" = "มิลลิกรัม";
+"unit_ug_suffix" = "ไมโครกรัม";
+"unit_milligrams_long" = "มิลลิกรัม";
+
+"keyboard_done" = "เสร็จสิ้น";
+"alert_limit_reached_title" = "ถึงขีดจำกัดแล้ว";
+"alert_limit_reached_message" = "คุณถึงขีดจำกัดปัจจุบันแล้ว";
+"camera_access_needed_title" = "ต้องการสิทธิ์กล้อง";
+"camera_access_needed_message" = "อนุญาตการเข้าถึงกล้องเพื่อถ่ายภาพ";
+"camera_access_disabled_message" = "ปิดการเข้าถึงกล้อง โปรดเปิดในการตั้งค่า";
+"open_settings" = "เปิดการตั้งค่า";
+"confirm_delete_title" = "ลบมื้ออาหาร";
+"confirm_delete_message" = "การดำเนินการนี้ไม่สามารถย้อนกลับได้";
+
+"wizard_analyzing" = "กำลังวิเคราะห์";
+"wizard_analyzing_ellipsis" = "กำลังวิเคราะห์…";
+"wizard_add_photo_first" = "เพิ่มรูปภาพก่อน";
+"wizard_could_not_read_image" = "ไม่สามารถอ่านข้อมูลรูปภาพได้";
+"wizard_detecting_barcode" = "กำลังตรวจจับบาร์โค้ด…";
+"wizard_looking_up_product" = "กำลังค้นหาสินค้า…";
+"wizard_no_barcode_reading_label" = "ไม่พบบาร์โค้ด กำลังอ่านฉลาก…";
+"wizard_no_label_recognized" = "ไม่พบฉลากโภชนาการ";
+"wizard_label_rejected_insane" = "ปฏิเสธฉลาก: ค่าผิดปกติใน %@";
+"wizard_barcode_format" = "บาร์โค้ด: %@";
+"wizard_applied_format" = "ใช้แล้ว: %@";
+"wizard_applied" = "ใช้แล้ว";
+
+"a11y_meal_photo" = "รูปมื้ออาหาร";
+"a11y_no_photo" = "ไม่มีรูปภาพ";
+"a11y_analyze_photo" = "วิเคราะห์รูปภาพ";
+"a11y_analyzing_photo" = "กำลังวิเคราะห์รูปภาพ";
+"a11y_undo_ai_changes" = "ยกเลิกการเปลี่ยนแปลงจาก AI";
+"a11y_capture_photo" = "ถ่ายภาพ";
+"a11y_choose_from_photos" = "เลือกจากรูปภาพ";
+
+"diagnostics_section_title" = "การวินิจฉัย";
+"barcode_verbose_log" = "บันทึกบาร์โค้ด";
+"label_diagnostics" = "การวินิจฉัยฉลาก";
+
+"label_diag.empty" = "ยังไม่มีการวินิจฉัย";
+"label_diag.group.message" = "ข้อความ";
+"label_diag.group.fields_filled" = "จำนวนช่องที่กรอก";
+"label_diag.title" = "การวินิจฉัยฉลาก";
+"label_diag.copy" = "คัดลอก";
+"label_diag.clear" = "ล้าง";
+"label_diag.stage.start" = "เริ่มต้น";
+"label_diag.stage.image" = "รูปภาพ";
+"label_diag.stage.rotate" = "หมุน";
+"label_diag.stage.barcode" = "บาร์โค้ด";
+"label_diag.stage.unreadable" = "อ่านไม่ได้";
+"label_diag.stage.no_barcode" = "ไม่มีบาร์โค้ด";
+"label_diag.stage.ocr_fast" = "OCR เร็ว";
+"label_diag.stage.ocr_accurate" = "OCR แม่นยำ";
+"label_diag.stage.ocr_done" = "OCR เสร็จสิ้น";
+"label_diag.stage.parsed" = "แยกวิเคราะห์";
+"label_diag.stage.applied" = "ใช้แล้ว";
+"label_diag.stage.upsert" = "อัปเสิร์ต";
+"label_diag.stage.saved" = "บันทึกแล้ว";
+"label_diag.stage.save_error" = "บันทึกผิดพลาด";
+"label_diag.stage.complete" = "เสร็จสมบูรณ์";
+"label_diag.stage.error" = "ข้อผิดพลาด";
+"label_diag.export.fields_filled" = "จำนวนช่องที่กรอก:";
+"label_diag.export.message" = "ข้อความ:";
+
+"barcode_log.empty" = "ยังไม่มีบันทึก";
+"barcode_log.group.source" = "แหล่งที่มา";
+"barcode_log.group.conversions" = "การแปลง";
+"barcode_log.group.entry" = "รายการ";
+"barcode_log.group.error" = "ข้อผิดพลาด";
+"barcode_log.title" = "บันทึกบาร์โค้ด";
+"barcode_log.copy" = "คัดลอก";
+"barcode_log.clear" = "ล้าง";
+"barcode_log.no_code" = "ไม่มีรหัส";
+"barcode_log.stage.scan" = "สแกน";
+"barcode_log.stage.normalize" = "ทำให้เป็นมาตรฐาน";
+"barcode_log.stage.local_hit" = "พบในเครื่อง";
+"barcode_log.stage.local_miss" = "ไม่พบในเครื่อง";
+"barcode_log.stage.off_v2" = "OFF รุ่น 2";
+"barcode_log.stage.off_v1" = "OFF รุ่น 1";
+"barcode_log.stage.off_error" = "ข้อผิดพลาด OFF";
+"barcode_log.stage.map_start" = "เริ่มแมป";
+"barcode_log.stage.convert" = "แปลง";
+"barcode_log.stage.map_result" = "ผลการแมป";
+"barcode_log.stage.upsert" = "อัปเสิร์ต";
+"barcode_log.stage.saved" = "บันทึกแล้ว";
+"barcode_log.stage.save_error" = "บันทึกผิดพลาด";
+"barcode_log.export.source" = "แหล่งที่มา:";
+"barcode_log.export.conversions" = "การแปลง:";
+"barcode_log.export.entry" = "รายการ:";
+"barcode_log.export.error_prefix" = "ข้อผิดพลาด: ";
+
+"creatine" = "ครีเอทีน";
+"stimulants_section_title" = "สารกระตุ้น";
+"creatine_section_title" = "ครีเอทีน";
+"vitamins_section_title" = "วิตามิน";
+"minerals_section_title" = "แร่ธาตุ";
+"iodine" = "ไอโอดีน";
+"phosphorus" = "ฟอสฟอรัส";
+"omega3" = "โอเมก้า-3";
+"omega6" = "โอเมก้า-6";
+"a2_beta_casein" = "เอ2 เบต้า-เคซีน";
+"a1_beta_casein" = "เอ1 เบต้า-เคซีน";
+
+"weekly_report" = "รายงานประจำสัปดาห์";
+"weekly_report_title" = "รายงานประจำสัปดาห์";
+"a11y_previous_week" = "สัปดาห์ก่อนหน้า";
+"a11y_next_week" = "สัปดาห์ถัดไป";
+"this_week" = "สัปดาห์นี้";
+"week" = "สัปดาห์";
+"total_suffix" = "รวม";
+"a11y_weekly_calories_chart" = "กราฟแคลอรีรายสัปดาห์";
+"minerals_weekly_total" = "แร่ธาตุ (รวมรายสัปดาห์)";
+"vitamins_weekly_total" = "วิตามิน (รวมรายสัปดาห์)";
+"stimulants_weekly_total" = "สารกระตุ้น (รวมรายสัปดาห์)";
+"per_day_header" = "ต่อวัน";
+"macro_c_short" = "ค";
+"macro_p_short" = "ป";
+"macro_f_short" = "ข";
+"chart_axis_day" = "วัน";
+"chart_axis_kcal" = "กิโลแคลอรี";
+"chart_series_macro" = "มาโคร";
+"macro_carb" = "คาร์บ";
+"macro_protein" = "โปรตีน";
+"macro_fat" = "ไขมัน";
+"creatine_total_title" = "ครีเอทีนรวม";
+
+"daypart_early_morning" = "เช้าตรู่";
+"daypart_morning" = "เช้า";
+"daypart_midday" = "เที่ยง";
+"daypart_afternoon" = "บ่าย";
+"daypart_evening" = "เย็น";
+"daypart_late_night" = "ดึก";
+"daypart_overnight" = "กลางคืน";
+"meal_breakfast" = "อาหารเช้า";
+"meal_lunch" = "อาหารกลางวัน";
+"meal_dinner" = "อาหารเย็น";
+"auto_title_meal_pattern" = "%@ ใน %@ (%@)";
+"auto_title_snack_pattern" = "%@ ใน %@";
+
+"nutrition_options_section_title" = "ตัวเลือกโภชนาการ";
+"vitamin_units" = "หน่วยวิตามิน";
+"show_minerals" = "แสดงแร่ธาตุ";
+"show_stimulants" = "แสดงสารกระตุ้น";
+"show_creatine" = "แสดงครีเอทีน";
+"handedness_section_title" = "มือถนัด";
+"about_title" = "เกี่ยวกับ";
+
+"off_not_downloaded" = "ยังไม่ได้ดาวน์โหลด";
+"seeder_idle" = "ว่าง";
+"seeder_queued" = "เข้าคิว";
+"seeder_waiting" = "กำลังรอ…";
+"seeder_running" = "กำลังทำงาน";
+"seeder_completed" = "เสร็จสิ้น";
+"seeder_done" = "เสร็จแล้ว";
+"seeder_failed" = "ล้มเหลว";
+"seeder_cancelled" = "ยกเลิกแล้ว";
+
+"debug_guesser_format" = "การคาดเดา: %@";
+
+"failed_to_add_photo_format" = "เพิ่มรูปภาพไม่สำเร็จ: %@";
+
+"select_person_title" = "เลือกบุคคล";
+
+"about.app_name_fallback" = "แอปนี้";
+"about.version_format" = "เวอร์ชัน %@ (%@)";
+"about.disclaimer_title" = "ข้อจำกัดความรับผิดชอบ";
+"about.disclaimer_body" = "ข้อมูลในแอปนี้มีไว้เพื่อการให้ข้อมูลเท่านั้น และไม่ใช่คำแนะนำทางการแพทย์ การวินิจฉัย หรือการรักษา ข้อมูลของคุณถูกเก็บไว้ในอุปกรณ์ของคุณและจะไม่ถูกแชร์กับผู้พัฒนาหรือบุคคลที่สาม เว้นแต่คุณจะเลือกส่งออกหรือแชร์";
+"about.privacy_policy" = "นโยบายความเป็นส่วนตัว";
+"about.terms_of_use" = "เงื่อนไขการใช้บริการ";
+"about.support" = "การสนับสนุน";
+
+"person_name_error_too_long" = "ชื่อยาวเกินไป";
+"person_name_error_invalid_chars" = "กรุณาใช้ตัวอักษรหรือตัวเลข";
+"person_name_error_duplicate" = "มีบุคคลชื่อนี้อยู่แล้ว";
+
+"seeder_phase_discovering_ids" = "กำลังค้นหา ID…";
+"seeder_phase_connecting" = "กำลังเชื่อมต่อกับแหล่งข้อมูล…";
+"meals_download_complete_title" = "ดาวน์โหลดมื้ออาหารเสร็จสิ้น";
+"meals_download_complete_body_format" = "ดาวน์โหลดแล้ว %d รายการ";
+"seeder_error_bg_expired" = "เวลาพื้นหลังหมดอายุ";
+
+"wizard_local_db_hit_format" = "พบบาร์โค้ดในฐานข้อมูลภายในสำหรับ %@";
+"wizard_local_db_miss_format" = "ไม่พบบาร์โค้ดในฐานข้อมูลภายในสำหรับ %@";
+"wizard_local_db_rejected_format" = "พบบาร์โค้ดแต่ปฏิเสธ: ค่าผิดปกติ (%@)";
+"wizard_off_fetching_format" = "OFF: กำลังดึงข้อมูลสินค้า %@…";
+"wizard_off_found_format" = "OFF: พบสินค้าสำหรับ %@";
+"wizard_off_not_found_format" = "OFF: ไม่พบ %@";
+"wizard_off_product_not_found_error_format" = "ไม่พบสินค้า %@";
+"wizard_off_v2_status_format" = "OFF v2: สถานะ %d %@ สำหรับโค้ด %@";
+"wizard_off_v2_decode_error_format" = "OFF v2: ถอดรหัส %@ ไม่ได้: %@";
+"wizard_off_v1_status_format" = "OFF v1: สถานะ %d %@ สำหรับโค้ด %@";
+"wizard_off_v1_decode_error_format" = "OFF v1: ถอดรหัส %@ ไม่ได้: %@";
+"wizard_off_rejected_insane_format" = "OFF: ปฏิเสธค่าผิดปกติ (%@); จะไม่บันทึก/ใช้";
+"wizard_off_sanitized_dropped_format" = "OFF: ทำความสะอาดข้อมูลแล้ว (ตัดออก: %@)";
+"wizard_off_sanitized_no_red" = "OFF: ทำความสะอาดข้อมูลแล้ว (ไม่มีช่องสีแดง)";
+"wizard_off_no_usable_nutriments" = "OFF: การแมปไม่พบสารอาหารที่ใช้ได้";
+"wizard_off_error_format" = "OFF: ข้อผิดพลาดสำหรับ %@: %@";
+
+"vitamin_a_title" = "วิตามิน A";
+"vitamin_b_title" = "วิตามิน B";
+"vitamin_c_title" = "วิตามิน C";
+"vitamin_d_title" = "วิตามิน D";
+"vitamin_e_title" = "วิตามิน E";
+"vitamin_k_title" = "วิตามิน K";
+
+"helper_sum_parens_format" = "(%@)";
+
+"auto_title_meal - pattern" = "%@ ใน %@ (%@)";
+"auto_title_snack - pattern" = "%@ ใน %@";

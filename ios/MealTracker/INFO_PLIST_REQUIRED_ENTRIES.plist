@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+    REQUIRED PRIVACY USAGE DESCRIPTIONS
+    
+    Add these entries to your Info.plist file in Xcode.
+    Customize the messages to match your app's tone and language.
+-->
+<plist version="1.0">
+<dict>
+    <!-- CAMERA ACCESS - Required for taking meal photos -->
+    <key>NSCameraUsageDescription</key>
+    <string>MealTracker needs camera access to photograph your meals for nutrition tracking. Photos are stored locally on your device.</string>
+    
+    <!-- PHOTO LIBRARY ACCESS - Required for selecting existing photos -->
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>MealTracker needs photo library access to let you select existing photos of your meals. Photos are stored locally on your device.</string>
+    
+    <!-- PHOTO LIBRARY ADD - If you're adding photos to the library -->
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>MealTracker can save meal photos to your photo library if you choose.</string>
+    
+    <!-- LOCATION ACCESS - Required for location tagging (optional feature) -->
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>MealTracker can optionally tag meals with location for your personal records. This is completely optional and all data stays on your device.</string>
+    
+    <!--
+        IMPORTANT NOTES:
+        
+        1. Add these to your main Info.plist in Xcode
+        2. Customize the text to match your app's language
+        3. Make sure the messages clearly state:
+           - WHY you need the permission
+           - That data stays LOCAL (no uploading)
+        4. If you DON'T use location, you can remove LocationManager.swift
+           and the location permission entry
+    -->
+</dict>
+</plist>

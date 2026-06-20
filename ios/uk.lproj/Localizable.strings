@@ -1,0 +1,458 @@
+"ok" = "OK";
+"cancel" = "Скасувати";
+"close" = "Закрити";
+"done" = "Готово";
+"save" = "Зберегти";
+"edit" = "Редагувати";
+"delete" = "Видалити";
+"yes" = "Так";
+"no" = "Ні";
+"settings" = "Налаштування";
+"back" = "Назад";
+"error" = "Помилка";
+"retry" = "Повторити";
+
+"search" = "Пошук";
+"search_meals" = "Пошук страв";
+
+"meals_title" = "Страви";
+"no_meals" = "Немає страв";
+"add_meal" = "Додати страву";
+
+"no_meals_yet" = "Страв ще немає";
+"add_first_meal_message" = "Додайте свою першу страву, щоб почати відстеження.";
+
+"kcal_suffix" = "ккал";
+"kj_suffix" = "кДж";
+"energy_kcal_suffix" = "ккал";
+"energy_kj_suffix" = "кДж";
+
+"carbs.title" = "Вуглеводи";
+"protein.title" = "Білок";
+"fat.title" = "Жир";
+"sodium.title" = "Натрій";
+"starch.title" = "Крохмаль";
+"sugars.title" = "Цукор";
+"fibre.title" = "Клітковина";
+
+"fat.mono.short" = "Моно";
+"fat.poly.short" = "Полі";
+"fat.sat.short" = "Нас";
+"fat.trans.short" = "Транс";
+
+"carbs.short" = "Вугл";
+"protein.short" = "Біл";
+"fat.short" = "Жир";
+
+"calories" = "Калорії";
+"kilojoules" = "Кілоджоулі";
+"carbohydrates" = "Вуглеводи";
+"sugars" = "Цукор";
+"starch" = "Крохмаль";
+"fibre" = "Клітковина";
+"protein" = "Білок";
+"animal_protein" = "Тваринний білок";
+"plant_protein" = "Рослинний білок";
+"protein_supplements" = "Білкові добавки";
+"fat" = "Жир";
+"monounsaturated_fat" = "Мононенасичений жир";
+"polyunsaturated_fat" = "Поліненасичений жир";
+"saturated_fat" = "Насичений жир";
+"trans_fat" = "Транс-жир";
+"sodium" = "Натрій";
+"alcohol" = "Алкоголь";
+
+"accurate" = "Точно";
+"guess" = "Приблизно";
+"accuracy" = "Точність";
+
+"settings_title" = "Налаштування";
+"language" = "Мова";
+"choose_language" = "Виберіть мову";
+"measurement_system" = "Система вимірювання";
+"metric" = "Метрична";
+"imperial" = "Імперська";
+"energy_unit" = "Одиниця енергії";
+"energy_unit.calories" = "Калорії";
+"energy_unit.kilojoules" = "Кілоджоулі";
+
+"handedness" = "Провідна рука";
+"left_handed" = "Лівша";
+"right_handed" = "Правша";
+
+"show_vitamins_entry" = "Показувати вітаміни";
+"vitamin_unit" = "Одиниця вітамінів";
+"vitamins_unit.mg" = "мг";
+"vitamins_unit.ug" = "мкг";
+"show_minerals_entry" = "Показувати мінерали";
+"show_stimulants_entry" = "Показувати стимулятори";
+
+"vitamin_a" = "Вітамін A";
+"vitamin_b" = "Вітамін B";
+"vitamin_c" = "Вітамін C";
+"vitamin_d" = "Вітамін D";
+"vitamin_e" = "Вітамін E";
+"vitamin_k" = "Вітамін K";
+
+"calcium" = "Кальцій";
+"iron" = "Залізо";
+"potassium" = "Калій";
+"zinc" = "Цинк";
+"magnesium" = "Магній";
+
+"show_details" = "Показати деталі";
+"hide_details" = "Приховати деталі";
+"show_vitamins" = "Показати вітаміни";
+"show_minerals" = "Показати мінерали";
+"hide_minerals" = "Приховати мінерали";
+"hide_vitamins" = "Приховати вітаміни";
+"show_stimulants" = "Показати стимулятори";
+"hide_stimulants" = "Приховати стимулятори";
+
+"edit_meal" = "Редагувати страву";
+"meal_details" = "Деталі страви";
+"meal_description" = "Опис страви";
+"meal_date" = "Дата страви";
+"nutrition" = "Харчування";
+"salt" = "Сіль";
+
+"confirm_delete_title" = "Видалити страву";
+"confirm_delete_message" = "Це неможливо скасувати";
+"confirm_delete_confirm" = "Видалити";
+"confirm_delete_cancel" = "Скасувати";
+
+"account_plan_section_title" = "Обліковий запис і план";
+"access_tier" = "Рівень доступу";
+"access_tier.free" = "Безкоштовний";
+"access_tier.paid" = "Pro (Хмара)";
+"meals_left_today" = "Страв залишилось сьогодні";
+"photos_per_meal_limit" = "Фото на страву (ліміт)";
+"unlimited" = "Необмежено";
+"logged_in_cloud_stub" = "Увійшли до хмари (заглушка)";
+"synced_date" = "Дата синхронізації";
+"sync_now" = "Синхронізувати зараз";
+"synced_date_not_set" = "Не встановлено";
+
+/* Credentials: account status and actions */
+"account_status" = "Обліковий запис";
+"logged_in" = "Увійшли";
+"logged_out" = "Вийшли";
+"log_in" = "Увійти";
+"log_out" = "Вийти";
+
+/* Credentials: Login view */
+"login.title" = "Увійти";
+"login.email.placeholder" = "Електронна пошта";
+"login.password.placeholder" = "Пароль";
+"login.submit" = "Увійти";
+"login.cancel" = "Скасувати";
+
+/* Additions to match LoginView.swift */
+"login.email" = "Електронна пошта";
+"login.password" = "Пароль";
+"login.sign_in" = "Увійти";
+
+/* Credentials: validation (used in SessionManager) */
+"invalid_email_error" = "Введіть дійсну адресу електронної пошти.";
+"invalid_password_error" = "Пароль має містити щонайменше 8 символів.";
+
+/* Optional: must be logged in to sync message */
+"must_be_logged_in_to_sync" = "Для синхронізації потрібно увійти в систему.";
+
+"data_sharing_section_title" = "Обмін даними";
+"data_sharing_picker_title" = "Обмін";
+"data_sharing.public" = "Публічний";
+"data_sharing.private" = "Приватний";
+"data_sharing.public_explanation" = "Ви погоджуєтесь ділитися інформацією про страви з розробником додатка для покращення харчових метрик і навчання моделей ШІ.";
+"data_sharing.private_explanation" = "Всі дані зберігаються лише на цьому пристрої.";
+
+"camera_unavailable_error" = "Камера недоступна на цьому пристрої.";
+"camera_permission_denied_error" = "Доступ до камери заборонено.";
+"camera_export_failed_error" = "Не вдалося зробити фото.";
+"photo_export_failed_error" = "Не вдалося завантажити вибране фото.";
+
+"invalid_image_error" = "Недійсні дані зображення.";
+"write_failed_error" = "Не вдалося записати фото на диск.";
+"coredata_save_failed_error_prefix" = "Не вдалося зберегти фото:";
+"free_tier_photo_limit_reached" = "Безкоштовний тариф дозволяє до %d фото на страву.";
+
+/* MealsDBManager error messages */
+"duckdb_connection_open_failed" = "Не вдалося відкрити локальну базу даних.";
+"duckdb_unavailable_target_error" = "DuckDB недоступна в цій збірці.";
+
+"sodium" = "Натрій";
+"alcohol" = "Алкоголь";
+"nicotine" = "Нікотин";
+"theobromine" = "Теобромін";
+"caffeine" = "Кофеїн";
+"taurine" = "Таурин";
+
+/* New: Settings — Open to new meal on launch */
+"setting_open_to_new_meal" = "Швидкі команди";
+"setting_open_to_new_meal_toggle" = "Увімкнути команду \"Нова страва\"";
+"setting_open_to_new_meal_desc" = "Коли увімкнено, ви можете додати швидку команду для відкриття додатка безпосередньо на нову страву.";
+
+/* New: App Intent strings */
+"intent_new_meal_title" = "Нова страва";
+"intent_new_meal_description" = "Відкрити додаток безпосередньо на нову страву.";
+"intent_new_meal_disabled_error" = "Команда \"Нова страва\" вимкнена в налаштуваннях.";
+
+"ai_feedback_severity_section_title" = "Суворість зворотного зв'язку ШІ";
+"ai_feedback_severity_picker_title" = "Суворість зворотного зв'язку ШІ";
+"ai_feedback_severity.kind" = "М'яко";
+"ai_feedback_severity.balanced" = "Збалансовано";
+"ai_feedback_severity.boot_camp" = "Жорстко";
+
+/* Optional: Keychain error localization (enable if you changed KeychainService) */
+"keychain.item_not_found" = "Елемент зв'язки ключів не знайдено.";
+"keychain.duplicate_item" = "Елемент зв'язки ключів вже існує.";
+"keychain.unexpected_data" = "Неочікуваний формат даних зв'язки ключів.";
+"keychain.unexpected_status_fmt" = "Помилка зв'язки ключів: %d";
+
+"people_section_title" = "Люди";
+"default_person_picker_title" = "Особа за замовчуванням";
+"pro_people_notice" = "Керування кількома людьми є функцією Pro. Оновіть версію, щоб додавати, вибирати або видаляти людей.";
+"default_person_accessibility_label" = "За замовчуванням";
+"add_person_button_title" = "Додати особу";
+"add_person_name_header" = "Ім'я";
+"add_person_name_placeholder" = "Ім'я";
+"add_person_nav_title" = "Додати особу";
+"add_person_error_empty" = "Будь ласка, введіть ім'я.";
+"add_person_error_duplicate" = "Це ім'я вже існує.";
+"default_person_name_me" = "Я";
+
+/* Also used by SettingsView.validationError */
+"person_name_error_empty" = "Будь ласка, введіть ім'я.";
+
+"unit_kcal_suffix" = "ккал";
+"unit_kj_suffix" = "кДж";
+"unit_g_suffix" = "г";
+"unit_mg_suffix" = "мг";
+"unit_ug_suffix" = "мкг";
+"unit_milligrams_long" = "міліграми";
+
+/* ===== Added: Wizard / camera / alerts ===== */
+"keyboard_done" = "Готово";
+"alert_limit_reached_title" = "Досягнуто ліміту";
+"alert_limit_reached_message" = "Ви досягли поточного ліміту.";
+"camera_access_needed_title" = "Потрібен доступ до камери";
+"camera_access_needed_message" = "Дозвольте доступ до камери, щоб зробити фото.";
+"camera_access_disabled_message" = "Доступ до камери вимкнено. Увімкніть його в налаштуваннях.";
+"open_settings" = "Відкрити налаштування";
+"confirm_delete_title" = "Видалити страву";
+"confirm_delete_message" = "Це неможливо скасувати";
+
+/* Wizard progress/status */
+"wizard_analyzing" = "Аналіз";
+"wizard_analyzing_ellipsis" = "Аналіз…";
+"wizard_add_photo_first" = "Спочатку додайте фото.";
+"wizard_could_not_read_image" = "Не вдалося прочитати дані зображення.";
+"wizard_detecting_barcode" = "Виявлення штрих-коду…";
+"wizard_looking_up_product" = "Пошук продукту…";
+"wizard_no_barcode_reading_label" = "Штрих-код не виявлено; читання етикетки…";
+"wizard_no_label_recognized" = "Етикетку харчової цінності не розпізнано.";
+"wizard_label_rejected_insane" = "Етикетку відхилено: неправдоподібні значення в %@";
+"wizard_barcode_format" = "Штрих-код: %@";
+"wizard_applied_format" = "Застосовано: %@";
+"wizard_applied" = "Застосовано";
+
+/* ===== Added: Accessibility labels used in headers/buttons ===== */
+"a11y_meal_photo" = "Фото страви";
+"a11y_no_photo" = "Немає фото";
+"a11y_analyze_photo" = "Проаналізувати фото";
+"a11y_analyzing_photo" = "Аналіз фото";
+"a11y_undo_ai_changes" = "Скасувати зміни ШІ";
+"a11y_capture_photo" = "Зробити фото";
+"a11y_choose_from_photos" = "Вибрати з фото";
+
+/* ===== Added: SettingsView and diagnostics (DEBUG views) ===== */
+"diagnostics_section_title" = "Діагностика";
+"barcode_verbose_log" = "Журнал штрих-кодів";
+"label_diagnostics" = "Діагностика етикеток";
+
+/* Label diagnostics view */
+"label_diag.empty" = "Діагностики ще немає.";
+"label_diag.group.message" = "Повідомлення";
+"label_diag.group.fields_filled" = "Заповнені поля";
+"label_diag.title" = "Діагностика етикеток";
+"label_diag.copy" = "Копіювати";
+"label_diag.clear" = "Очистити";
+"label_diag.stage.start" = "Початок";
+"label_diag.stage.image" = "Зображення";
+"label_diag.stage.rotate" = "Поворот";
+"label_diag.stage.barcode" = "Штрих-код";
+"label_diag.stage.unreadable" = "Нечитабельно";
+"label_diag.stage.no_barcode" = "Немає штрих-коду";
+"label_diag.stage.ocr_fast" = "Швидке розпізнавання";
+"label_diag.stage.ocr_accurate" = "Точне розпізнавання";
+"label_diag.stage.ocr_done" = "Розпізнавання завершено";
+"label_diag.stage.parsed" = "Проаналізовано";
+"label_diag.stage.applied" = "Застосовано";
+"label_diag.stage.upsert" = "Оновлення";
+"label_diag.stage.saved" = "Збережено";
+"label_diag.stage.save_error" = "Помилка збереження";
+"label_diag.stage.complete" = "Завершено";
+"label_diag.stage.error" = "Помилка";
+"label_diag.export.fields_filled" = "Заповнені поля:";
+"label_diag.export.message" = "Повідомлення:";
+
+/* Barcode log view */
+"barcode_log.empty" = "Журнал ще порожній.";
+"barcode_log.group.source" = "Джерело";
+"barcode_log.group.conversions" = "Перетворення";
+"barcode_log.group.entry" = "Запис";
+"barcode_log.group.error" = "Помилка";
+"barcode_log.title" = "Журнал штрих-кодів";
+"barcode_log.copy" = "Копіювати";
+"barcode_log.clear" = "Очистити";
+"barcode_log.no_code" = "Немає коду";
+"barcode_log.stage.scan" = "Сканування";
+"barcode_log.stage.normalize" = "Нормалізація";
+"barcode_log.stage.local_hit" = "Локальне співпадіння";
+"barcode_log.stage.local_miss" = "Локально не знайдено";
+"barcode_log.stage.off_v2" = "OFF v2";
+"barcode_log.stage.off_v1" = "OFF v1";
+"barcode_log.stage.off_error" = "Помилка OFF";
+"barcode_log.stage.map_start" = "Початок зіставлення";
+"barcode_log.stage.convert" = "Перетворення";
+"barcode_log.stage.map_result" = "Результат зіставлення";
+"barcode_log.stage.upsert" = "Оновлення";
+"barcode_log.stage.saved" = "Збережено";
+"barcode_log.stage.save_error" = "Помилка збереження";
+"barcode_log.export.source" = "Джерело:";
+"barcode_log.export.conversions" = "Перетворення:";
+"barcode_log.export.entry" = "Запис:";
+"barcode_log.export.error_prefix" = "Помилка: ";
+
+/* ===== Added: Additional nutrient/field titles used in forms ===== */
+"creatine" = "Креатин";
+"stimulants_section_title" = "Стимулятори";
+"creatine_section_title" = "Креатин";
+"vitamins_section_title" = "Вітаміни";
+"minerals_section_title" = "Мінерали";
+"iodine" = "Йод";
+"phosphorus" = "Фосфор";
+"omega3" = "Омега-3";
+"omega6" = "Омега-6";
+"a2_beta_casein" = "A2 бета-казеїн";
+"a1_beta_casein" = "A1 бета-казеїн";
+
+/* ===== Added: Weekly report ===== */
+"weekly_report" = "Тижневий звіт";
+"weekly_report_title" = "Тижневий звіт";
+"a11y_previous_week" = "Попередній тиждень";
+"a11y_next_week" = "Наступний тиждень";
+"this_week" = "Цей тиждень";
+"week" = "Тиждень";
+"total_suffix" = "всього";
+"a11y_weekly_calories_chart" = "Графік калорій за тиждень";
+"minerals_weekly_total" = "Мінерали (тижневий підсумок)";
+"vitamins_weekly_total" = "Вітаміни (тижневий підсумок)";
+"stimulants_weekly_total" = "Стимулятори (тижневий підсумок)";
+"per_day_header" = "На день";
+"macro_c_short" = "В";
+"macro_p_short" = "Б";
+"macro_f_short" = "Ж";
+"chart_axis_day" = "День";
+"chart_axis_kcal" = "ккал";
+"chart_series_macro" = "Макро";
+"macro_carb" = "Вуглеводи";
+"macro_protein" = "Білок";
+"macro_fat" = "Жир";
+"creatine_total_title" = "Креатин всього";
+
+/* ===== Added: Auto title generation ===== */
+"daypart_early_morning" = "Рання ранок";
+"daypart_morning" = "Ранок";
+"daypart_midday" = "Полудень";
+"daypart_afternoon" = "Після обіду";
+"daypart_evening" = "Вечір";
+"daypart_late_night" = "Пізній вечір";
+"daypart_overnight" = "Ніч";
+"meal_breakfast" = "Сніданок";
+"meal_lunch" = "Обід";
+"meal_dinner" = "Вечеря";
+"auto_title_meal_pattern" = "%@ на %@ (%@)";
+"auto_title_snack_pattern" = "%@ на %@";
+
+/* ===== Added: Settings toggles shown in code ===== */
+"nutrition_options_section_title" = "Параметри харчування";
+"vitamin_units" = "Одиниці вітамінів";
+"show_minerals" = "Показувати мінерали";
+"show_stimulants" = "Показувати стимулятори";
+"show_creatine" = "Показувати креатин";
+"handedness_section_title" = "Провідна рука";
+"about_title" = "Про додаток";
+
+/* ===== Added: Seeder/Downloads status (used in Settings) ===== */
+"off_not_downloaded" = "Не завантажено";
+"seeder_idle" = "Очікування";
+"seeder_queued" = "У черзі";
+"seeder_waiting" = "Очікування…";
+"seeder_running" = "Виконується";
+"seeder_completed" = "Завершено";
+"seeder_done" = "Готово";
+"seeder_failed" = "Помилка";
+"seeder_cancelled" = "Скасовано";
+
+/* ===== Added: Debug guesser format in MealsGallery (format string) ===== */
+"debug_guesser_format" = "Оцінка: %@";
+
+/* ===== Added: Additional errors used in Media flow ===== */
+"failed_to_add_photo_format" = "Не вдалося додати фото: %@";
+
+/* ===== Added: Person picker ===== */
+"select_person_title" = "Виберіть особу";
+
+/* ===== Added: About screen strings ===== */
+"about.app_name_fallback" = "Цей додаток";
+"about.version_format" = "Версія %@ (%@)";
+"about.disclaimer_title" = "Застереження";
+"about.disclaimer_body" = "Інформація в цьому додатку призначена лише для інформаційних цілей і не є заміною професійної медичної консультації, діагностики або лікування. Ваші дані зберігаються локально на вашому пристрої і не передаються розробнику або третім особам, якщо ви не вирішите експортувати або поділитися ними.";
+"about.privacy_policy" = "Політика конфіденційності";
+"about.terms_of_use" = "Умови використання";
+"about.support" = "Підтримка";
+
+/* ===== Added: Person name validation errors used in SettingsView ===== */
+"person_name_error_too_long" = "Ім'я занадто довге.";
+"person_name_error_invalid_chars" = "Будь ласка, використовуйте літери або цифри.";
+"person_name_error_duplicate" = "Особа з таким іменем вже існує.";
+
+/* ===== Added: Meals seeding phases and notifications ===== */
+"seeder_phase_discovering_ids" = "Виявлення ID…";
+"seeder_phase_connecting" = "Підключення до джерел…";
+"meals_download_complete_title" = "Завантаження страв завершено";
+"meals_download_complete_body_format" = "Завантажено %d елементів.";
+"seeder_error_bg_expired" = "Час фонового режиму вичерпано";
+
+/* ===== Added: OFF/local DB wizard strings (missing before) ===== */
+"wizard_local_db_hit_format" = "Локальна база штрих-кодів: знайдено %@";
+"wizard_local_db_miss_format" = "Локальна база штрих-кодів: не знайдено %@";
+"wizard_local_db_rejected_format" = "Локальна база штрих-кодів: знайдено, але відхилено через неправдоподібні значення (%@)";
+"wizard_off_fetching_format" = "OFF: отримання продукту %@…";
+"wizard_off_found_format" = "OFF: продукт знайдено для %@";
+"wizard_off_not_found_format" = "OFF: не знайдено %@";
+"wizard_off_product_not_found_error_format" = "Продукт %@ не знайдено";
+"wizard_off_v2_status_format" = "OFF v2: статус %d %@ для коду %@";
+"wizard_off_v2_decode_error_format" = "OFF v2: помилка декодування для %@: %@";
+"wizard_off_v1_status_format" = "OFF v1: статус %d %@ для коду %@";
+"wizard_off_v1_decode_error_format" = "OFF v1: помилка декодування для %@: %@";
+"wizard_off_rejected_insane_format" = "OFF: відхилено через неправдоподібні значення (%@); не вставляється/застосовується.";
+"wizard_off_sanitized_dropped_format" = "OFF: очищено запис (відкинуто: %@)";
+"wizard_off_sanitized_no_red" = "OFF: очищено запис (немає критичних полів)";
+"wizard_off_no_usable_nutriments" = "OFF: зіставлення не повернуло придатних харчових речовин";
+"wizard_off_error_format" = "OFF: помилка для %@: %@";
+
+/* ===== Added: Vitamin titles for Weekly Report ===== */
+"vitamin_a_title" = "Вітамін A";
+"vitamin_b_title" = "Вітамін B";
+"vitamin_c_title" = "Вітамін C";
+"vitamin_d_title" = "Вітамін D";
+"vitamin_e_title" = "Вітамін E";
+"vitamin_k_title" = "Вітамін K";
+
+/* ===== Added: Helper format for sum hint ===== */
+"helper_sum_parens_format" = "(%@)";
+
+"auto_title_meal - pattern" = "%@ на %@ (%@)";
+"auto_title_snack - pattern" = "%@ на %@";

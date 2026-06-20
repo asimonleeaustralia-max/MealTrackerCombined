@@ -1,0 +1,458 @@
+"ok" = "OK";
+"cancel" = "キャンセル";
+"close" = "閉じる";
+"done" = "完了";
+"save" = "保存";
+"edit" = "編集";
+"delete" = "削除";
+"yes" = "はい";
+"no" = "いいえ";
+"settings" = "設定";
+"back" = "戻る";
+"error" = "エラー";
+"retry" = "再試行";
+
+"search" = "検索";
+"search_meals" = "食事を検索";
+
+"meals_title" = "食事";
+"no_meals" = "食事なし";
+"add_meal" = "食事を追加";
+
+"no_meals_yet" = "まだ食事がありません";
+"add_first_meal_message" = "最初の食事を追加して記録を開始しましょう。";
+
+"kcal_suffix" = "kcal";
+"kj_suffix" = "kJ";
+"energy_kcal_suffix" = "kcal";
+"energy_kj_suffix" = "kJ";
+
+"carbs.title" = "炭水化物";
+"protein.title" = "タンパク質";
+"fat.title" = "脂質";
+"sodium.title" = "ナトリウム";
+"starch.title" = "でんぷん";
+"sugars.title" = "糖類";
+"fibre.title" = "食物繊維";
+
+"fat.mono.short" = "一価";
+"fat.poly.short" = "多価";
+"fat.sat.short" = "飽和";
+"fat.trans.short" = "トランス";
+
+"carbs.short" = "炭水";
+"protein.short" = "タンパク";
+"fat.short" = "脂質";
+
+"calories" = "カロリー";
+"kilojoules" = "キロジュール";
+"carbohydrates" = "炭水化物";
+"sugars" = "糖類";
+"starch" = "でんぷん";
+"fibre" = "食物繊維";
+"protein" = "タンパク質";
+"animal_protein" = "動物性タンパク質";
+"plant_protein" = "植物性タンパク質";
+"protein_supplements" = "プロテインサプリメント";
+"fat" = "脂質";
+"monounsaturated_fat" = "一価不飽和脂肪酸";
+"polyunsaturated_fat" = "多価不飽和脂肪酸";
+"saturated_fat" = "飽和脂肪酸";
+"trans_fat" = "トランス脂肪酸";
+"sodium" = "ナトリウム";
+"alcohol" = "アルコール";
+
+"accurate" = "正確";
+"guess" = "推定";
+"accuracy" = "精度";
+
+"settings_title" = "設定";
+"language" = "言語";
+"choose_language" = "言語を選択";
+"measurement_system" = "測定単位";
+"metric" = "メートル法";
+"imperial" = "ヤード・ポンド法";
+"energy_unit" = "エネルギー単位";
+"energy_unit.calories" = "カロリー";
+"energy_unit.kilojoules" = "キロジュール";
+
+"handedness" = "利き手";
+"left_handed" = "左利き";
+"right_handed" = "右利き";
+
+"show_vitamins_entry" = "ビタミン入力を表示";
+"vitamin_unit" = "ビタミン単位";
+"vitamins_unit.mg" = "mg";
+"vitamins_unit.ug" = "µg";
+"show_minerals_entry" = "ミネラル入力を表示";
+"show_stimulants_entry" = "刺激物入力を表示";
+
+"vitamin_a" = "ビタミンA";
+"vitamin_b" = "ビタミンB";
+"vitamin_c" = "ビタミンC";
+"vitamin_d" = "ビタミンD";
+"vitamin_e" = "ビタミンE";
+"vitamin_k" = "ビタミンK";
+
+"calcium" = "カルシウム";
+"iron" = "鉄";
+"potassium" = "カリウム";
+"zinc" = "亜鉛";
+"magnesium" = "マグネシウム";
+
+"show_details" = "詳細を表示";
+"hide_details" = "詳細を非表示";
+"show_vitamins" = "ビタミンを表示";
+"show_minerals" = "ミネラルを表示";
+"hide_minerals" = "ミネラルを非表示";
+"hide_vitamins" = "ビタミンを非表示";
+"show_stimulants" = "刺激物を表示";
+"hide_stimulants" = "刺激物を非表示";
+
+"edit_meal" = "食事を編集";
+"meal_details" = "食事の詳細";
+"meal_description" = "食事の説明";
+"meal_date" = "食事日時";
+"nutrition" = "栄養";
+"salt" = "塩分";
+
+"confirm_delete_title" = "食事を削除";
+"confirm_delete_message" = "この操作は取り消せません";
+"confirm_delete_confirm" = "削除";
+"confirm_delete_cancel" = "キャンセル";
+
+"account_plan_section_title" = "アカウントとプラン";
+"access_tier" = "アクセス階層";
+"access_tier.free" = "無料";
+"access_tier.paid" = "Pro (クラウド)";
+"meals_left_today" = "本日の残り食事数";
+"photos_per_meal_limit" = "食事あたりの写真数（上限）";
+"unlimited" = "無制限";
+"logged_in_cloud_stub" = "クラウドにログイン（スタブ）";
+"synced_date" = "同期日時";
+"sync_now" = "今すぐ同期";
+"synced_date_not_set" = "未設定";
+
+/* Credentials: account status and actions */
+"account_status" = "アカウント";
+"logged_in" = "ログイン中";
+"logged_out" = "ログアウト中";
+"log_in" = "ログイン";
+"log_out" = "ログアウト";
+
+/* Credentials: Login view */
+"login.title" = "サインイン";
+"login.email.placeholder" = "メールアドレス";
+"login.password.placeholder" = "パスワード";
+"login.submit" = "サインイン";
+"login.cancel" = "キャンセル";
+
+/* Additions to match LoginView.swift */
+"login.email" = "メールアドレス";
+"login.password" = "パスワード";
+"login.sign_in" = "サインイン";
+
+/* Credentials: validation (used in SessionManager) */
+"invalid_email_error" = "有効なメールアドレスを入力してください。";
+"invalid_password_error" = "パスワードは8文字以上である必要があります。";
+
+/* Optional: must be logged in to sync message */
+"must_be_logged_in_to_sync" = "同期するにはログインが必要です。";
+
+"data_sharing_section_title" = "データ共有";
+"data_sharing_picker_title" = "共有";
+"data_sharing.public" = "公開";
+"data_sharing.private" = "非公開";
+"data_sharing.public_explanation" = "食品データの改善とAIモデルのトレーニングのため、食事情報をアプリ製作者と共有することに同意します。";
+"data_sharing.private_explanation" = "すべてのデータはこのデバイスにのみ保存されます。";
+
+"camera_unavailable_error" = "このデバイスではカメラを利用できません。";
+"camera_permission_denied_error" = "カメラの許可が拒否されました。";
+"camera_export_failed_error" = "写真の撮影に失敗しました。";
+"photo_export_failed_error" = "選択した写真の読み込みに失敗しました。";
+
+"invalid_image_error" = "無効な画像データです。";
+"write_failed_error" = "写真のディスクへの書き込みに失敗しました。";
+"coredata_save_failed_error_prefix" = "写真の保存に失敗しました:";
+"free_tier_photo_limit_reached" = "無料プランでは食事あたり%d枚までの写真を追加できます。";
+
+/* MealsDBManager error messages */
+"duckdb_connection_open_failed" = "ローカルデータベースを開けませんでした。";
+"duckdb_unavailable_target_error" = "DuckDBはこのビルドターゲットでは利用できません。";
+
+"sodium" = "ナトリウム";
+"alcohol" = "アルコール";
+"nicotine" = "ニコチン";
+"theobromine" = "テオブロミン";
+"caffeine" = "カフェイン";
+"taurine" = "タウリン";
+
+/* New: Settings — Open to new meal on launch */
+"setting_open_to_new_meal" = "ショートカット";
+"setting_open_to_new_meal_toggle" = "「新規食事」ショートカットを有効化";
+"setting_open_to_new_meal_desc" = "有効にすると、アプリを直接新規食事画面で開くショートカットを追加できます。";
+
+/* New: App Intent strings */
+"intent_new_meal_title" = "新規食事";
+"intent_new_meal_description" = "アプリを直接新規食事画面で開きます。";
+"intent_new_meal_disabled_error" = "「新規食事」ショートカットが設定で無効になっています。";
+
+"ai_feedback_severity_section_title" = "AIフィードバックの厳しさ";
+"ai_feedback_severity_picker_title" = "AIフィードバックの厳しさ";
+"ai_feedback_severity.kind" = "優しい";
+"ai_feedback_severity.balanced" = "バランス";
+"ai_feedback_severity.boot_camp" = "ブートキャンプ";
+
+/* Optional: Keychain error localization (enable if you changed KeychainService) */
+"keychain.item_not_found" = "キーチェーン項目が見つかりません。";
+"keychain.duplicate_item" = "キーチェーン項目は既に存在します。";
+"keychain.unexpected_data" = "予期しないキーチェーンデータ形式です。";
+"keychain.unexpected_status_fmt" = "キーチェーンエラー: %d";
+
+"people_section_title" = "ユーザー";
+"default_person_picker_title" = "デフォルトユーザー";
+"pro_people_notice" = "複数のユーザー管理はPro機能です。ユーザーの追加、選択、削除を行うにはアップグレードしてください。";
+"default_person_accessibility_label" = "デフォルト";
+"add_person_button_title" = "ユーザーを追加";
+"add_person_name_header" = "名前";
+"add_person_name_placeholder" = "名前";
+"add_person_nav_title" = "ユーザーを追加";
+"add_person_error_empty" = "名前を入力してください。";
+"add_person_error_duplicate" = "その名前は既に存在します。";
+"default_person_name_me" = "自分";
+
+/* Also used by SettingsView.validationError */
+"person_name_error_empty" = "名前を入力してください。";
+
+"unit_kcal_suffix" = "kcal";
+"unit_kj_suffix" = "kJ";
+"unit_g_suffix" = "g";
+"unit_mg_suffix" = "mg";
+"unit_ug_suffix" = "µg";
+"unit_milligrams_long" = "ミリグラム";
+
+/* ===== Added: Wizard / camera / alerts ===== */
+"keyboard_done" = "完了";
+"alert_limit_reached_title" = "上限に達しました";
+"alert_limit_reached_message" = "現在の上限に達しました。";
+"camera_access_needed_title" = "カメラアクセスが必要です";
+"camera_access_needed_message" = "写真を撮影するにはカメラアクセスを許可してください。";
+"camera_access_disabled_message" = "カメラアクセスが無効になっています。設定で有効にしてください。";
+"open_settings" = "設定を開く";
+"confirm_delete_title" = "食事を削除";
+"confirm_delete_message" = "この操作は取り消せません";
+
+/* Wizard progress/status */
+"wizard_analyzing" = "分析中";
+"wizard_analyzing_ellipsis" = "分析中…";
+"wizard_add_photo_first" = "最初に写真を追加してください。";
+"wizard_could_not_read_image" = "画像データを読み取れませんでした。";
+"wizard_detecting_barcode" = "バーコードを検出中…";
+"wizard_looking_up_product" = "商品を検索中…";
+"wizard_no_barcode_reading_label" = "バーコードが検出されませんでした。ラベルを読み取ります…";
+"wizard_no_label_recognized" = "栄養ラベルが認識されませんでした。";
+"wizard_label_rejected_insane" = "ラベルが拒否されました: %@に異常な値";
+"wizard_barcode_format" = "バーコード: %@";
+"wizard_applied_format" = "適用済み: %@";
+"wizard_applied" = "適用済み";
+
+/* ===== Added: Accessibility labels used in headers/buttons ===== */
+"a11y_meal_photo" = "食事の写真";
+"a11y_no_photo" = "写真なし";
+"a11y_analyze_photo" = "写真を分析";
+"a11y_analyzing_photo" = "写真を分析中";
+"a11y_undo_ai_changes" = "AI変更を取り消す";
+"a11y_capture_photo" = "写真を撮影";
+"a11y_choose_from_photos" = "写真から選択";
+
+/* ===== Added: SettingsView and diagnostics (DEBUG views) ===== */
+"diagnostics_section_title" = "診断";
+"barcode_verbose_log" = "バーコードログ";
+"label_diagnostics" = "ラベル診断";
+
+/* Label diagnostics view */
+"label_diag.empty" = "まだ診断情報がありません。";
+"label_diag.group.message" = "メッセージ";
+"label_diag.group.fields_filled" = "入力されたフィールド";
+"label_diag.title" = "ラベル診断";
+"label_diag.copy" = "コピー";
+"label_diag.clear" = "クリア";
+"label_diag.stage.start" = "開始";
+"label_diag.stage.image" = "画像";
+"label_diag.stage.rotate" = "回転";
+"label_diag.stage.barcode" = "バーコード";
+"label_diag.stage.unreadable" = "読み取り不可";
+"label_diag.stage.no_barcode" = "バーコードなし";
+"label_diag.stage.ocr_fast" = "OCR高速";
+"label_diag.stage.ocr_accurate" = "OCR高精度";
+"label_diag.stage.ocr_done" = "OCR完了";
+"label_diag.stage.parsed" = "解析済み";
+"label_diag.stage.applied" = "適用済み";
+"label_diag.stage.upsert" = "更新・挿入";
+"label_diag.stage.saved" = "保存済み";
+"label_diag.stage.save_error" = "保存エラー";
+"label_diag.stage.complete" = "完了";
+"label_diag.stage.error" = "エラー";
+"label_diag.export.fields_filled" = "入力されたフィールド:";
+"label_diag.export.message" = "メッセージ:";
+
+/* Barcode log view */
+"barcode_log.empty" = "まだログエントリがありません。";
+"barcode_log.group.source" = "ソース";
+"barcode_log.group.conversions" = "変換";
+"barcode_log.group.entry" = "エントリ";
+"barcode_log.group.error" = "エラー";
+"barcode_log.title" = "バーコードログ";
+"barcode_log.copy" = "コピー";
+"barcode_log.clear" = "クリア";
+"barcode_log.no_code" = "コードなし";
+"barcode_log.stage.scan" = "スキャン";
+"barcode_log.stage.normalize" = "正規化";
+"barcode_log.stage.local_hit" = "ローカルヒット";
+"barcode_log.stage.local_miss" = "ローカルミス";
+"barcode_log.stage.off_v2" = "OFF v2";
+"barcode_log.stage.off_v1" = "OFF v1";
+"barcode_log.stage.off_error" = "OFFエラー";
+"barcode_log.stage.map_start" = "マップ開始";
+"barcode_log.stage.convert" = "変換";
+"barcode_log.stage.map_result" = "マップ結果";
+"barcode_log.stage.upsert" = "更新・挿入";
+"barcode_log.stage.saved" = "保存済み";
+"barcode_log.stage.save_error" = "保存エラー";
+"barcode_log.export.source" = "ソース:";
+"barcode_log.export.conversions" = "変換:";
+"barcode_log.export.entry" = "エントリ:";
+"barcode_log.export.error_prefix" = "エラー: ";
+
+/* ===== Added: Additional nutrient/field titles used in forms ===== */
+"creatine" = "クレアチン";
+"stimulants_section_title" = "刺激物";
+"creatine_section_title" = "クレアチン";
+"vitamins_section_title" = "ビタミン";
+"minerals_section_title" = "ミネラル";
+"iodine" = "ヨウ素";
+"phosphorus" = "リン";
+"omega3" = "オメガ3";
+"omega6" = "オメガ6";
+"a2_beta_casein" = "A2βカゼイン";
+"a1_beta_casein" = "A1βカゼイン";
+
+/* ===== Added: Weekly report ===== */
+"weekly_report" = "週間レポート";
+"weekly_report_title" = "週間レポート";
+"a11y_previous_week" = "前週";
+"a11y_next_week" = "次週";
+"this_week" = "今週";
+"week" = "週";
+"total_suffix" = "合計";
+"a11y_weekly_calories_chart" = "週間カロリーチャート";
+"minerals_weekly_total" = "ミネラル（週間合計）";
+"vitamins_weekly_total" = "ビタミン（週間合計）";
+"stimulants_weekly_total" = "刺激物（週間合計）";
+"per_day_header" = "1日あたり";
+"macro_c_short" = "炭";
+"macro_p_short" = "タ";
+"macro_f_short" = "脂";
+"chart_axis_day" = "日";
+"chart_axis_kcal" = "kcal";
+"chart_series_macro" = "マクロ";
+"macro_carb" = "炭水化物";
+"macro_protein" = "タンパク質";
+"macro_fat" = "脂質";
+"creatine_total_title" = "クレアチン合計";
+
+/* ===== Added: Auto title generation ===== */
+"daypart_early_morning" = "早朝";
+"daypart_morning" = "朝";
+"daypart_midday" = "正午";
+"daypart_afternoon" = "午後";
+"daypart_evening" = "夕方";
+"daypart_late_night" = "深夜";
+"daypart_overnight" = "夜通し";
+"meal_breakfast" = "朝食";
+"meal_lunch" = "昼食";
+"meal_dinner" = "夕食";
+"auto_title_meal_pattern" = "%@（%@、%@）";
+"auto_title_snack_pattern" = "%@（%@）";
+
+/* ===== Added: Settings toggles shown in code ===== */
+"nutrition_options_section_title" = "栄養オプション";
+"vitamin_units" = "ビタミン単位";
+"show_minerals" = "ミネラルを表示";
+"show_stimulants" = "刺激物を表示";
+"show_creatine" = "クレアチンを表示";
+"handedness_section_title" = "利き手";
+"about_title" = "このアプリについて";
+
+/* ===== Added: Seeder/Downloads status (used in Settings) ===== */
+"off_not_downloaded" = "未ダウンロード";
+"seeder_idle" = "待機中";
+"seeder_queued" = "キューに追加済み";
+"seeder_waiting" = "待機中…";
+"seeder_running" = "実行中";
+"seeder_completed" = "完了";
+"seeder_done" = "完了";
+"seeder_failed" = "失敗";
+"seeder_cancelled" = "キャンセル済み";
+
+/* ===== Added: Debug guesser format in MealsGallery (format string) ===== */
+"debug_guesser_format" = "推定機能: %@";
+
+/* ===== Added: Additional errors used in Media flow ===== */
+"failed_to_add_photo_format" = "写真の追加に失敗しました: %@";
+
+/* ===== Added: Person picker ===== */
+"select_person_title" = "ユーザーを選択";
+
+/* ===== Added: About screen strings ===== */
+"about.app_name_fallback" = "このアプリ";
+"about.version_format" = "バージョン %@ (%@)";
+"about.disclaimer_title" = "免責事項";
+"about.disclaimer_body" = "このアプリの情報は情報提供のみを目的としており、専門的な医療アドバイス、診断、または治療の代わりにはなりません。データはデバイスにローカルに保存され、エクスポートまたは共有を選択しない限り、開発者やサードパーティと共有されることはありません。";
+"about.privacy_policy" = "プライバシーポリシー";
+"about.terms_of_use" = "利用規約";
+"about.support" = "サポート";
+
+/* ===== Added: Person name validation errors used in SettingsView ===== */
+"person_name_error_too_long" = "名前が長すぎます。";
+"person_name_error_invalid_chars" = "文字または数字を使用してください。";
+"person_name_error_duplicate" = "この名前のユーザーは既に存在します。";
+
+/* ===== Added: Meals seeding phases and notifications ===== */
+"seeder_phase_discovering_ids" = "IDを検出中…";
+"seeder_phase_connecting" = "ソースに接続中…";
+"meals_download_complete_title" = "食事のダウンロード完了";
+"meals_download_complete_body_format" = "%d件のアイテムをダウンロードしました。";
+"seeder_error_bg_expired" = "バックグラウンド時間が期限切れ";
+
+/* ===== Added: OFF/local DB wizard strings (missing before) ===== */
+"wizard_local_db_hit_format" = "ローカルバーコードDBヒット: %@";
+"wizard_local_db_miss_format" = "ローカルバーコードDBミス: %@";
+"wizard_local_db_rejected_format" = "ローカルバーコードDBヒットを拒否: 異常な値（%@）";
+"wizard_off_fetching_format" = "OFF: 商品%@を取得中…";
+"wizard_off_found_format" = "OFF: %@の商品が見つかりました";
+"wizard_off_not_found_format" = "OFF: %@が見つかりません";
+"wizard_off_product_not_found_error_format" = "商品%@が見つかりません";
+"wizard_off_v2_status_format" = "OFF v2: ステータス %d %@（コード%@）";
+"wizard_off_v2_decode_error_format" = "OFF v2: %@のデコードエラー: %@";
+"wizard_off_v1_status_format" = "OFF v1: ステータス %d %@（コード%@）";
+"wizard_off_v1_decode_error_format" = "OFF v1: %@のデコードエラー: %@";
+"wizard_off_rejected_insane_format" = "OFF: 異常な値を拒否（%@）; 挿入・適用しません。";
+"wizard_off_sanitized_dropped_format" = "OFF: エントリをサニタイズ（削除: %@）";
+"wizard_off_sanitized_no_red" = "OFF: エントリをサニタイズ（問題フィールドなし）";
+"wizard_off_no_usable_nutriments" = "OFF: マッピングで使用可能な栄養素が返されませんでした";
+"wizard_off_error_format" = "OFF: %@のエラー: %@";
+
+/* ===== Added: Vitamin titles for Weekly Report ===== */
+"vitamin_a_title" = "ビタミンA";
+"vitamin_b_title" = "ビタミンB";
+"vitamin_c_title" = "ビタミンC";
+"vitamin_d_title" = "ビタミンD";
+"vitamin_e_title" = "ビタミンE";
+"vitamin_k_title" = "ビタミンK";
+
+/* ===== Added: Helper format for sum hint ===== */
+"helper_sum_parens_format" = "(%@)";
+
+"auto_title_meal - pattern" = "%@（%@、%@）";
+"auto_title_snack - pattern" = "%@（%@）";

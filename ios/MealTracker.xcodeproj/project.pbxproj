@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C31AD7302F1B09F500C34046 /* Localizable.strings (German - de) in Resources */ = {isa = PBXBuildFile; fileRef = C31AD72F2F1B09F500C34046 /* Localizable.strings (German - de) */; };
+		C32A3DC32ECC7397009C2DFD /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C32A3DC12ECC7397009C2DFD /* Localizable.strings */; };
+		C333D3A42F67F3DB00BAB108 /* PhotoLibraryPickerView 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C333D3A32F67F3DB00BAB108 /* PhotoLibraryPickerView 2.swift */; };
+		C333D3A62F67F47C00BAB108 /* PhotoLibraryPickerView 3.swift in Sources */ = {isa = PBXBuildFile; fileRef = C333D3A52F67F47C00BAB108 /* PhotoLibraryPickerView 3.swift */; };
+		C333D3A82F67F52600BAB108 /* PhotoLibraryPickerView 4.swift in Sources */ = {isa = PBXBuildFile; fileRef = C333D3A72F67F52600BAB108 /* PhotoLibraryPickerView 4.swift */; };
+		C333D3CF2F6E568900BAB108 /* REMOVAL_SUMMARY.md in Resources */ = {isa = PBXBuildFile; fileRef = C333D3CE2F6E568900BAB108 /* REMOVAL_SUMMARY.md */; };
+		C333D4442F6E676600BAB108 /* EXPORT_FEATURE_SUMMARY.md in Resources */ = {isa = PBXBuildFile; fileRef = C333D4432F6E676600BAB108 /* EXPORT_FEATURE_SUMMARY.md */; };
+		C34176DC2ED2794700C73645 /* PhotoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34176DB2ED2794700C73645 /* PhotoStore.swift */; };
+		C34176DE2ED2794A00C73645 /* ImageResizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34176DD2ED2794A00C73645 /* ImageResizer.swift */; };
+		C34176E02ED2794C00C73645 /* PhotoAssetDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34176DF2ED2794C00C73645 /* PhotoAssetDTO.swift */; };
+		C34176E22ED2795200C73645 /* PhotoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34176E12ED2795200C73645 /* PhotoService.swift */; };
+		C34176E42ED288BC00C73645 /* MealPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34176E32ED288BC00C73645 /* MealPhoto.swift */; };
+		C349DCE02F7129A900FA5FB0 /* THEMEALDB_REMOVAL_CHECKLIST.md in Resources */ = {isa = PBXBuildFile; fileRef = C349DCDF2F7129A900FA5FB0 /* THEMEALDB_REMOVAL_CHECKLIST.md */; };
+		C35F5E7D2EDEFAA400DD2844 /* PhotoLibraryPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35F5E7C2EDEFAA400DD2844 /* PhotoLibraryPickerView.swift */; };
+		C3636E1C2EFE0C9100665602 /* MealFormView+Media.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3636E1B2EFE0C9100665602 /* MealFormView+Media.swift */; };
+		C3636E1E2EFE0CF200665602 /* MealFormView+DomainLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3636E1D2EFE0CF200665602 /* MealFormView+DomainLogic.swift */; };
+		C3636E8D2EFF6AFA00665602 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3636E8C2EFF6AFA00665602 /* AboutView.swift */; };
+		C3639B392F0675D200CF6365 /* BarcodeLogStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3639B382F0675D200CF6365 /* BarcodeLogStore.swift */; };
+		C3639B3B2F0675D500CF6365 /* BarcodeLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3639B3A2F0675D500CF6365 /* BarcodeLogView.swift */; };
+		C3639B3D2F067A0100CF6365 /* BarcodeLogEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3639B3C2F067A0100CF6365 /* BarcodeLogEvent.swift */; };
+		C3639B3F2F08F4D200CF6365 /* LabelDiagnosticsEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3639B3E2F08F4D200CF6365 /* LabelDiagnosticsEvent.swift */; };
+		C3639B412F08F4D500CF6365 /* LabelDiagnosticsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3639B402F08F4D500CF6365 /* LabelDiagnosticsStore.swift */; };
+		C3639B432F08F4E700CF6365 /* LabelDiagnosticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3639B422F08F4E700CF6365 /* LabelDiagnosticsView.swift */; };
+		C36728352F0B112400719AA8 /* PhotoNutritionGuesser+OCR.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36728342F0B112400719AA8 /* PhotoNutritionGuesser+OCR.swift */; };
+		C37001F92EF7AA680085904C /* SettingsTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37001F82EF7AA680085904C /* SettingsTypes.swift */; };
+		C37001FC2EF936C90085904C /* DuckDBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37001FB2EF936C90085904C /* DuckDBManager.swift */; };
+		C37001FE2EF936CD0085904C /* BarcodeRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37001FD2EF936CD0085904C /* BarcodeRepository.swift */; };
+		C37002002EFA818E0085904C /* OpenFoodFactsClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37001FF2EFA818E0085904C /* OpenFoodFactsClient.swift */; };
+		C37002212EFA85D70085904C /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37002202EFA85D70085904C /* NetworkMonitor.swift */; };
+		C37002252EFA8B7C0085904C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37002242EFA8B7C0085904C /* AppDelegate.swift */; };
+		C37002272EFB90900085904C /* MealsDBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37002262EFB90900085904C /* MealsDBManager.swift */; };
+		C37002292EFB90990085904C /* MealsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37002282EFB90990085904C /* MealsRepository.swift */; };
+		C370024A2EFB93450085904C /* MealsSeeder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37002492EFB93450085904C /* MealsSeeder.swift */; };
+		C370026D2EFB97140085904C /* TheMealDBClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C370026C2EFB97140085904C /* TheMealDBClient.swift */; };
+		C370026F2EFB97220085904C /* TheCocktailDBClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C370026E2EFB97220085904C /* TheCocktailDBClient.swift */; };
+		C376B3542EE98CFC0003C83B /* DateSyncService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C376B3532EE98CFC0003C83B /* DateSyncService.swift */; };
+		C381065E2ED29E5500C796E0 /* LocalBarcodeDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = C381065D2ED29E5500C796E0 /* LocalBarcodeDB.swift */; };
+		C38106602ED29E5A00C796E0 /* PhotoNutritionGuesser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C381065F2ED29E5A00C796E0 /* PhotoNutritionGuesser.swift */; };
+		C38106622ED29E6100C796E0 /* LocalBarcodeDB.json in Resources */ = {isa = PBXBuildFile; fileRef = C38106612ED29E6100C796E0 /* LocalBarcodeDB.json */; };
+		C393070B2EEE62F80017E7A0 /* MealTrackerAppShortcuts.swift in Sources */ = {isa = PBXBuildFile; fileRef = C393070A2EEE62F70017E7A0 /* MealTrackerAppShortcuts.swift */; };
+		C393070D2EEF5F5A0017E7A0 /* KeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C393070C2EEF5F5A0017E7A0 /* KeychainService.swift */; };
+		C393070F2EEF5F6B0017E7A0 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C393070E2EEF5F6B0017E7A0 /* LoginView.swift */; };
+		C393072E2EEF8BF80017E7A0 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = C393072D2EEF8BF80017E7A0 /* Person.swift */; };
+		C3AD26702F0A3FDE005B8363 /* PhotoNutritionGuesser+Parsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AD266F2F0A3FDE005B8363 /* PhotoNutritionGuesser+Parsing.swift */; };
+		C3BC02E82EDDACE8004C1779 /* CameraCaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BC02E72EDDACE8004C1779 /* CameraCaptureView.swift */; };
+		C3C2B9712ED44E7000E9D4F4 /* FeaturePrintClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C2B9702ED44E7000E9D4F4 /* FeaturePrintClassifier.swift */; };
+		C3C2B9732ED44E8500E9D4F4 /* FoodClassPriors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C2B9722ED44E8500E9D4F4 /* FoodClassPriors.swift */; };
+		C3CD531E2F17A37500F4141C /* Localizable.strings (Chinese (Simplified)) in Resources */ = {isa = PBXBuildFile; fileRef = C3CD531D2F17A37500F4141C /* Localizable.strings (Chinese (Simplified)) */; };
+		C3F0A6FA2ED59B32003949B8 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F0A6F92ED59B32003949B8 /* SessionManager.swift */; };
+		C3F0A6FC2ED59B34003949B8 /* Entitlements.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F0A6FB2ED59B34003949B8 /* Entitlements.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C31AD72F2F1B09F500C34046 /* Localizable.strings (German - de) */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Localizable.strings (German - de)"; sourceTree = "<group>"; };
+		C31AD7312F1B0A4100C34046 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C31AD7322F1B0A5300C34046 /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C32A3DC22ECC7397009C2DFD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C330CD442F190BFA00F1C514 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		C333D3A32F67F3DB00BAB108 /* PhotoLibraryPickerView 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PhotoLibraryPickerView 2.swift"; sourceTree = "<group>"; };
+		C333D3A52F67F47C00BAB108 /* PhotoLibraryPickerView 3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PhotoLibraryPickerView 3.swift"; sourceTree = "<group>"; };
+		C333D3A72F67F52600BAB108 /* PhotoLibraryPickerView 4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PhotoLibraryPickerView 4.swift"; sourceTree = "<group>"; };
+		C333D3CE2F6E568900BAB108 /* REMOVAL_SUMMARY.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = REMOVAL_SUMMARY.md; sourceTree = "<group>"; };
+		C333D4432F6E676600BAB108 /* EXPORT_FEATURE_SUMMARY.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = EXPORT_FEATURE_SUMMARY.md; sourceTree = "<group>"; };
+		C34176DB2ED2794700C73645 /* PhotoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoStore.swift; sourceTree = "<group>"; };
+		C34176DD2ED2794A00C73645 /* ImageResizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageResizer.swift; sourceTree = "<group>"; };
+		C34176DF2ED2794C00C73645 /* PhotoAssetDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoAssetDTO.swift; sourceTree = "<group>"; };
+		C34176E12ED2795200C73645 /* PhotoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoService.swift; sourceTree = "<group>"; };
+		C34176E32ED288BC00C73645 /* MealPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealPhoto.swift; sourceTree = "<group>"; };
+		C349DCDF2F7129A900FA5FB0 /* THEMEALDB_REMOVAL_CHECKLIST.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = THEMEALDB_REMOVAL_CHECKLIST.md; sourceTree = "<group>"; };
+		C35F5E7C2EDEFAA400DD2844 /* PhotoLibraryPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoLibraryPickerView.swift; sourceTree = "<group>"; };
+		C3636E1B2EFE0C9100665602 /* MealFormView+Media.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MealFormView+Media.swift"; sourceTree = "<group>"; };
+		C3636E1D2EFE0CF200665602 /* MealFormView+DomainLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MealFormView+DomainLogic.swift"; sourceTree = "<group>"; };
+		C3636E8C2EFF6AFA00665602 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		C3639B382F0675D200CF6365 /* BarcodeLogStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeLogStore.swift; sourceTree = "<group>"; };
+		C3639B3A2F0675D500CF6365 /* BarcodeLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeLogView.swift; sourceTree = "<group>"; };
+		C3639B3C2F067A0100CF6365 /* BarcodeLogEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeLogEvent.swift; sourceTree = "<group>"; };
+		C3639B3E2F08F4D200CF6365 /* LabelDiagnosticsEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelDiagnosticsEvent.swift; sourceTree = "<group>"; };
+		C3639B402F08F4D500CF6365 /* LabelDiagnosticsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelDiagnosticsStore.swift; sourceTree = "<group>"; };
+		C3639B422F08F4E700CF6365 /* LabelDiagnosticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelDiagnosticsView.swift; sourceTree = "<group>"; };
+		C363F1E12F7BB2770065A069 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C363F1E22F7BB40C0065A069 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C363F1E32F7BB5E90065A069 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C363F1E42F7BB5F40065A069 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C363F1E52F7BB6320065A069 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		C363F1E62F7BB63F0065A069 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C363F1E72F7BB6570065A069 /* ur */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ur; path = ur.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C363F1E82F7BB65D0065A069 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C363F1E92F7BB6710065A069 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C36728342F0B112400719AA8 /* PhotoNutritionGuesser+OCR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PhotoNutritionGuesser+OCR.swift"; sourceTree = "<group>"; };
+		C37001F82EF7AA680085904C /* SettingsTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTypes.swift; sourceTree = "<group>"; };
+		C37001FB2EF936C90085904C /* DuckDBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuckDBManager.swift; sourceTree = "<group>"; };
+		C37001FD2EF936CD0085904C /* BarcodeRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeRepository.swift; sourceTree = "<group>"; };
+		C37001FF2EFA818E0085904C /* OpenFoodFactsClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenFoodFactsClient.swift; sourceTree = "<group>"; };
+		C37002202EFA85D70085904C /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
+		C37002242EFA8B7C0085904C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C37002262EFB90900085904C /* MealsDBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsDBManager.swift; sourceTree = "<group>"; };
+		C37002282EFB90990085904C /* MealsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsRepository.swift; sourceTree = "<group>"; };
+		C37002492EFB93450085904C /* MealsSeeder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsSeeder.swift; sourceTree = "<group>"; };
+		C370026C2EFB97140085904C /* TheMealDBClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheMealDBClient.swift; sourceTree = "<group>"; };
+		C370026E2EFB97220085904C /* TheCocktailDBClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheCocktailDBClient.swift; sourceTree = "<group>"; };
+		C376B3532EE98CFC0003C83B /* DateSyncService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateSyncService.swift; sourceTree = "<group>"; };
+		C3798F872ECA75BE00945BBF /* MacrosSimple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacrosSimple.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C381065D2ED29E5500C796E0 /* LocalBarcodeDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalBarcodeDB.swift; sourceTree = "<group>"; };
+		C381065F2ED29E5A00C796E0 /* PhotoNutritionGuesser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoNutritionGuesser.swift; sourceTree = "<group>"; };
+		C38106612ED29E6100C796E0 /* LocalBarcodeDB.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = LocalBarcodeDB.json; sourceTree = "<group>"; };
+		C393070A2EEE62F70017E7A0 /* MealTrackerAppShortcuts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTrackerAppShortcuts.swift; sourceTree = "<group>"; };
+		C393070C2EEF5F5A0017E7A0 /* KeychainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainService.swift; sourceTree = "<group>"; };
+		C393070E2EEF5F6B0017E7A0 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		C393072D2EEF8BF80017E7A0 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		C3AD266F2F0A3FDE005B8363 /* PhotoNutritionGuesser+Parsing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PhotoNutritionGuesser+Parsing.swift"; sourceTree = "<group>"; };
+		C3BC02E72EDDACE8004C1779 /* CameraCaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraCaptureView.swift; sourceTree = "<group>"; };
+		C3C2B9702ED44E7000E9D4F4 /* FeaturePrintClassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturePrintClassifier.swift; sourceTree = "<group>"; };
+		C3C2B9722ED44E8500E9D4F4 /* FoodClassPriors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodClassPriors.swift; sourceTree = "<group>"; };
+		C3CD531C2F17A37500F4141C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings (Chinese (Simplified))"; sourceTree = "<group>"; };
+		C3F0A6F92ED59B32003949B8 /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		C3F0A6FB2ED59B34003949B8 /* Entitlements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entitlements.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		C3798F892ECA75BE00945BBF /* MealTracker */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MealTracker;
+			sourceTree = "<group>";
+		};
+		C3C2B96B2ED441FE00E9D4F4 /* ProjectPhotos */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ProjectPhotos;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3798F842ECA75BE00945BBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3798F7E2ECA75BE00945BBF = {
+			isa = PBXGroup;
+			children = (
+				C3C2B96B2ED441FE00E9D4F4 /* ProjectPhotos */,
+				C32A3DC12ECC7397009C2DFD /* Localizable.strings */,
+				C3798F892ECA75BE00945BBF /* MealTracker */,
+				C3798F882ECA75BE00945BBF /* Products */,
+				C34176DB2ED2794700C73645 /* PhotoStore.swift */,
+				C34176DD2ED2794A00C73645 /* ImageResizer.swift */,
+				C34176DF2ED2794C00C73645 /* PhotoAssetDTO.swift */,
+				C34176E12ED2795200C73645 /* PhotoService.swift */,
+				C34176E32ED288BC00C73645 /* MealPhoto.swift */,
+				C381065D2ED29E5500C796E0 /* LocalBarcodeDB.swift */,
+				C381065F2ED29E5A00C796E0 /* PhotoNutritionGuesser.swift */,
+				C38106612ED29E6100C796E0 /* LocalBarcodeDB.json */,
+				C3C2B9702ED44E7000E9D4F4 /* FeaturePrintClassifier.swift */,
+				C3C2B9722ED44E8500E9D4F4 /* FoodClassPriors.swift */,
+				C3F0A6F92ED59B32003949B8 /* SessionManager.swift */,
+				C3F0A6FB2ED59B34003949B8 /* Entitlements.swift */,
+				C3BC02E72EDDACE8004C1779 /* CameraCaptureView.swift */,
+				C35F5E7C2EDEFAA400DD2844 /* PhotoLibraryPickerView.swift */,
+				C376B3532EE98CFC0003C83B /* DateSyncService.swift */,
+				C393070A2EEE62F70017E7A0 /* MealTrackerAppShortcuts.swift */,
+				C393070C2EEF5F5A0017E7A0 /* KeychainService.swift */,
+				C393070E2EEF5F6B0017E7A0 /* LoginView.swift */,
+				C393072D2EEF8BF80017E7A0 /* Person.swift */,
+				C37001F82EF7AA680085904C /* SettingsTypes.swift */,
+				C37001FB2EF936C90085904C /* DuckDBManager.swift */,
+				C37001FD2EF936CD0085904C /* BarcodeRepository.swift */,
+				C37001FF2EFA818E0085904C /* OpenFoodFactsClient.swift */,
+				C37002202EFA85D70085904C /* NetworkMonitor.swift */,
+				C37002242EFA8B7C0085904C /* AppDelegate.swift */,
+				C37002262EFB90900085904C /* MealsDBManager.swift */,
+				C37002282EFB90990085904C /* MealsRepository.swift */,
+				C37002492EFB93450085904C /* MealsSeeder.swift */,
+				C370026C2EFB97140085904C /* TheMealDBClient.swift */,
+				C370026E2EFB97220085904C /* TheCocktailDBClient.swift */,
+				C3636E1B2EFE0C9100665602 /* MealFormView+Media.swift */,
+				C3636E1D2EFE0CF200665602 /* MealFormView+DomainLogic.swift */,
+				C3636E8C2EFF6AFA00665602 /* AboutView.swift */,
+				C3639B382F0675D200CF6365 /* BarcodeLogStore.swift */,
+				C3639B3A2F0675D500CF6365 /* BarcodeLogView.swift */,
+				C3639B3C2F067A0100CF6365 /* BarcodeLogEvent.swift */,
+				C3639B3E2F08F4D200CF6365 /* LabelDiagnosticsEvent.swift */,
+				C3639B402F08F4D500CF6365 /* LabelDiagnosticsStore.swift */,
+				C3639B422F08F4E700CF6365 /* LabelDiagnosticsView.swift */,
+				C3AD266F2F0A3FDE005B8363 /* PhotoNutritionGuesser+Parsing.swift */,
+				C36728342F0B112400719AA8 /* PhotoNutritionGuesser+OCR.swift */,
+				C3CD531D2F17A37500F4141C /* Localizable.strings (Chinese (Simplified)) */,
+				C31AD72F2F1B09F500C34046 /* Localizable.strings (German - de) */,
+				C333D3A32F67F3DB00BAB108 /* PhotoLibraryPickerView 2.swift */,
+				C333D3A52F67F47C00BAB108 /* PhotoLibraryPickerView 3.swift */,
+				C333D3A72F67F52600BAB108 /* PhotoLibraryPickerView 4.swift */,
+				C333D3CE2F6E568900BAB108 /* REMOVAL_SUMMARY.md */,
+				C333D4432F6E676600BAB108 /* EXPORT_FEATURE_SUMMARY.md */,
+				C349DCDF2F7129A900FA5FB0 /* THEMEALDB_REMOVAL_CHECKLIST.md */,
+			);
+			sourceTree = "<group>";
+		};
+		C3798F882ECA75BE00945BBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3798F872ECA75BE00945BBF /* MacrosSimple.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3798F862ECA75BE00945BBF /* MacrosSimple */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3798F922ECA75BF00945BBF /* Build configuration list for PBXNativeTarget "MacrosSimple" */;
+			buildPhases = (
+				C3798F832ECA75BE00945BBF /* Sources */,
+				C3798F842ECA75BE00945BBF /* Frameworks */,
+				C3798F852ECA75BE00945BBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C3798F892ECA75BE00945BBF /* MealTracker */,
+				C3C2B96B2ED441FE00E9D4F4 /* ProjectPhotos */,
+			);
+			name = MacrosSimple;
+			packageProductDependencies = (
+			);
+			productName = MealTracker;
+			productReference = C3798F872ECA75BE00945BBF /* MacrosSimple.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3798F7F2ECA75BE00945BBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2610;
+				LastUpgradeCheck = 2610;
+				TargetAttributes = {
+					C3798F862ECA75BE00945BBF = {
+						CreatedOnToolsVersion = 26.1.1;
+					};
+				};
+			};
+			buildConfigurationList = C3798F822ECA75BE00945BBF /* Build configuration list for PBXProject "MealTracker" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+				de,
+				th,
+				fr,
+				hi,
+				es,
+				ar,
+				"pt-PT",
+				ru,
+				ur,
+				ja,
+				uk,
+			);
+			mainGroup = C3798F7E2ECA75BE00945BBF;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				C37001FA2EF935480085904C /* XCRemoteSwiftPackageReference "duckdb" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C3798F882ECA75BE00945BBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3798F862ECA75BE00945BBF /* MacrosSimple */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3798F852ECA75BE00945BBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C38106622ED29E6100C796E0 /* LocalBarcodeDB.json in Resources */,
+				C333D4442F6E676600BAB108 /* EXPORT_FEATURE_SUMMARY.md in Resources */,
+				C32A3DC32ECC7397009C2DFD /* Localizable.strings in Resources */,
+				C333D3CF2F6E568900BAB108 /* REMOVAL_SUMMARY.md in Resources */,
+				C31AD7302F1B09F500C34046 /* Localizable.strings (German - de) in Resources */,
+				C3CD531E2F17A37500F4141C /* Localizable.strings (Chinese (Simplified)) in Resources */,
+				C349DCE02F7129A900FA5FB0 /* THEMEALDB_REMOVAL_CHECKLIST.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3798F832ECA75BE00945BBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C333D3A82F67F52600BAB108 /* PhotoLibraryPickerView 4.swift in Sources */,
+				C393072E2EEF8BF80017E7A0 /* Person.swift in Sources */,
+				C3636E8D2EFF6AFA00665602 /* AboutView.swift in Sources */,
+				C3636E1E2EFE0CF200665602 /* MealFormView+DomainLogic.swift in Sources */,
+				C37002212EFA85D70085904C /* NetworkMonitor.swift in Sources */,
+				C333D3A62F67F47C00BAB108 /* PhotoLibraryPickerView 3.swift in Sources */,
+				C37002272EFB90900085904C /* MealsDBManager.swift in Sources */,
+				C37001F92EF7AA680085904C /* SettingsTypes.swift in Sources */,
+				C381065E2ED29E5500C796E0 /* LocalBarcodeDB.swift in Sources */,
+				C393070F2EEF5F6B0017E7A0 /* LoginView.swift in Sources */,
+				C37001FC2EF936C90085904C /* DuckDBManager.swift in Sources */,
+				C38106602ED29E5A00C796E0 /* PhotoNutritionGuesser.swift in Sources */,
+				C37002002EFA818E0085904C /* OpenFoodFactsClient.swift in Sources */,
+				C3639B3D2F067A0100CF6365 /* BarcodeLogEvent.swift in Sources */,
+				C3636E1C2EFE0C9100665602 /* MealFormView+Media.swift in Sources */,
+				C333D3A42F67F3DB00BAB108 /* PhotoLibraryPickerView 2.swift in Sources */,
+				C3639B3F2F08F4D200CF6365 /* LabelDiagnosticsEvent.swift in Sources */,
+				C3639B412F08F4D500CF6365 /* LabelDiagnosticsStore.swift in Sources */,
+				C3639B3B2F0675D500CF6365 /* BarcodeLogView.swift in Sources */,
+				C370026F2EFB97220085904C /* TheCocktailDBClient.swift in Sources */,
+				C370024A2EFB93450085904C /* MealsSeeder.swift in Sources */,
+				C34176E22ED2795200C73645 /* PhotoService.swift in Sources */,
+				C35F5E7D2EDEFAA400DD2844 /* PhotoLibraryPickerView.swift in Sources */,
+				C34176E02ED2794C00C73645 /* PhotoAssetDTO.swift in Sources */,
+				C3F0A6FC2ED59B34003949B8 /* Entitlements.swift in Sources */,
+				C34176E42ED288BC00C73645 /* MealPhoto.swift in Sources */,
+				C34176DC2ED2794700C73645 /* PhotoStore.swift in Sources */,
+				C3AD26702F0A3FDE005B8363 /* PhotoNutritionGuesser+Parsing.swift in Sources */,
+				C37001FE2EF936CD0085904C /* BarcodeRepository.swift in Sources */,
+				C3639B432F08F4E700CF6365 /* LabelDiagnosticsView.swift in Sources */,
+				C3C2B9732ED44E8500E9D4F4 /* FoodClassPriors.swift in Sources */,
+				C37002292EFB90990085904C /* MealsRepository.swift in Sources */,
+				C376B3542EE98CFC0003C83B /* DateSyncService.swift in Sources */,
+				C3639B392F0675D200CF6365 /* BarcodeLogStore.swift in Sources */,
+				C34176DE2ED2794A00C73645 /* ImageResizer.swift in Sources */,
+				C393070B2EEE62F80017E7A0 /* MealTrackerAppShortcuts.swift in Sources */,
+				C37002252EFA8B7C0085904C /* AppDelegate.swift in Sources */,
+				C3BC02E82EDDACE8004C1779 /* CameraCaptureView.swift in Sources */,
+				C393070D2EEF5F5A0017E7A0 /* KeychainService.swift in Sources */,
+				C370026D2EFB97140085904C /* TheMealDBClient.swift in Sources */,
+				C3F0A6FA2ED59B32003949B8 /* SessionManager.swift in Sources */,
+				C3C2B9712ED44E7000E9D4F4 /* FeaturePrintClassifier.swift in Sources */,
+				C36728352F0B112400719AA8 /* PhotoNutritionGuesser+OCR.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C32A3DC12ECC7397009C2DFD /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C32A3DC22ECC7397009C2DFD /* en */,
+				C330CD442F190BFA00F1C514 /* zh-Hans */,
+				C31AD7312F1B0A4100C34046 /* de */,
+				C31AD7322F1B0A5300C34046 /* th */,
+				C363F1E12F7BB2770065A069 /* fr */,
+				C363F1E22F7BB40C0065A069 /* hi */,
+				C363F1E32F7BB5E90065A069 /* es */,
+				C363F1E42F7BB5F40065A069 /* ar */,
+				C363F1E52F7BB6320065A069 /* pt-PT */,
+				C363F1E62F7BB63F0065A069 /* ru */,
+				C363F1E72F7BB6570065A069 /* ur */,
+				C363F1E82F7BB65D0065A069 /* ja */,
+				C363F1E92F7BB6710065A069 /* uk */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		C3CD531D2F17A37500F4141C /* Localizable.strings (Chinese (Simplified)) */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3CD531C2F17A37500F4141C /* zh-Hans */,
+			);
+			name = "Localizable.strings (Chinese (Simplified))";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3798F902ECA75BF00945BBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C3798F912ECA75BF00945BBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3798F932ECA75BF00945BBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 795DN6AJP2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = MacrosSimple;
+				INFOPLIST_KEY_NSCameraUsageDescription = "MacrosSimple needs camera access to photograph your meals. Photos are stored locally on your device.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "MacrosSimple needs location access. This will be stored locally on your device. ";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "MacrosSimple needs photo library access to select meal photos. Photos are stored locally on your device.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.au.prod.MacrosSimpleSL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C3798F942ECA75BF00945BBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 795DN6AJP2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = MacrosSimple;
+				INFOPLIST_KEY_NSCameraUsageDescription = "MacrosSimple needs camera access to photograph your meals. Photos are stored locally on your device.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "MacrosSimple needs location access. This will be stored locally on your device. ";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "MacrosSimple needs photo library access to select meal photos. Photos are stored locally on your device.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.au.prod.MacrosSimpleSL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3798F822ECA75BE00945BBF /* Build configuration list for PBXProject "MealTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3798F902ECA75BF00945BBF /* Debug */,
+				C3798F912ECA75BF00945BBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3798F922ECA75BF00945BBF /* Build configuration list for PBXNativeTarget "MacrosSimple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3798F932ECA75BF00945BBF /* Debug */,
+				C3798F942ECA75BF00945BBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C37001FA2EF935480085904C /* XCRemoteSwiftPackageReference "duckdb" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/duckdb/duckdb";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+	};
+	rootObject = C3798F7F2ECA75BE00945BBF /* Project object */;
+}

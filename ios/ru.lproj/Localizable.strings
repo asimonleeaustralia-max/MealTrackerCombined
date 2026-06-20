@@ -1,0 +1,458 @@
+"ok" = "ОК";
+"cancel" = "Отмена";
+"close" = "Закрыть";
+"done" = "Готово";
+"save" = "Сохранить";
+"edit" = "Редактировать";
+"delete" = "Удалить";
+"yes" = "Да";
+"no" = "Нет";
+"settings" = "Настройки";
+"back" = "Назад";
+"error" = "Ошибка";
+"retry" = "Повторить";
+
+"search" = "Поиск";
+"search_meals" = "Поиск приёмов пищи";
+
+"meals_title" = "Приёмы пищи";
+"no_meals" = "Нет приёмов пищи";
+"add_meal" = "Добавить приём пищи";
+
+"no_meals_yet" = "Нет приёмов пищи";
+"add_first_meal_message" = "Добавьте первый приём пищи, чтобы начать отслеживание.";
+
+"kcal_suffix" = "ккал";
+"kj_suffix" = "кДж";
+"energy_kcal_suffix" = "ккал";
+"energy_kj_suffix" = "кДж";
+
+"carbs.title" = "Углеводы";
+"protein.title" = "Белки";
+"fat.title" = "Жиры";
+"sodium.title" = "Натрий";
+"starch.title" = "Крахмал";
+"sugars.title" = "Сахара";
+"fibre.title" = "Клетчатка";
+
+"fat.mono.short" = "Моно";
+"fat.poly.short" = "Поли";
+"fat.sat.short" = "Насыщ.";
+"fat.trans.short" = "Транс";
+
+"carbs.short" = "Угл.";
+"protein.short" = "Бел.";
+"fat.short" = "Жир.";
+
+"calories" = "Калории";
+"kilojoules" = "Килоджоули";
+"carbohydrates" = "Углеводы";
+"sugars" = "Сахара";
+"starch" = "Крахмал";
+"fibre" = "Клетчатка";
+"protein" = "Белки";
+"animal_protein" = "Животные белки";
+"plant_protein" = "Растительные белки";
+"protein_supplements" = "Белковые добавки";
+"fat" = "Жиры";
+"monounsaturated_fat" = "Мононенасыщенные жиры";
+"polyunsaturated_fat" = "Полиненасыщенные жиры";
+"saturated_fat" = "Насыщенные жиры";
+"trans_fat" = "Трансжиры";
+"sodium" = "Натрий";
+"alcohol" = "Алкоголь";
+
+"accurate" = "Точно";
+"guess" = "Приблизительно";
+"accuracy" = "Точность";
+
+"settings_title" = "Настройки";
+"language" = "Язык";
+"choose_language" = "Выбрать язык";
+"measurement_system" = "Система измерений";
+"metric" = "Метрическая";
+"imperial" = "Имперская";
+"energy_unit" = "Единица энергии";
+"energy_unit.calories" = "Калории";
+"energy_unit.kilojoules" = "Килоджоули";
+
+"handedness" = "Ведущая рука";
+"left_handed" = "Левша";
+"right_handed" = "Правша";
+
+"show_vitamins_entry" = "Показать ввод витаминов";
+"vitamin_unit" = "Единица витаминов";
+"vitamins_unit.mg" = "мг";
+"vitamins_unit.ug" = "мкг";
+"show_minerals_entry" = "Показать ввод минералов";
+"show_stimulants_entry" = "Показать ввод стимуляторов";
+
+"vitamin_a" = "Витамин A";
+"vitamin_b" = "Витамин B";
+"vitamin_c" = "Витамин C";
+"vitamin_d" = "Витамин D";
+"vitamin_e" = "Витамин E";
+"vitamin_k" = "Витамин K";
+
+"calcium" = "Кальций";
+"iron" = "Железо";
+"potassium" = "Калий";
+"zinc" = "Цинк";
+"magnesium" = "Магний";
+
+"show_details" = "Показать детали";
+"hide_details" = "Скрыть детали";
+"show_vitamins" = "Показать витамины";
+"show_minerals" = "Показать минералы";
+"hide_minerals" = "Скрыть минералы";
+"hide_vitamins" = "Скрыть витамины";
+"show_stimulants" = "Показать стимуляторы";
+"hide_stimulants" = "Скрыть стимуляторы";
+
+"edit_meal" = "Редактировать приём пищи";
+"meal_details" = "Детали приёма пищи";
+"meal_description" = "Описание приёма пищи";
+"meal_date" = "Дата приёма пищи";
+"nutrition" = "Питание";
+"salt" = "Соль";
+
+"confirm_delete_title" = "Удалить приём пищи";
+"confirm_delete_message" = "Это действие нельзя отменить";
+"confirm_delete_confirm" = "Удалить";
+"confirm_delete_cancel" = "Отмена";
+
+"account_plan_section_title" = "Аккаунт и тариф";
+"access_tier" = "Уровень доступа";
+"access_tier.free" = "Бесплатный";
+"access_tier.paid" = "Pro (Облако)";
+"meals_left_today" = "Приёмов пищи осталось сегодня";
+"photos_per_meal_limit" = "Фото на приём пищи (лимит)";
+"unlimited" = "Неограниченно";
+"logged_in_cloud_stub" = "Вход в облако выполнен (заглушка)";
+"synced_date" = "Дата синхронизации";
+"sync_now" = "Синхронизировать сейчас";
+"synced_date_not_set" = "Не установлена";
+
+/* Credentials: account status and actions */
+"account_status" = "Аккаунт";
+"logged_in" = "Вход выполнен";
+"logged_out" = "Выход выполнен";
+"log_in" = "Войти";
+"log_out" = "Выйти";
+
+/* Credentials: Login view */
+"login.title" = "Вход";
+"login.email.placeholder" = "Email";
+"login.password.placeholder" = "Пароль";
+"login.submit" = "Войти";
+"login.cancel" = "Отмена";
+
+/* Additions to match LoginView.swift */
+"login.email" = "Email";
+"login.password" = "Пароль";
+"login.sign_in" = "Войти";
+
+/* Credentials: validation (used in SessionManager) */
+"invalid_email_error" = "Введите действительный адрес email.";
+"invalid_password_error" = "Пароль должен содержать не менее 8 символов.";
+
+/* Optional: must be logged in to sync message */
+"must_be_logged_in_to_sync" = "Для синхронизации необходимо войти в систему.";
+
+"data_sharing_section_title" = "Обмен данными";
+"data_sharing_picker_title" = "Обмен";
+"data_sharing.public" = "Публичный";
+"data_sharing.private" = "Приватный";
+"data_sharing.public_explanation" = "Вы соглашаетесь делиться информацией о приёмах пищи с разработчиком приложения для улучшения метрик питания и обучения моделей ИИ.";
+"data_sharing.private_explanation" = "Все данные сохраняются только на этом устройстве.";
+
+"camera_unavailable_error" = "Камера недоступна на этом устройстве.";
+"camera_permission_denied_error" = "Доступ к камере запрещён.";
+"camera_export_failed_error" = "Не удалось сделать фото.";
+"photo_export_failed_error" = "Не удалось загрузить выбранное фото.";
+
+"invalid_image_error" = "Неверные данные изображения.";
+"write_failed_error" = "Не удалось записать фото на диск.";
+"coredata_save_failed_error_prefix" = "Не удалось сохранить фото:";
+"free_tier_photo_limit_reached" = "Бесплатный тариф допускает до %d фото на приём пищи.";
+
+/* MealsDBManager error messages */
+"duckdb_connection_open_failed" = "Не удалось открыть локальную базу данных.";
+"duckdb_unavailable_target_error" = "DuckDB недоступна в этой целевой сборке.";
+
+"sodium" = "Натрий";
+"alcohol" = "Алкоголь";
+"nicotine" = "Никотин";
+"theobromine" = "Теобромин";
+"caffeine" = "Кофеин";
+"taurine" = "Таурин";
+
+/* New: Settings — Open to new meal on launch */
+"setting_open_to_new_meal" = "Быстрые команды";
+"setting_open_to_new_meal_toggle" = "Включить команду «Новый приём пищи»";
+"setting_open_to_new_meal_desc" = "При включении вы можете добавить быструю команду для открытия приложения сразу с новым приёмом пищи.";
+
+/* New: App Intent strings */
+"intent_new_meal_title" = "Новый приём пищи";
+"intent_new_meal_description" = "Открыть приложение сразу с новым приёмом пищи.";
+"intent_new_meal_disabled_error" = "Команда «Новый приём пищи» отключена в настройках.";
+
+"ai_feedback_severity_section_title" = "Строгость обратной связи ИИ";
+"ai_feedback_severity_picker_title" = "Строгость обратной связи ИИ";
+"ai_feedback_severity.kind" = "Доброжелательно";
+"ai_feedback_severity.balanced" = "Сбалансировано";
+"ai_feedback_severity.boot_camp" = "Учебный лагерь";
+
+/* Optional: Keychain error localization (enable if you changed KeychainService) */
+"keychain.item_not_found" = "Элемент связки ключей не найден.";
+"keychain.duplicate_item" = "Элемент связки ключей уже существует.";
+"keychain.unexpected_data" = "Неожиданный формат данных связки ключей.";
+"keychain.unexpected_status_fmt" = "Ошибка связки ключей: %d";
+
+"people_section_title" = "Люди";
+"default_person_picker_title" = "Человек по умолчанию";
+"pro_people_notice" = "Управление несколькими людьми — функция Pro. Обновитесь, чтобы добавлять, выбирать или удалять людей.";
+"default_person_accessibility_label" = "По умолчанию";
+"add_person_button_title" = "Добавить человека";
+"add_person_name_header" = "Имя";
+"add_person_name_placeholder" = "Имя";
+"add_person_nav_title" = "Добавить человека";
+"add_person_error_empty" = "Пожалуйста, введите имя.";
+"add_person_error_duplicate" = "Это имя уже существует.";
+"default_person_name_me" = "Я";
+
+/* Also used by SettingsView.validationError */
+"person_name_error_empty" = "Пожалуйста, введите имя.";
+
+"unit_kcal_suffix" = "ккал";
+"unit_kj_suffix" = "кДж";
+"unit_g_suffix" = "г";
+"unit_mg_suffix" = "мг";
+"unit_ug_suffix" = "мкг";
+"unit_milligrams_long" = "миллиграммы";
+
+/* ===== Added: Wizard / camera / alerts ===== */
+"keyboard_done" = "Готово";
+"alert_limit_reached_title" = "Достигнут лимит";
+"alert_limit_reached_message" = "Вы достигли текущего лимита.";
+"camera_access_needed_title" = "Необходим доступ к камере";
+"camera_access_needed_message" = "Разрешите доступ к камере, чтобы сделать фото.";
+"camera_access_disabled_message" = "Доступ к камере отключён. Включите его в настройках.";
+"open_settings" = "Открыть настройки";
+"confirm_delete_title" = "Удалить приём пищи";
+"confirm_delete_message" = "Это действие нельзя отменить";
+
+/* Wizard progress/status */
+"wizard_analyzing" = "Анализ";
+"wizard_analyzing_ellipsis" = "Анализ…";
+"wizard_add_photo_first" = "Сначала добавьте фото.";
+"wizard_could_not_read_image" = "Не удалось прочитать данные изображения.";
+"wizard_detecting_barcode" = "Обнаружение штрихкода…";
+"wizard_looking_up_product" = "Поиск продукта…";
+"wizard_no_barcode_reading_label" = "Штрихкод не обнаружен; чтение этикетки…";
+"wizard_no_label_recognized" = "Этикетка питания не распознана.";
+"wizard_label_rejected_insane" = "Этикетка отклонена: неразумные значения в %@";
+"wizard_barcode_format" = "Штрихкод: %@";
+"wizard_applied_format" = "Применено: %@";
+"wizard_applied" = "Применено";
+
+/* ===== Added: Accessibility labels used in headers/buttons ===== */
+"a11y_meal_photo" = "Фото приёма пищи";
+"a11y_no_photo" = "Нет фото";
+"a11y_analyze_photo" = "Анализировать фото";
+"a11y_analyzing_photo" = "Анализ фото";
+"a11y_undo_ai_changes" = "Отменить изменения ИИ";
+"a11y_capture_photo" = "Сделать фото";
+"a11y_choose_from_photos" = "Выбрать из фото";
+
+/* ===== Added: SettingsView and diagnostics (DEBUG views) ===== */
+"diagnostics_section_title" = "Диагностика";
+"barcode_verbose_log" = "Журнал штрихкодов";
+"label_diagnostics" = "Диагностика этикеток";
+
+/* Label diagnostics view */
+"label_diag.empty" = "Диагностика пока отсутствует.";
+"label_diag.group.message" = "Сообщение";
+"label_diag.group.fields_filled" = "Заполненные поля";
+"label_diag.title" = "Диагностика этикеток";
+"label_diag.copy" = "Копировать";
+"label_diag.clear" = "Очистить";
+"label_diag.stage.start" = "Старт";
+"label_diag.stage.image" = "Изображение";
+"label_diag.stage.rotate" = "Поворот";
+"label_diag.stage.barcode" = "Штрихкод";
+"label_diag.stage.unreadable" = "Нечитаемо";
+"label_diag.stage.no_barcode" = "Нет штрихкода";
+"label_diag.stage.ocr_fast" = "OCR быстро";
+"label_diag.stage.ocr_accurate" = "OCR точно";
+"label_diag.stage.ocr_done" = "OCR завершено";
+"label_diag.stage.parsed" = "Разобрано";
+"label_diag.stage.applied" = "Применено";
+"label_diag.stage.upsert" = "Вставка";
+"label_diag.stage.saved" = "Сохранено";
+"label_diag.stage.save_error" = "Ошибка сохранения";
+"label_diag.stage.complete" = "Завершено";
+"label_diag.stage.error" = "Ошибка";
+"label_diag.export.fields_filled" = "Заполненные поля:";
+"label_diag.export.message" = "Сообщение:";
+
+/* Barcode log view */
+"barcode_log.empty" = "Записи журнала пока отсутствуют.";
+"barcode_log.group.source" = "Источник";
+"barcode_log.group.conversions" = "Преобразования";
+"barcode_log.group.entry" = "Запись";
+"barcode_log.group.error" = "Ошибка";
+"barcode_log.title" = "Журнал штрихкодов";
+"barcode_log.copy" = "Копировать";
+"barcode_log.clear" = "Очистить";
+"barcode_log.no_code" = "Нет кода";
+"barcode_log.stage.scan" = "Сканирование";
+"barcode_log.stage.normalize" = "Нормализация";
+"barcode_log.stage.local_hit" = "Локальное попадание";
+"barcode_log.stage.local_miss" = "Локальный промах";
+"barcode_log.stage.off_v2" = "OFF v2";
+"barcode_log.stage.off_v1" = "OFF v1";
+"barcode_log.stage.off_error" = "Ошибка OFF";
+"barcode_log.stage.map_start" = "Начало сопоставления";
+"barcode_log.stage.convert" = "Преобразование";
+"barcode_log.stage.map_result" = "Результат сопоставления";
+"barcode_log.stage.upsert" = "Вставка";
+"barcode_log.stage.saved" = "Сохранено";
+"barcode_log.stage.save_error" = "Ошибка сохранения";
+"barcode_log.export.source" = "Источник:";
+"barcode_log.export.conversions" = "Преобразования:";
+"barcode_log.export.entry" = "Запись:";
+"barcode_log.export.error_prefix" = "Ошибка: ";
+
+/* ===== Added: Additional nutrient/field titles used in forms ===== */
+"creatine" = "Креатин";
+"stimulants_section_title" = "Стимуляторы";
+"creatine_section_title" = "Креатин";
+"vitamins_section_title" = "Витамины";
+"minerals_section_title" = "Минералы";
+"iodine" = "Йод";
+"phosphorus" = "Фосфор";
+"omega3" = "Омега-3";
+"omega6" = "Омега-6";
+"a2_beta_casein" = "A2 бета-казеин";
+"a1_beta_casein" = "A1 бета-казеин";
+
+/* ===== Added: Weekly report ===== */
+"weekly_report" = "Недельный отчёт";
+"weekly_report_title" = "Недельный отчёт";
+"a11y_previous_week" = "Предыдущая неделя";
+"a11y_next_week" = "Следующая неделя";
+"this_week" = "Эта неделя";
+"week" = "Неделя";
+"total_suffix" = "всего";
+"a11y_weekly_calories_chart" = "График калорий за неделю";
+"minerals_weekly_total" = "Минералы (недельная сумма)";
+"vitamins_weekly_total" = "Витамины (недельная сумма)";
+"stimulants_weekly_total" = "Стимуляторы (недельная сумма)";
+"per_day_header" = "В день";
+"macro_c_short" = "У";
+"macro_p_short" = "Б";
+"macro_f_short" = "Ж";
+"chart_axis_day" = "День";
+"chart_axis_kcal" = "ккал";
+"chart_series_macro" = "Макро";
+"macro_carb" = "Углеводы";
+"macro_protein" = "Белки";
+"macro_fat" = "Жиры";
+"creatine_total_title" = "Креатин всего";
+
+/* ===== Added: Auto title generation ===== */
+"daypart_early_morning" = "Раннее утро";
+"daypart_morning" = "Утро";
+"daypart_midday" = "Полдень";
+"daypart_afternoon" = "День";
+"daypart_evening" = "Вечер";
+"daypart_late_night" = "Поздний вечер";
+"daypart_overnight" = "Ночь";
+"meal_breakfast" = "Завтрак";
+"meal_lunch" = "Обед";
+"meal_dinner" = "Ужин";
+"auto_title_meal_pattern" = "%@ %@ (%@)";
+"auto_title_snack_pattern" = "%@ %@";
+
+/* ===== Added: Settings toggles shown in code ===== */
+"nutrition_options_section_title" = "Параметры питания";
+"vitamin_units" = "Единицы витаминов";
+"show_minerals" = "Показать минералы";
+"show_stimulants" = "Показать стимуляторы";
+"show_creatine" = "Показать креатин";
+"handedness_section_title" = "Ведущая рука";
+"about_title" = "О программе";
+
+/* ===== Added: Seeder/Downloads status (used in Settings) ===== */
+"off_not_downloaded" = "Не загружено";
+"seeder_idle" = "Простой";
+"seeder_queued" = "В очереди";
+"seeder_waiting" = "Ожидание…";
+"seeder_running" = "Выполняется";
+"seeder_completed" = "Завершено";
+"seeder_done" = "Готово";
+"seeder_failed" = "Не удалось";
+"seeder_cancelled" = "Отменено";
+
+/* ===== Added: Debug guesser format in MealsGallery (format string) ===== */
+"debug_guesser_format" = "Определитель: %@";
+
+/* ===== Added: Additional errors used in Media flow ===== */
+"failed_to_add_photo_format" = "Не удалось добавить фото: %@";
+
+/* ===== Added: Person picker ===== */
+"select_person_title" = "Выбрать человека";
+
+/* ===== Added: About screen strings ===== */
+"about.app_name_fallback" = "Это приложение";
+"about.version_format" = "Версия %@ (%@)";
+"about.disclaimer_title" = "Отказ от ответственности";
+"about.disclaimer_body" = "Информация в этом приложении предоставлена только в информационных целях и не является заменой профессиональной медицинской консультации, диагностики или лечения. Ваши данные хранятся локально на вашем устройстве и не передаются разработчику или третьим лицам, если вы не решите экспортировать или поделиться ими.";
+"about.privacy_policy" = "Политика конфиденциальности";
+"about.terms_of_use" = "Условия использования";
+"about.support" = "Поддержка";
+
+/* ===== Added: Person name validation errors used in SettingsView ===== */
+"person_name_error_too_long" = "Имя слишком длинное.";
+"person_name_error_invalid_chars" = "Используйте буквы или цифры.";
+"person_name_error_duplicate" = "Человек с таким именем уже существует.";
+
+/* ===== Added: Meals seeding phases and notifications ===== */
+"seeder_phase_discovering_ids" = "Обнаружение идентификаторов…";
+"seeder_phase_connecting" = "Подключение к источникам…";
+"meals_download_complete_title" = "Загрузка приёмов пищи завершена";
+"meals_download_complete_body_format" = "Загружено элементов: %d.";
+"seeder_error_bg_expired" = "Время фоновой работы истекло";
+
+/* ===== Added: OFF/local DB wizard strings (missing before) ===== */
+"wizard_local_db_hit_format" = "Попадание в локальную БД штрихкодов для %@";
+"wizard_local_db_miss_format" = "Промах в локальной БД штрихкодов для %@";
+"wizard_local_db_rejected_format" = "Попадание в локальную БД штрихкодов отклонено: неразумные значения (%@)";
+"wizard_off_fetching_format" = "OFF: получение продукта %@…";
+"wizard_off_found_format" = "OFF: продукт найден для %@";
+"wizard_off_not_found_format" = "OFF: не найдено %@";
+"wizard_off_product_not_found_error_format" = "Продукт %@ не найден";
+"wizard_off_v2_status_format" = "OFF v2: статус %d %@ для кода %@";
+"wizard_off_v2_decode_error_format" = "OFF v2: ошибка декодирования для %@: %@";
+"wizard_off_v1_status_format" = "OFF v1: статус %d %@ для кода %@";
+"wizard_off_v1_decode_error_format" = "OFF v1: ошибка декодирования для %@: %@";
+"wizard_off_rejected_insane_format" = "OFF: отклонены неразумные значения (%@); не вставляется/не применяется.";
+"wizard_off_sanitized_dropped_format" = "OFF: очищенная запись (удалено: %@)";
+"wizard_off_sanitized_no_red" = "OFF: очищенная запись (нет красных полей)";
+"wizard_off_no_usable_nutriments" = "OFF: сопоставление не вернуло пригодных питательных веществ";
+"wizard_off_error_format" = "OFF: ошибка для %@: %@";
+
+/* ===== Added: Vitamin titles for Weekly Report ===== */
+"vitamin_a_title" = "Витамин A";
+"vitamin_b_title" = "Витамин B";
+"vitamin_c_title" = "Витамин C";
+"vitamin_d_title" = "Витамин D";
+"vitamin_e_title" = "Витамин E";
+"vitamin_k_title" = "Витамин K";
+
+/* ===== Added: Helper format for sum hint ===== */
+"helper_sum_parens_format" = "(%@)";
+
+"auto_title_meal - pattern" = "%@ %@ (%@)";
+"auto_title_snack - pattern" = "%@ %@";

@@ -1,0 +1,429 @@
+"ok" = "ठीक है";
+"cancel" = "रद्द करें";
+"close" = "बंद करें";
+"done" = "समाप्त";
+"save" = "सहेजें";
+"edit" = "संपादित करें";
+"delete" = "हटाएं";
+"yes" = "हाँ";
+"no" = "नहीं";
+"settings" = "सेटिंग्स";
+"back" = "वापस";
+"error" = "त्रुटि";
+"retry" = "पुनः प्रयास करें";
+
+"search" = "खोजें";
+"search_meals" = "भोजन खोजें";
+
+"meals_title" = "भोजन";
+"no_meals" = "कोई भोजन नहीं";
+"add_meal" = "भोजन जोड़ें";
+
+"no_meals_yet" = "अभी तक कोई भोजन नहीं";
+"add_first_meal_message" = "ट्रैकिंग शुरू करने के लिए अपना पहला भोजन जोड़ें।";
+
+"kcal_suffix" = "kcal";
+"kj_suffix" = "kJ";
+"energy_kcal_suffix" = "kcal";
+"energy_kj_suffix" = "kJ";
+
+"carbs.title" = "कार्ब्स";
+"protein.title" = "प्रोटीन";
+"fat.title" = "वसा";
+"sodium.title" = "सोडियम";
+"starch.title" = "स्टार्च";
+"sugars.title" = "शर्करा";
+"fibre.title" = "रेशा";
+
+"fat.mono.short" = "मोनो";
+"fat.poly.short" = "पॉली";
+"fat.sat.short" = "सैट";
+"fat.trans.short" = "ट्रांस";
+
+"carbs.short" = "कार्ब";
+"protein.short" = "प्रोट";
+"fat.short" = "वसा";
+
+"calories" = "कैलोरी";
+"kilojoules" = "किलो-जूल";
+"carbohydrates" = "कार्बोहाइड्रेट";
+"sugars" = "शर्करा";
+"starch" = "स्टार्च";
+"fibre" = "रेशा";
+"protein" = "प्रोटीन";
+"animal_protein" = "पशु प्रोटीन";
+"plant_protein" = "वनस्पति प्रोटीन";
+"protein_supplements" = "प्रोटीन सप्लीमेंट";
+"fat" = "वसा";
+"monounsaturated_fat" = "मोनोअनसैचुरेटेड वसा";
+"polyunsaturated_fat" = "पॉलीअनसैचुरेटेड वसा";
+"saturated_fat" = "सैचुरेटेड वसा";
+"trans_fat" = "ट्रांस वसा";
+"sodium" = "सोडियम";
+"alcohol" = "अल्कोहल";
+
+"accurate" = "सटीक";
+"guess" = "अनुमान";
+"accuracy" = "सटीकता";
+
+"settings_title" = "सेटिंग्स";
+"language" = "भाषा";
+"choose_language" = "भाषा चुनें";
+"measurement_system" = "मापन प्रणाली";
+"metric" = "मीट्रिक";
+"imperial" = "इम्पीरियल";
+"energy_unit" = "ऊर्जा इकाई";
+"energy_unit.calories" = "कैलोरी";
+"energy_unit.kilojoules" = "किलो-जूल";
+
+"handedness" = "हाथ का उपयोग";
+"left_handed" = "बाएं हाथ वाले";
+"right_handed" = "दाएं हाथ वाले";
+
+"show_vitamins_entry" = "विटामिन प्रविष्टि दिखाएं";
+"vitamin_unit" = "विटामिन इकाई";
+"vitamins_unit.mg" = "mg";
+"vitamins_unit.ug" = "µg";
+"show_minerals_entry" = "खनिज प्रविष्टि दिखाएं";
+"show_stimulants_entry" = "उत्तेजक प्रविष्टि दिखाएं";
+
+"vitamin_a" = "विटामिन A";
+"vitamin_b" = "विटामिन B";
+"vitamin_c" = "विटामिन C";
+"vitamin_d" = "विटामिन D";
+"vitamin_e" = "विटामिन E";
+"vitamin_k" = "विटामिन K";
+
+"calcium" = "कैल्शियम";
+"iron" = "लोहा";
+"potassium" = "पोटैशियम";
+"zinc" = "जिंक";
+"magnesium" = "मैग्नीशियम";
+
+"show_details" = "विवरण दिखाएं";
+"hide_details" = "विवरण छिपाएं";
+"show_vitamins" = "विटामिन दिखाएं";
+"show_minerals" = "खनिज दिखाएं";
+"hide_minerals" = "खनिज छिपाएं";
+"hide_vitamins" = "विटामिन छिपाएं";
+"show_stimulants" = "उत्तेजक दिखाएं";
+"hide_stimulants" = "उत्तेजक छिपाएं";
+
+"edit_meal" = "भोजन संपादित करें";
+"meal_details" = "भोजन विवरण";
+"meal_description" = "भोजन विवरण";
+"meal_date" = "भोजन तिथि";
+"nutrition" = "पोषण";
+"salt" = "नमक";
+
+"confirm_delete_title" = "भोजन हटाएं";
+"confirm_delete_message" = "इसे वापस नहीं किया जा सकता";
+"confirm_delete_confirm" = "हटाएं";
+"confirm_delete_cancel" = "रद्द करें";
+
+"account_plan_section_title" = "खाता और योजना";
+"access_tier" = "पहुँच स्तर";
+"access_tier.free" = "नि:शुल्क";
+"access_tier.paid" = "प्रो (क्लाउड)";
+"meals_left_today" = "आज शेष भोजन";
+"photos_per_meal_limit" = "प्रति भोजन फ़ोटो (सीमा)";
+"unlimited" = "असीमित";
+"logged_in_cloud_stub" = "क्लाउड में लॉग इन (स्टब)";
+"synced_date" = "सिंक तिथि";
+"sync_now" = "अभी सिंक करें";
+"synced_date_not_set" = "सेट नहीं";
+
+"account_status" = "खाता";
+"logged_in" = "लॉग इन";
+"logged_out" = "लॉग आउट";
+"log_in" = "लॉग इन";
+"log_out" = "लॉग आउट";
+
+"login.title" = "साइन इन";
+"login.email.placeholder" = "ईमेल";
+"login.password.placeholder" = "पासवर्ड";
+"login.submit" = "साइन इन";
+"login.cancel" = "रद्द करें";
+
+"login.email" = "ईमेल";
+"login.password" = "पासवर्ड";
+"login.sign_in" = "साइन इन";
+
+"invalid_email_error" = "कृपया मान्य ईमेल पता दर्ज करें।";
+"invalid_password_error" = "पासवर्ड कम से कम 8 अक्षरों का होना चाहिए।";
+
+"must_be_logged_in_to_sync" = "सिंक करने के लिए आपको लॉग इन होना चाहिए।";
+
+"data_sharing_section_title" = "डेटा साझाकरण";
+"data_sharing_picker_title" = "साझाकरण";
+"data_sharing.public" = "सार्वजनिक";
+"data_sharing.private" = "निजी";
+"data_sharing.public_explanation" = "आप भोजन संबंधी जानकारी साझा करने के लिए सहमत हैं ताकि ऐप निर्माता खाद्य मेट्रिक्स में सुधार कर सके और एआई मॉडल प्रशिक्षित कर सके।";
+"data_sharing.private_explanation" = "सारा डेटा केवल इस डिवाइस पर सहेजा जाता है।";
+
+"camera_unavailable_error" = "इस डिवाइस पर कैमरा उपलब्ध नहीं है।";
+"camera_permission_denied_error" = "कैमरा अनुमति अस्वीकृत।";
+"camera_export_failed_error" = "फ़ोटो कैप्चर करने में विफल।";
+"photo_export_failed_error" = "चयनित फ़ोटो लोड करने में विफल।";
+
+"invalid_image_error" = "अमान्य छवि डेटा।";
+"write_failed_error" = "फ़ोटो डिस्क पर लिखने में विफल।";
+"coredata_save_failed_error_prefix" = "फ़ोटो सहेजने में विफल:";
+"free_tier_photo_limit_reached" = "नि:शुल्क स्तर में प्रति भोजन अधिकतम %d फ़ोटो की अनुमति है।";
+
+"duckdb_connection_open_failed" = "स्थानीय डेटाबेस खोलने में विफल।";
+"duckdb_unavailable_target_error" = "इस बिल्ड टार्गेट में DuckDB उपलब्ध नहीं है।";
+
+"sodium" = "सोडियम";
+"alcohol" = "अल्कोहल";
+"nicotine" = "निकोटीन";
+"theobromine" = "थियोब्रोमीन";
+"caffeine" = "कैफीन";
+"taurine" = "टॉरिन";
+
+"setting_open_to_new_meal" = "शॉर्टकट";
+"setting_open_to_new_meal_toggle" = "“नया भोजन” शॉर्टकट सक्षम करें";
+"setting_open_to_new_meal_desc" = "सक्षम होने पर, आप ऐप को सीधे नए भोजन पर खोलने के लिए शॉर्टकट जोड़ सकते हैं।";
+
+"intent_new_meal_title" = "नया भोजन";
+"intent_new_meal_description" = "ऐप को सीधे नए भोजन पर खोलें।";
+"intent_new_meal_disabled_error" = "“नया भोजन” शॉर्टकट सेटिंग्स में अक्षम है।";
+
+"ai_feedback_severity_section_title" = "एआई फीडबैक की तीव्रता";
+"ai_feedback_severity_picker_title" = "एआई फीडबैक की तीव्रता";
+"ai_feedback_severity.kind" = "सौम्य";
+"ai_feedback_severity.balanced" = "संतुलित";
+"ai_feedback_severity.boot_camp" = "बूट कैंप";
+
+"keychain.item_not_found" = "कीचेन आइटम नहीं मिला।";
+"keychain.duplicate_item" = "कीचेन आइटम पहले से मौजूद है।";
+"keychain.unexpected_data" = "कीचेन डेटा का अप्रत्याशित प्रारूप।";
+"keychain.unexpected_status_fmt" = "कीचेन त्रुटि: %d";
+
+"people_section_title" = "लोग";
+"default_person_picker_title" = "डिफ़ॉल्ट व्यक्ति";
+"pro_people_notice" = "कई लोगों का प्रबंधन प्रो सुविधा है। जोड़ने, चुनने या हटाने के लिए अपग्रेड करें।";
+"default_person_accessibility_label" = "डिफ़ॉल्ट";
+"add_person_button_title" = "व्यक्ति जोड़ें";
+"add_person_name_header" = "नाम";
+"add_person_name_placeholder" = "नाम";
+"add_person_nav_title" = "व्यक्ति जोड़ें";
+"add_person_error_empty" = "कृपया नाम दर्ज करें।";
+"add_person_error_duplicate" = "यह नाम पहले से मौजूद है।";
+"default_person_name_me" = "मैं";
+
+"person_name_error_empty" = "कृपया नाम दर्ज करें।";
+
+"unit_kcal_suffix" = "kcal";
+"unit_kj_suffix" = "kJ";
+"unit_g_suffix" = "g";
+"unit_mg_suffix" = "mg";
+"unit_ug_suffix" = "µg";
+"unit_milligrams_long" = "मिलीग्राम";
+
+"keyboard_done" = "समाप्त";
+"alert_limit_reached_title" = "सीमा पूरी हुई";
+"alert_limit_reached_message" = "आप वर्तमान सीमा तक पहुँच गए हैं।";
+"camera_access_needed_title" = "कैमरा एक्सेस आवश्यक";
+"camera_access_needed_message" = "फ़ोटो लेने के लिए कैमरा एक्सेस की अनुमति दें।";
+"camera_access_disabled_message" = "कैमरा एक्सेस अक्षम है। इसे सेटिंग्स में सक्षम करें।";
+"open_settings" = "सेटिंग्स खोलें";
+"confirm_delete_title" = "भोजन हटाएं";
+"confirm_delete_message" = "इसे वापस नहीं किया जा सकता";
+
+"wizard_analyzing" = "विश्लेषण कर रहा है";
+"wizard_analyzing_ellipsis" = "विश्लेषण कर रहा है…";
+"wizard_add_photo_first" = "पहले एक फ़ोटो जोड़ें।";
+"wizard_could_not_read_image" = "छवि डेटा पढ़ा नहीं जा सका।";
+"wizard_detecting_barcode" = "बारकोड पहचान रहा है…";
+"wizard_looking_up_product" = "उत्पाद खोज रहा है…";
+"wizard_no_barcode_reading_label" = "कोई बारकोड नहीं मिला; लेबल पढ़ा जा रहा है…";
+"wizard_no_label_recognized" = "कोई पोषण लेबल नहीं पहचाना गया।";
+"wizard_label_rejected_insane" = "लेबल अस्वीकृत: %@ में असामान्य मान";
+"wizard_barcode_format" = "बारकोड: %@";
+"wizard_applied_format" = "लागू: %@";
+"wizard_applied" = "लागू किया गया";
+
+"a11y_meal_photo" = "भोजन फ़ोटो";
+"a11y_no_photo" = "कोई फ़ोटो नहीं";
+"a11y_analyze_photo" = "फ़ोटो का विश्लेषण करें";
+"a11y_analyzing_photo" = "फ़ोटो का विश्लेषण हो रहा है";
+"a11y_undo_ai_changes" = "एआई बदलाव पूर्ववत करें";
+"a11y_capture_photo" = "फ़ोटो लें";
+"a11y_choose_from_photos" = "फ़ोटो से चुनें";
+
+"diagnostics_section_title" = "डायग्नोस्टिक्स";
+"barcode_verbose_log" = "बारकोड लॉग";
+"label_diagnostics" = "लेबल डायग्नोस्टिक्स";
+
+"label_diag.empty" = "अभी तक कोई डायग्नोस्टिक्स नहीं।";
+"label_diag.group.message" = "संदेश";
+"label_diag.group.fields_filled" = "भरे गए फ़ील्ड";
+"label_diag.title" = "लेबल डायग्नोस्टिक्स";
+"label_diag.copy" = "कॉपी";
+"label_diag.clear" = "साफ़ करें";
+"label_diag.stage.start" = "प्रारंभ";
+"label_diag.stage.image" = "छवि";
+"label_diag.stage.rotate" = "घुमाएँ";
+"label_diag.stage.barcode" = "बारकोड";
+"label_diag.stage.unreadable" = "अपठनीय";
+"label_diag.stage.no_barcode" = "कोई बारकोड नहीं";
+"label_diag.stage.ocr_fast" = "ओसीआर तेज";
+"label_diag.stage.ocr_accurate" = "ओसीआर सटीक";
+"label_diag.stage.ocr_done" = "ओसीआर पूर्ण";
+"label_diag.stage.parsed" = "पार्स किया गया";
+"label_diag.stage.applied" = "लागू";
+"label_diag.stage.upsert" = "अपसर्ट";
+"label_diag.stage.saved" = "सहेजा गया";
+"label_diag.stage.save_error" = "सहेजने में त्रुटि";
+"label_diag.stage.complete" = "पूर्ण";
+"label_diag.stage.error" = "त्रुटि";
+"label_diag.export.fields_filled" = "भरे गए फ़ील्ड:";
+"label_diag.export.message" = "संदेश:";
+
+"barcode_log.empty" = "अभी तक कोई प्रविष्टि नहीं।";
+"barcode_log.group.source" = "स्रोत";
+"barcode_log.group.conversions" = "रूपांतरण";
+"barcode_log.group.entry" = "प्रविष्टि";
+"barcode_log.group.error" = "त्रुटि";
+"barcode_log.title" = "बारकोड लॉग";
+"barcode_log.copy" = "कॉपी";
+"barcode_log.clear" = "साफ़ करें";
+"barcode_log.no_code" = "कोई कोड नहीं";
+"barcode_log.stage.scan" = "स्कैन";
+"barcode_log.stage.normalize" = "सामान्यीकृत";
+"barcode_log.stage.local_hit" = "स्थानीय हिट";
+"barcode_log.stage.local_miss" = "स्थानीय मिस";
+"barcode_log.stage.off_v2" = "OFF v2";
+"barcode_log.stage.off_v1" = "OFF v1";
+"barcode_log.stage.off_error" = "OFF त्रुटि";
+"barcode_log.stage.map_start" = "मैप प्रारंभ";
+"barcode_log.stage.convert" = "रूपांतरित";
+"barcode_log.stage.map_result" = "मैप परिणाम";
+"barcode_log.stage.upsert" = "अपसर्ट";
+"barcode_log.stage.saved" = "सहेजा गया";
+"barcode_log.stage.save_error" = "सहेजने में त्रुटि";
+"barcode_log.export.source" = "स्रोत:";
+"barcode_log.export.conversions" = "रूपांतरण:";
+"barcode_log.export.entry" = "प्रविष्टि:";
+"barcode_log.export.error_prefix" = "त्रुटि: ";
+
+"creatine" = "क्रिएटिन";
+"stimulants_section_title" = "उत्तेजक";
+"creatine_section_title" = "क्रिएटिन";
+"vitamins_section_title" = "विटामिन";
+"minerals_section_title" = "खनिज";
+"iodine" = "आयोडीन";
+"phosphorus" = "फॉस्फोरस";
+"omega3" = "ओमेगा-3";
+"omega6" = "ओमेगा-6";
+"a2_beta_casein" = "A2 बीटा-केसिन";
+"a1_beta_casein" = "A1 बीटा-केसिन";
+
+"weekly_report" = "साप्ताहिक रिपोर्ट";
+"weekly_report_title" = "साप्ताहिक रिपोर्ट";
+"a11y_previous_week" = "पिछला सप्ताह";
+"a11y_next_week" = "अगला सप्ताह";
+"this_week" = "इस सप्ताह";
+"week" = "सप्ताह";
+"total_suffix" = "कुल";
+"a11y_weekly_calories_chart" = "साप्ताहिक कैलोरी चार्ट";
+"minerals_weekly_total" = "खनिज (साप्ताहिक कुल)";
+"vitamins_weekly_total" = "विटामिन (साप्ताहिक कुल)";
+"stimulants_weekly_total" = "उत्तेजक (साप्ताहिक कुल)";
+"per_day_header" = "प्रतिदिन";
+"macro_c_short" = "C";
+"macro_p_short" = "P";
+"macro_f_short" = "F";
+"chart_axis_day" = "दिन";
+"chart_axis_kcal" = "kcal";
+"chart_series_macro" = "मैक्रो";
+"macro_carb" = "कार्ब";
+"macro_protein" = "प्रोटीन";
+"macro_fat" = "वसा";
+"creatine_total_title" = "क्रिएटिन कुल";
+
+"daypart_early_morning" = "अलसुबह";
+"daypart_morning" = "सुबह";
+"daypart_midday" = "दोपहर";
+"daypart_afternoon" = "दोपहर बाद";
+"daypart_evening" = "शाम";
+"daypart_late_night" = "रात देर";
+"daypart_overnight" = "रात भर";
+"meal_breakfast" = "नाश्ता";
+"meal_lunch" = "दोपहर का भोजन";
+"meal_dinner" = "रात का भोजन";
+"auto_title_meal_pattern" = "%@ को %@ (%@)";
+"auto_title_snack_pattern" = "%@ को %@";
+
+"nutrition_options_section_title" = "पोषण विकल्प";
+"vitamin_units" = "विटामिन इकाइयाँ";
+"show_minerals" = "खनिज दिखाएं";
+"show_stimulants" = "उत्तेजक दिखाएं";
+"show_creatine" = "क्रिएटिन दिखाएं";
+"handedness_section_title" = "हाथ का उपयोग";
+"about_title" = "परिचय";
+
+"off_not_downloaded" = "डाउनलोड नहीं किया गया";
+"seeder_idle" = "निष्क्रिय";
+"seeder_queued" = "कतार में";
+"seeder_waiting" = "प्रतीक्षा…";
+"seeder_running" = "चालू";
+"seeder_completed" = "पूर्ण";
+"seeder_done" = "समाप्त";
+"seeder_failed" = "विफल";
+"seeder_cancelled" = "रद्द";
+
+"debug_guesser_format" = "अनुमानक: %@";
+
+"failed_to_add_photo_format" = "फ़ोटो जोड़ने में विफल: %@";
+
+"select_person_title" = "व्यक्ति चुनें";
+
+"about.app_name_fallback" = "यह ऐप";
+"about.version_format" = "संस्करण %@ (%@)";
+"about.disclaimer_title" = "अस्वीकरण";
+"about.disclaimer_body" = "इस ऐप में दी गई जानकारी केवल सूचनात्मक उद्देश्यों के लिए है और पेशेवर चिकित्सा सलाह, निदान या उपचार का विकल्प नहीं है। आपका डेटा आपके डिवाइस पर स्थानीय रूप से संग्रहीत होता है और तब तक डेवलपर या तीसरे पक्षों के साथ साझा नहीं किया जाता जब तक आप इसे निर्यात या साझा करना नहीं चुनते।";
+"about.privacy_policy" = "गोपनीयता नीति";
+"about.terms_of_use" = "उपयोग की शर्तें";
+"about.support" = "सहायता";
+
+"person_name_error_too_long" = "नाम बहुत लंबा है।";
+"person_name_error_invalid_chars" = "कृपया अक्षर या अंक का उपयोग करें।";
+"person_name_error_duplicate" = "इस नाम वाला व्यक्ति पहले से मौजूद है।";
+
+"seeder_phase_discovering_ids" = "आईडी खोज रहा है…";
+"seeder_phase_connecting" = "स्रोतों से कनेक्ट हो रहा है…";
+"meals_download_complete_title" = "भोजन डाउनलोड पूरा";
+"meals_download_complete_body_format" = "%d आइटम डाउनलोड किए गए।";
+"seeder_error_bg_expired" = "बैकग्राउंड समय समाप्त";
+
+"wizard_local_db_hit_format" = "स्थानीय बारकोड DB हिट: %@";
+"wizard_local_db_miss_format" = "स्थानीय बारकोड DB मिस: %@";
+"wizard_local_db_rejected_format" = "स्थानीय बारकोड DB हिट अस्वीकृत: असामान्य मान (%@)";
+"wizard_off_fetching_format" = "OFF: उत्पाद %@ ला रहा है…";
+"wizard_off_found_format" = "OFF: %@ के लिए उत्पाद मिला";
+"wizard_off_not_found_format" = "OFF: %@ नहीं मिला";
+"wizard_off_product_not_found_error_format" = "उत्पाद %@ नहीं मिला";
+"wizard_off_v2_status_format" = "OFF v2: स्थिति %d %@, कोड %@";
+"wizard_off_v2_decode_error_format" = "OFF v2: %@ के लिए डिकोड त्रुटि: %@";
+"wizard_off_v1_status_format" = "OFF v1: स्थिति %d %@, कोड %@";
+"wizard_off_v1_decode_error_format" = "OFF v1: %@ के लिए डिकोड त्रुटि: %@";
+"wizard_off_rejected_insane_format" = "OFF: असामान्य मान (%@) — सम्मिलित/लागू नहीं किया गया।";
+"wizard_off_sanitized_dropped_format" = "OFF: स्वच्छ किया गया प्रविष्टि (हटाया गया: %@)";
+"wizard_off_sanitized_no_red" = "OFF: स्वच्छ किया गया प्रविष्टि (कोई लाल फ़ील्ड नहीं)";
+"wizard_off_no_usable_nutriments" = "OFF: मैपिंग ने कोई उपयोगी पोषक तत्व नहीं लौटाया";
+"wizard_off_error_format" = "OFF: %@ के लिए त्रुटि: %@";
+
+"vitamin_a_title" = "विटामिन A";
+"vitamin_b_title" = "विटामिन B";
+"vitamin_c_title" = "विटामिन C";
+"vitamin_d_title" = "विटामिन D";
+"vitamin_e_title" = "विटामिन E";
+"vitamin_k_title" = "विटामिन K";
+
+"helper_sum_parens_format" = "(%@)";
+
+"auto_title_meal - pattern" = "%@ को %@ (%@)";
+"auto_title_snack - pattern" = "%@ को %@";
+

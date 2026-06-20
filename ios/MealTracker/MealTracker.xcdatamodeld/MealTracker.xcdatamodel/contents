@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="24411" systemVersion="25B78" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="Meal" representedClassName="Meal" syncable="YES">
+        <attribute name="a1BetaCasein" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="a1BetaCaseinIsGuess" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="a2BetaCasein" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="a2BetaCaseinIsGuess" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="alcohol" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="alcoholIsGuess" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="animalProtein" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="animalProteinIsGuess" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="caffeine" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="caffeineIsGuess" optional="YES" attributeType="Boolean" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="calcium" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="calciumIsGuess" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="calories" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="caloriesIsGuess" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="carbohydrates" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="carbohydratesIsGuess" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="creatine" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="creatineIsGuess" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="fat" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="fatIsGuess" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="fibre" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="fibreIsGuess" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="iodine" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="iodineIsGuess" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="iron" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="ironIsGuess" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="lastSyncGUID" optional="YES" attributeType="String"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="magnesium" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="magnesiumIsGuess" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="mealDescription" optional="YES" attributeType="String"/>
+        <attribute name="monounsaturatedFat" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="monounsaturatedFatIsGuess" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="nicotine" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="nicotineIsGuess" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="omega3" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="omega3IsGuess" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="omega6" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="omega6IsGuess" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="phosphorus" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="phosphorusIsGuess" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="photoGuesserType" optional="YES" attributeType="String"/>
+        <attribute name="plantProtein" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="plantProteinIsGuess" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="polyunsaturatedFat" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="polyunsaturatedFatIsGuess" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="potassium" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="potassiumIsGuess" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="productName" optional="YES" attributeType="String"/>
+        <attribute name="protein" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="proteinIsGuess" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="proteinSupplements" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="proteinSupplementsIsGuess" optional="YES" attributeType="Boolean" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="saturatedFat" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="saturatedFatIsGuess" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="sodium" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="sodiumIsGuess" optional="YES" attributeType="Boolean" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="starch" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="starchIsGuess" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="sugars" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="sugarsIsGuess" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="taurine" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="taurineIsGuess" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="theobromine" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="theobromineIsGuess" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <attribute name="transFat" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="transFatIsGuess" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="vitaminA" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="vitaminAIsGuess" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="vitaminB" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="vitaminBIsGuess" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="vitaminC" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="vitaminCIsGuess" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="vitaminD" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="vitaminDIsGuess" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="vitaminE" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="vitaminEIsGuess" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="vitaminK" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="vitaminKIsGuess" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="zinc" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="zincIsGuess" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <relationship name="photos" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="MealPhoto" inverseName="meal" inverseEntity="MealPhoto"/>
+    </entity>
+    <entity name="MealPhoto" representedClassName="MealPhoto" syncable="YES">
+        <attribute name="byteSizeOriginal" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="byteSizeUpload" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="fileNameOriginal" optional="YES" attributeType="String"/>
+        <attribute name="fileNameUpload" optional="YES" attributeType="String"/>
+        <attribute name="height" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="sha256" optional="YES" attributeType="String"/>
+        <attribute name="width" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="meal" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Meal" inverseName="photos" inverseEntity="Meal"/>
+    </entity>
+    <entity name="Person" representedClassName=".Person" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="isDefault" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="isRemoved" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="meal" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Meal"/>
+    </entity>
+</model>
