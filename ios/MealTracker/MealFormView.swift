@@ -1028,10 +1028,15 @@ struct MealFormView: View {
             person.addToMeal(m)
         }
 
+        // Mark dirty so cloud sync re-uploads this meal (covers both new and edited rows).
+        m.lastSyncGUID = nil
+
         do {
             try context.save()
             // Keep reference if it was new
             if meal == nil { meal = m }
+            // Push the change to the backend (no-op if not signed in).
+            SyncCoordinator.shared.requestSync()
             dismiss()
         } catch {
             #if DEBUG

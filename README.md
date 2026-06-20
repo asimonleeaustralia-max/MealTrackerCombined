@@ -34,3 +34,14 @@ iOS app (ios/)  ──┐
                   ├──► api-gateway ──► auth / meal / nutrition / vision services ──► PostgreSQL
 Web UI            ──┘
 ```
+
+### iOS ↔ web login and sync
+
+The iOS app signs in against the auth-service (`/api/auth/login` / `signup`, JWT stored
+in the Keychain) and keeps meals and people in sync with the web app through the
+meal-service. Sync is last-write-wins with an incremental pull (`/api/sync/changes`).
+All food metrics — 40 numeric values plus 38 `*IsGuess` accuracy flags — round-trip 1:1
+between the Core Data model, the backend schema, and the web frontend. The field set is
+generated into `ios/MealTracker/CloudModels.swift` and guarded by
+`scripts/check_metric_parity.py`. See [`docs/ios-auth.md`](docs/ios-auth.md) and
+[`docs/ios-sync-mapping.md`](docs/ios-sync-mapping.md).

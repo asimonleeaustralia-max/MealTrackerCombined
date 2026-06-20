@@ -456,3 +456,16 @@
 
 "auto_title_meal - pattern" = "%@ on %@ (%@)";
 "auto_title_snack - pattern" = "%@ on %@";
+
+/* --- Cloud account & sync (added for iOS↔web login/sync) --- */
+"login.create_account" = "Create Account";
+"login.error.invalid_email" = "Please enter your email.";
+"login.error.invalid_password" = "Please enter your password.";
+"auth.error.not_authenticated" = "You're not signed in.";
+"auth.error.invalid_credentials" = "Invalid email or password.";
+"account_section_title" = "Account";
+"account_signed_in_as" = "Signed in as";
+"account_last_synced" = "Last synced";
+"account_sync_now" = "Sync Now";
+"account_sign_out" = "Sign Out";
+"account_sign_in" = "Sign In / Create Account";

@@ -1,5 +1,14 @@
 # iOS ↔ Web sync field mapping
 
+# iOS ↔ Web sync field mapping
+
+> **Implementation status (now built).** The iOS side of auth + sync is implemented in:
+> `ios/MealTracker/APIConfig.swift`, `TokenStore.swift`, `CloudModels.swift`,
+> `MealTrackerAPI.swift`, `SyncCoordinator.swift`, plus `ios/SessionManager.swift`
+> and `ios/LoginView.swift`. The set of synced metrics is driven by the generated
+> `MealFieldManifest` in `CloudModels.swift`; run `python3 scripts/check_metric_parity.py`
+> to verify the iOS model, backend schema, and that manifest never diverge.
+
 The web backend's `meal-service` was designed to be the cloud counterpart of
 the MealTracker iOS Core Data store. Field names line up 1:1 between Swift
 (camelCase) and Python/SQL (snake_case).

@@ -1,151 +1,113 @@
 import Foundation
 import Combine
+import CoreData
 
+/// Owns authentication state and bridges login/logout to the meal-tracker-web backend.
+///
+/// Replaces the former local stub: credentials are now verified by the auth-service via
+/// `MealTrackerAPI`, the JWT pair is stored in the Keychain (`TokenStore`), and a sync is
+/// kicked off after a successful sign-in so cloud meals appear on the device.
 @MainActor
 final class SessionManager: ObservableObject {
     // Published login state for UI
     @Published var isLoggedIn: Bool = false
-    
-    // Current single-user identifier (stable across launches)
+
+    // Current single-user identifier (stable across launches once known)
     @Published private(set) var currentUserID: UUID? = nil
-    
+
     // Non-sensitive display email (optional, for showing in UI)
     @Published var displayEmail: String? = nil
-    
-    // Cloud date sync stub
+
+    // True while a network auth call is in flight
+    @Published private(set) var isAuthenticating: Bool = false
+
+    // Cloud date sync stub (kept for the existing Settings "synced date" affordance)
     let dateSync: DateSyncService
-    
+
+    private let api = MealTrackerAPI.shared
+
     init(dateSync: DateSyncService = CloudDateSyncStub()) {
         self.dateSync = dateSync
     }
-    
-    // MARK: - Login / Logout
-    
+
+    // MARK: - Errors
+
     struct LoginError: LocalizedError {
         let description: String
         var errorDescription: String? { description }
-        static let invalidEmail = LoginError(description: "Invalid email")
-        static let invalidPassword = LoginError(description: "Invalid password")
+        static let invalidEmail = LoginError(description: NSLocalizedString("login.error.invalid_email", comment: "Invalid email"))
+        static let invalidPassword = LoginError(description: NSLocalizedString("login.error.invalid_password", comment: "Invalid password"))
     }
-    
+
+    // MARK: - Session restore
+
+    /// Call once at launch. If a refresh token is present, validate it against `/auth/me`
+    /// (refreshing transparently if the access token expired) and restore the session.
+    func restoreSession() async {
+        guard TokenStore.hasSession else { return }
+        do {
+            let user = try await api.me()
+            applyUser(user)
+            isLoggedIn = true
+            SyncCoordinator.shared.requestSync()
+        } catch APIError.notAuthenticated {
+            TokenStore.clear()
+        } catch {
+            // Network hiccup at launch — keep tokens, stay logged out until next attempt.
+        }
+    }
+
+    // MARK: - Login / Signup / Logout
+
     func login(email: String, password: String) async throws {
-        // STUB: Accept any non-empty credentials for testing
-        guard !email.isEmpty else {
-            throw LoginError.invalidEmail
-        }
-        guard !password.isEmpty else {
-            throw LoginError.invalidPassword
-        }
-        
-        // Simulate network delay
-        try await Task.sleep(nanoseconds: 500_000_000) // 0.5 seconds
-        
-        // Always succeed and create a user ID based on email
-        currentUserID = UUID()
-        displayEmail = email
+        let email = email.trimmingCharacters(in: .whitespacesAndNewlines)
+        guard !email.isEmpty else { throw LoginError.invalidEmail }
+        guard !password.isEmpty else { throw LoginError.invalidPassword }
+
+        isAuthenticating = true
+        defer { isAuthenticating = false }
+
+        _ = try await api.login(email: email, password: password)
+        let user = try await api.me()
+        applyUser(user)
+        displayEmail = user.email ?? email
         isLoggedIn = true
+        SyncCoordinator.shared.requestSync()
     }
-    
+
+    func signup(email: String, password: String, displayName: String? = nil) async throws {
+        let email = email.trimmingCharacters(in: .whitespacesAndNewlines)
+        guard !email.isEmpty else { throw LoginError.invalidEmail }
+        guard !password.isEmpty else { throw LoginError.invalidPassword }
+
+        isAuthenticating = true
+        defer { isAuthenticating = false }
+
+        _ = try await api.signup(email: email, password: password, displayName: displayName)
+        let user = try await api.me()
+        applyUser(user)
+        displayEmail = user.email ?? email
+        isLoggedIn = true
+        SyncCoordinator.shared.requestSync()
+    }
+
     func logout() async {
-        // STUB: Simple logout
+        TokenStore.clear()
+        SyncCoordinator.shared.resetSyncState()
         currentUserID = nil
         displayEmail = nil
         isLoggedIn = false
     }
-    
-    // MARK: - Accessors for credentials
-    
-    func loadEmail() throws -> String? {
-        // STUB: Return current display email
-        return displayEmail
-    }
-    
-    func loadPassword() throws -> String? {
-        // STUB: Never return actual passwords
-        return nil
-    }
-    
-    // MARK: - Stubbed Private Helpers (unused in stub implementation)
-    /*
-    private func isValidEmail(_ email: String) -> Bool {
-        let emailRegex = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,64}"
-        let predicate = NSPredicate(format: "SELF MATCHES %@", emailRegex)
-        return predicate.evaluate(with: email)
-    }
-    
-    private func hashPassword(_ password: String) -> String {
-        // Use CryptoKit for production-grade hashing
-        let inputData = Data(password.utf8)
-        let hashed = SHA256.hash(data: inputData)
-        return hashed.compactMap { String(format: "%02x", $0) }.joined()
-    }
-    
-    private func verifyPassword(_ password: String, againstHash hash: String) -> Bool {
-        return hashPassword(password) == hash
-    }
-    
-    // MARK: - Keychain Storage
-    
-    private func loadUserID(for email: String) throws -> UUID? {
-        guard let data = try loadFromKeychain(key: "userID_\(email)"),
-              let uuidString = String(data: data, encoding: .utf8),
-              let uuid = UUID(uuidString: uuidString) else {
-            return nil
-        }
-        return uuid
-    }
-    
-    private func loadPasswordHash(for email: String) throws -> String? {
-        guard let data = try loadFromKeychain(key: "passwordHash_\(email)"),
-              let hash = String(data: data, encoding: .utf8) else {
-            return nil
-        }
-        return hash
-    }
-    
-    private func saveCredentials(userID: UUID, email: String, passwordHash: String) throws {
-        try saveToKeychain(key: "userID_\(email)", data: Data(userID.uuidString.utf8))
-        try saveToKeychain(key: "passwordHash_\(email)", data: Data(passwordHash.utf8))
-    }
-    
-    private func saveToKeychain(key: String, data: Data) throws {
-        let query: [String: Any] = [
-            kSecClass as String: kSecClassGenericPassword,
-            kSecAttrAccount as String: key,
-            kSecValueData as String: data
-        ]
-        
-        // Delete existing item first
-        SecItemDelete(query as CFDictionary)
-        
-        // Add new item
-        let status = SecItemAdd(query as CFDictionary, nil)
-        guard status == errSecSuccess else {
-            throw LoginError(description: "Failed to save credentials")
-        }
-    }
-    
-    private func loadFromKeychain(key: String) throws -> Data? {
-        let query: [String: Any] = [
-            kSecClass as String: kSecClassGenericPassword,
-            kSecAttrAccount as String: key,
-            kSecReturnData as String: true,
-            kSecMatchLimit as String: kSecMatchLimitOne
-        ]
-        
-        var result: AnyObject?
-        let status = SecItemCopyMatching(query as CFDictionary, &result)
-        
-        if status == errSecItemNotFound {
-            return nil
-        }
-        
-        guard status == errSecSuccess, let data = result as? Data else {
-            throw LoginError(description: "Failed to load credentials")
-        }
-        
-        return data
-    }
-    */
-}
 
+    // MARK: - Helpers
+
+    private func applyUser(_ user: UserPublic) {
+        currentUserID = UUID(uuidString: user.id)
+        if let email = user.email { displayEmail = email }
+    }
+
+    func loadEmail() throws -> String? { displayEmail }
+
+    /// Passwords are never stored on-device any more (auth is token-based).
+    func loadPassword() throws -> String? { nil }
+}

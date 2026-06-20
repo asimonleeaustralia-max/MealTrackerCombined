@@ -121,6 +121,11 @@ struct MealTrackerApp: App {
             }
             .environment(\.managedObjectContext, persistenceController.container.viewContext)
             .environmentObject(session)
+            .task {
+                // Wire the sync engine to the Core Data stack and restore any saved session.
+                SyncCoordinator.shared.configure(container: persistenceController.container)
+                await session.restoreSession()
+            }
         }
     }
 }

@@ -6,6 +6,7 @@ struct SettingsView: View {
     @Environment(\.dismiss) private var dismiss
     @Environment(\.managedObjectContext) private var context
     @EnvironmentObject var session: SessionManager
+    @ObservedObject private var sync = SyncCoordinator.shared
 
     @AppStorage("energyUnit") private var energyUnit: EnergyUnit = .calories
     @AppStorage("appLanguageCode") private var appLanguageCode: String = LocalizationManager.defaultLanguageCode
@@ -70,6 +71,60 @@ struct SettingsView: View {
 
         NavigationView {
             Form {
+                // Account & Sync
+                Section(header: Text(localizedOrFallback(l, "account_section_title", "Account"))) {
+                    if session.isLoggedIn {
+                        HStack {
+                            Text(localizedOrFallback(l, "account_signed_in_as", "Signed in as"))
+                            Spacer()
+                            Text(session.displayEmail ?? "—")
+                                .foregroundStyle(.secondary)
+                                .lineLimit(1)
+                                .truncationMode(.middle)
+                        }
+                        HStack {
+                            Text(localizedOrFallback(l, "account_last_synced", "Last synced"))
+                            Spacer()
+                            if sync.isSyncing {
+                                ProgressView()
+                            } else {
+                                Text(formatLastSynced(sync.lastSyncDate))
+                                    .foregroundStyle(.secondary)
+                            }
+                        }
+                        if let err = sync.lastError {
+                            Text(err)
+                                .font(.footnote)
+                                .foregroundStyle(.red)
+                        }
+                        Button {
+                            Task { await sync.syncNow() }
+                        } label: {
+                            HStack {
+                                Text(localizedOrFallback(l, "account_sync_now", "Sync Now"))
+                                Spacer()
+                                Image(systemName: "arrow.triangle.2.circlepath")
+                            }
+                        }
+                        .disabled(sync.isSyncing)
+                        Button(role: .destructive) {
+                            Task { await session.logout() }
+                        } label: {
+                            Text(localizedOrFallback(l, "account_sign_out", "Sign Out"))
+                        }
+                    } else {
+                        Button {
+                            showingLogin = true
+                        } label: {
+                            HStack {
+                                Text(localizedOrFallback(l, "account_sign_in", "Sign In / Create Account"))
+                                Spacer()
+                                Image(systemName: "person.crop.circle")
+                            }
+                        }
+                    }
+                }
+
                 // Language
                 Section {
                     Picker(l.localized("choose_language"), selection: $appLanguageCode) {
@@ -185,6 +240,10 @@ struct SettingsView: View {
                     Button(l.localized("done")) { dismiss() }
                 }
             }
+            .sheet(isPresented: $showingLogin) {
+                LoginView()
+                    .environmentObject(session)
+            }
             .sheet(isPresented: $showingAddPersonSheet) {
                 NavigationView {
                     Form {
@@ -254,6 +313,11 @@ struct SettingsView: View {
         df.dateStyle = .medium
         df.timeStyle = .short
         return df.string(from: date)
+    }
+
+    private func formatLastSynced(_ date: Date?) -> String {
+        guard let date else { return "—" }
+        return formatSyncedDate(date)
     }
 
     private func setSyncUI(isSyncing: Bool, text: String?, error: String?) {

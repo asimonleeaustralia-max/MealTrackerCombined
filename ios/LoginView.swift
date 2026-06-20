@@ -1,18 +1,40 @@
 import SwiftUI
 
+/// Sign-in / create-account sheet backed by `SessionManager` (which talks to the
+/// meal-tracker-web auth-service). Presented from Settings → Account.
 struct LoginView: View {
     @Environment(\.dismiss) private var dismiss
+    @EnvironmentObject private var session: SessionManager
 
+    private enum Mode { case signIn, signUp }
+
+    @State private var mode: Mode = .signIn
     @State private var email: String = ""
     @State private var password: String = ""
     @State private var isSubmitting: Bool = false
     @State private var errorMessage: String?
 
-    let onSubmit: (_ email: String, _ password: String) -> Void
+    private var primaryTitleKey: LocalizedStringKey {
+        mode == .signIn ? "login.sign_in" : "login.create_account"
+    }
+
+    private var canSubmit: Bool {
+        !isSubmitting
+            && !email.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty
+            && !password.isEmpty
+    }
 
     var body: some View {
         NavigationView {
             Form {
+                Section {
+                    Picker("", selection: $mode) {
+                        Text(LocalizedStringKey("login.sign_in")).tag(Mode.signIn)
+                        Text(LocalizedStringKey("login.create_account")).tag(Mode.signUp)
+                    }
+                    .pickerStyle(.segmented)
+                }
+
                 Section {
                     TextField(LocalizedStringKey("login.email"), text: $email)
                         .textContentType(.username)
@@ -21,29 +43,35 @@ struct LoginView: View {
                         .disableAutocorrection(true)
 
                     SecureField(LocalizedStringKey("login.password"), text: $password)
-                        .textContentType(.password)
+                        .textContentType(mode == .signIn ? .password : .newPassword)
                 }
 
                 if let errorMessage {
-                    Text(errorMessage)
-                        .font(.footnote)
-                        .foregroundStyle(.red)
+                    Section {
+                        Text(errorMessage)
+                            .font(.footnote)
+                            .foregroundStyle(.red)
+                    }
                 }
 
                 Section {
                     Button {
                         submit()
                     } label: {
-                        if isSubmitting {
-                            ProgressView()
-                        } else {
-                            Text(LocalizedStringKey("login.sign_in"))
+                        HStack {
+                            Spacer()
+                            if isSubmitting {
+                                ProgressView()
+                            } else {
+                                Text(primaryTitleKey)
+                            }
+                            Spacer()
                         }
                     }
-                    .disabled(isSubmitting || email.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty || password.isEmpty)
+                    .disabled(!canSubmit)
                 }
             }
-            .navigationTitle(LocalizedStringKey("login.sign_in"))
+            .navigationTitle(primaryTitleKey)
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .cancellationAction) {
@@ -57,9 +85,21 @@ struct LoginView: View {
         guard !isSubmitting else { return }
         isSubmitting = true
         errorMessage = nil
-        onSubmit(email, password)
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
-            isSubmitting = false
+
+        Task {
+            do {
+                switch mode {
+                case .signIn:
+                    try await session.login(email: email, password: password)
+                case .signUp:
+                    try await session.signup(email: email, password: password)
+                }
+                isSubmitting = false
+                dismiss()
+            } catch {
+                errorMessage = (error as? LocalizedError)?.errorDescription ?? error.localizedDescription
+                isSubmitting = false
+            }
         }
     }
 }

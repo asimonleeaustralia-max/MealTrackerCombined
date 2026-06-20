@@ -307,6 +307,9 @@ extension MealFormView {
     func deleteMeal() {
         guard let meal = meal else { return }
 
+        // Remember the id so the deletion propagates to the cloud on the next sync.
+        let deletedID = meal.id
+
         if let set = meal.value(forKey: "photos") as? Set<MealPhoto>, !set.isEmpty {
             for photo in set {
                 PhotoService.removePhoto(photo, in: context)
@@ -317,6 +320,7 @@ extension MealFormView {
 
         do {
             try context.save()
+            SyncCoordinator.shared.enqueueMealDelete(deletedID)
             dismiss()
         } catch {
             print("Failed to delete meal: \(error)")
